@@ -3345,7 +3345,7 @@
         "subject": [],
         "DS": false,
         "TU": false,
-        "IU": false,
+        "IU": true,
         "MR": false,
         "ML": false,
         "BK": false,
@@ -3990,7 +3990,7 @@
         ],
         "label": "d",
         "original_question": "A nanotecnologia \u00e9 respons\u00e1vel pelo aprimoramento de diversos \nmateriais,  incluindo  os  que  s\u00e3o  impactados  com  a  presen\u00e7a  de \npoluentes e da umidade na atmosfera, causadores de corros\u00e3o. O \nprocesso  de  corros\u00e3o  \u00e9  espont\u00e2neo  e  provoca  a  deteriora\u00e7\u00e3o  de \nmetais como o ferro, que, em presen\u00e7a de oxig\u00eanio e \u00e1gua, sofre \noxida\u00e7\u00e3o, conforme ilustra a equa\u00e7\u00e3o qu\u00edmica:\n4 Fe (s) + 2 H O (l) + 3 O  (g)  \u2192  2 Fe O \u22c5H O (s)\n2 2 2 3 2\nUma  forma  de  garantir  a  durabilidade  da  estrutura  met\u00e1lica  e  a \nsua  resist\u00eancia  \u00e0  umidade  consiste  na  deposi\u00e7\u00e3o  de  filmes  finos \nnanocer\u00e2micos \u00e0 base de zirc\u00f4nia (ZrO ) e alumina (Al O ) sobre a \n2 2 3\nsuperf\u00edcie do objeto que se deseja proteger.\nCLEMENTE, G. A. B. F. et al. O uso de materiais h\u00edbridos ou nanocomp\u00f3sitos como\nrevestimentos anticorrosivos do a\u00e7o. Qu\u00edmica Nova, n. 9, 2021 (adaptado).\nEssa  nanotecnologia  aplicada  na  prote\u00e7\u00e3o  contra  a  corros\u00e3o  se \nbaseia no(a)",
-        "context": "A nanotecnologia \u00e9 respons\u00e1vel pelo aprimoramento de diversos materiais, incluindo os que s\u00e3o impactados com a presen\u00e7a de poluentes e da umidade na atmosfera, causadores de corros\u00e3o. O processo de corros\u00e3o \u00e9 espont\u00e2neo e provoca a deteriora\u00e7\u00e3o de metais como o ferro, que, em presen\u00e7a de oxig\u00eanio e \u00e1gua, sofre oxida\u00e7\u00e3o, conforme ilustra a equa\u00e7\u00e3o qu\u00edmica: 4 Fe (s) + 2 H O (l) + 3 O (g) \u2192 2 Fe O \u22c5H O (s) 2 2 2 3 2 Uma forma de garantir a durabilidade da estrutura met\u00e1lica e a sua resist\u00eancia \u00e0 umidade consiste na deposi\u00e7\u00e3o de filmes finos nanocer\u00e2micos \u00e0 base de zirc\u00f4nia (ZrO ) e alumina (Al O ) sobre a 2 2 3 superf\u00edcie do objeto que se deseja proteger. CLEMENTE, G. A. B. F. et al. O uso de materiais h\u00edbridos ou nanocomp\u00f3sitos como revestimentos anticorrosivos do a\u00e7o. Qu\u00edmica Nova, n. 9, 2021 (adaptado).",
+        "context": "A nanotecnologia \u00e9 respons\u00e1vel pelo aprimoramento de diversos materiais, incluindo os que s\u00e3o impactados com a presen\u00e7a de poluentes e da umidade na atmosfera, causadores de corros\u00e3o. O processo de corros\u00e3o \u00e9 espont\u00e2neo e provoca a deteriora\u00e7\u00e3o de metais como o ferro, que, em presen\u00e7a de oxig\u00eanio e \u00e1gua, sofre oxida\u00e7\u00e3o, conforme ilustra a equa\u00e7\u00e3o qu\u00edmica: 4 Fe (s) + 2 H2O (l) + 3O2 (g) \u2192 2 Fe2O3 \u22c5H2O (s). Uma forma de garantir a durabilidade da estrutura met\u00e1lica e a sua resist\u00eancia \u00e0 umidade consiste na deposi\u00e7\u00e3o de filmes finos nanocer\u00e2micos \u00e0 base de zirc\u00f4nia (ZrO2) e alumina (Al2O3) sobre a superf\u00edcie do objeto que se deseja proteger. CLEMENTE, G. A. B. F. et al. O uso de materiais h\u00edbridos ou nanocomp\u00f3sitos como revestimentos anticorrosivos do a\u00e7o. Qu\u00edmica Nova, n. 9, 2021 (adaptado).",
         "exam": "2022",
         "CE": true
     },
