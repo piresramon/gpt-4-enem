@@ -4656,8 +4656,8 @@
             "libera\u00e7\u00e3o de g\u00e1s t\u00f3xico e rea\u00e7\u00e3o oxidativa forte.",
             "rea\u00e7\u00e3o oxidativa forte e libera\u00e7\u00e3o de g\u00e1s t\u00f3xico.",
             "forma\u00e7\u00e3o de sais t\u00f3xicos e rea\u00e7\u00e3o oxidativa forte.",
-            "libera\u00e7\u00e3o de g\u00e1s t\u00f3xico e libera\u00e7\u00e3o de g\u00e1s oxidante. E forma\u00e7\u00e3o de sais t\u00f3xicos e libera\u00e7\u00e3o de g\u00e1s oxidante. MATEM\u00c1TICA E SUAS T",
-            "ECNOLOGIAS Quest\u00f5es de 136 a 180"
+            "libera\u00e7\u00e3o de g\u00e1s t\u00f3xico e libera\u00e7\u00e3o de g\u00e1s oxidante.",
+            "forma\u00e7\u00e3o de sais t\u00f3xicos e libera\u00e7\u00e3o de g\u00e1s oxidante."
         ],
         "label": "a",
         "original_question": "Os  riscos  apresentados  pelos  produtos  dependem  de  suas \npropriedades  e  da  reatividade  quando  em  contato  com  outras \nsubst\u00e2ncias. Para prevenir os riscos devido \u00e0 natureza qu\u00edmica dos \nprodutos,  devemos  conhecer  a  lista  de  subst\u00e2ncias  incompat\u00edveis \ne  de  uso  cotidiano  em  f\u00e1bricas,  hospitais  e  laborat\u00f3rios,  a  fim \nde  observar  cuidados  na  estocagem,  manipula\u00e7\u00e3o  e  descarte.  \nO  quadro  elenca  algumas  dessas  incompatibilidades,  que  podem \nlevar \u00e0 ocorr\u00eancia de acidentes.\nRiscos \nSubst\u00e2ncia Incompatibilidade\nassociados\nRea\u00e7\u00e3o en\u00e9rgica, \n\u00c1cidos \nBases fortes\nexplos\u00e3o, \nminerais \nCianetos produ\u00e7\u00e3o de \nfortes \noxidante forte e \nHipoclorito de s\u00f3dio\nconcentrados\nproduto t\u00f3xico\nRea\u00e7\u00e3o en\u00e9rgica, \n\u00c1cido n\u00edtrico \nMat\u00e9ria org\u00e2nica explos\u00e3o e \nconcentrado\nproduto t\u00f3xico\nConsidere  que  houve  o  descarte  indevido  de  dois  conjuntos  de \nsubst\u00e2ncias:\n(1) \u00e1cido clor\u00eddrico concentrado com cianeto de pot\u00e1ssio;\n(2) \u00e1cido n\u00edtrico concentrado com sacarose.\nDispon\u00edvel em: www.fiocruz.br. Acesso em: 6 dez. 2017 (adaptado).\nO descarte dos conjuntos (1) e (2) resultar\u00e1, respectivamente, em",
@@ -4682,7 +4682,7 @@
         "subject": [],
         "DS": false,
         "TU": false,
-        "IU": false,
+        "IU": true,
         "MR": true,
         "ML": false,
         "BK": false,
@@ -4710,7 +4710,7 @@
         "subject": [],
         "DS": false,
         "TU": false,
-        "IU": false,
+        "IU": true,
         "MR": true,
         "ML": false,
         "BK": false,
@@ -4721,7 +4721,7 @@
         "exam": "2022"
     },
     {
-        "question": "",
+        "question": "O n\u00famero escrito pelo estudante foi",
         "number": 138,
         "id": "ENEM_2022_138",
         "alternatives": [
@@ -4751,11 +4751,11 @@
         ],
         "label": "e",
         "original_question": "Ao  escutar  a  not\u00edcia  de  que  um  filme  rec\u00e9m-lan\u00e7ado  arrecadou, \nno primeiro m\u00eas de lan\u00e7amento, R$ 1,35 bilh\u00e3o em bilheteria, um \nestudante  escreveu  corretamente  o  n\u00famero  que  representa  essa \nquantia, com todos os seus algarismos.\nO n\u00famero escrito pelo estudante foi",
-        "context": "Ao escutar a not\u00edcia de que um filme rec\u00e9m-lan\u00e7ado arrecadou, no primeiro m\u00eas de lan\u00e7amento, R$ 1,35 bilh\u00e3o em bilheteria, um estudante escreveu corretamente o n\u00famero que representa essa quantia, com todos os seus algarismos. O n\u00famero escrito pelo estudante foi",
+        "context": "Ao escutar a not\u00edcia de que um filme rec\u00e9m-lan\u00e7ado arrecadou, no primeiro m\u00eas de lan\u00e7amento, R$ 1,35 bilh\u00e3o em bilheteria, um estudante escreveu corretamente o n\u00famero que representa essa quantia, com todos os seus algarismos. ",
         "exam": "2022"
     },
     {
-        "question": "",
+        "question": "Dadas as exig\u00eancias do projeto, qual das localiza\u00e7\u00f5es sugeridas deve ser a escolhida para o ponto de conex\u00e3o?",
         "number": 139,
         "id": "ENEM_2022_139",
         "alternatives": [
@@ -4772,7 +4772,7 @@
         "subject": [],
         "DS": false,
         "TU": false,
-        "IU": false,
+        "IU": true,
         "MR": true,
         "ML": false,
         "BK": false,
@@ -4785,11 +4785,11 @@
         ],
         "label": "d",
         "original_question": "O  governo  de  um  estado  pretende  realizar  uma  obra  de\ninfraestrutura  para  auxiliar  na  integra\u00e7\u00e3o  e  no  processo  \nde escoamento da produ\u00e7\u00e3o agr\u00edcola de duas cidades. O projeto \nconsiste na interliga\u00e7\u00e3o direta das cidades A e B com a Rodovia 003, \npela constru\u00e7\u00e3o das Rodovias 001 e 002. As duas rodovias ser\u00e3o \nconstru\u00eddas em linha reta e dever\u00e3o se conectar \u00e0 Rodovia 003 \nem  um  mesmo  ponto,  conforme  esbo\u00e7o  apresentado  na  figura, \nna qual est\u00e3o tamb\u00e9m indicadas as posi\u00e7\u00f5es das cidades A e B, \nconsiderando o eixo x posicionado sobre a Rodovia 003, e cinco \nlocaliza\u00e7\u00f5es sugeridas para o ponto de conex\u00e3o entre as tr\u00eas rodovias.\ny (km)\nRodovia 001\nCidade A\n40\nRodovia 002\n30\nCidade B\n20\n10\nI II III IV V\nRodovia 003\n0 5 10 15 20 25 30 35 40 45 50 55 x (km)\nPretende-se que a dist\u00e2ncia percorrida entre as duas cidades, pelas \nRodovias 001 e 002, passando pelo ponto de conex\u00e3o, seja a menor \nposs\u00edvel.\nDadas as exig\u00eancias do projeto, qual das localiza\u00e7\u00f5es sugeridas deve \nser a escolhida para o ponto de conex\u00e3o?",
-        "context": "O governo de um estado pretende realizar uma obra de infraestrutura para auxiliar na integra\u00e7\u00e3o e no processo de escoamento da produ\u00e7\u00e3o agr\u00edcola de duas cidades. O projeto consiste na interliga\u00e7\u00e3o direta das cidades A e B com a Rodovia 003, pela constru\u00e7\u00e3o das Rodovias 001 e 002. As duas rodovias ser\u00e3o constru\u00eddas em linha reta e dever\u00e3o se conectar \u00e0 Rodovia 003 em um mesmo ponto, conforme esbo\u00e7o apresentado na figura, na qual est\u00e3o tamb\u00e9m indicadas as posi\u00e7\u00f5es das cidades A e B, considerando o eixo x posicionado sobre a Rodovia 003, e cinco localiza\u00e7\u00f5es sugeridas para o ponto de conex\u00e3o entre as tr\u00eas rodovias. y (km) Rodovia 001 Cidade A 40 Rodovia 002 30 Cidade B 20 10 I II III IV V Rodovia 003 0 5 10 15 20 25 30 35 40 45 50 55 x (km) Pretende-se que a dist\u00e2ncia percorrida entre as duas cidades, pelas Rodovias 001 e 002, passando pelo ponto de conex\u00e3o, seja a menor poss\u00edvel. Dadas as exig\u00eancias do projeto, qual das localiza\u00e7\u00f5es sugeridas deve ser a escolhida para o ponto de conex\u00e3o?",
+        "context": "O governo de um estado pretende realizar uma obra de infraestrutura para auxiliar na integra\u00e7\u00e3o e no processo de escoamento da produ\u00e7\u00e3o agr\u00edcola de duas cidades. O projeto consiste na interliga\u00e7\u00e3o direta das cidades A e B com a Rodovia 003, pela constru\u00e7\u00e3o das Rodovias 001 e 002. As duas rodovias ser\u00e3o constru\u00eddas em linha reta e dever\u00e3o se conectar \u00e0 Rodovia 003 em um mesmo ponto, conforme esbo\u00e7o apresentado na figura, na qual est\u00e3o tamb\u00e9m indicadas as posi\u00e7\u00f5es das cidades A e B, considerando o eixo x posicionado sobre a Rodovia 003, e cinco localiza\u00e7\u00f5es sugeridas para o ponto de conex\u00e3o entre as tr\u00eas rodovias. y (km) Rodovia 001 Cidade A 40 Rodovia 002 30 Cidade B 20 10 I II III IV V Rodovia 003 0 5 10 15 20 25 30 35 40 45 50 55 x (km) Pretende-se que a dist\u00e2ncia percorrida entre as duas cidades, pelas Rodovias 001 e 002, passando pelo ponto de conex\u00e3o, seja a menor poss\u00edvel. ",
         "exam": "2022"
     },
     {
-        "question": "",
+        "question": "Se a pessoa pretende gastar o m\u00ednimo poss\u00edvel com essa contrata\u00e7\u00e3o, ir\u00e1 contratar o oper\u00e1rio",
         "number": 140,
         "id": "ENEM_2022_140",
         "alternatives": [
@@ -4806,7 +4806,7 @@
         "subject": [],
         "DS": false,
         "TU": false,
-        "IU": false,
+        "IU": true,
         "MR": true,
         "ML": false,
         "BK": false,
@@ -4819,11 +4819,11 @@
         ],
         "label": "a",
         "original_question": "Uma pessoa precisa contratar um oper\u00e1rio para fazer um servi\u00e7o \nem sua casa. Para isso, ela postou um an\u00fancio em uma rede social.\nCinco  pessoas  responderam  informando  pre\u00e7os  por  hora\ntrabalhada, gasto di\u00e1rio com transporte e tempo necess\u00e1rio para \nconclus\u00e3o do servi\u00e7o, conforme valores apresentados no quadro.\nPre\u00e7o por  Pre\u00e7o do  Tempo at\u00e9 \nOper\u00e1rio hora transporte conclus\u00e3o\n(real) (real) (hora)\nI 120 0,00 8\nII 180 0,00 6\nIII 170 20,00 6\nIV 110 10,00 9\nV 110 0,00 10\nSe  a  pessoa  pretende  gastar  o  m\u00ednimo  poss\u00edvel  com  essa \ncontrata\u00e7\u00e3o, ir\u00e1 contratar o oper\u00e1rio",
-        "context": "Uma pessoa precisa contratar um oper\u00e1rio para fazer um servi\u00e7o em sua casa. Para isso, ela postou um an\u00fancio em uma rede social. Cinco pessoas responderam informando pre\u00e7os por hora trabalhada, gasto di\u00e1rio com transporte e tempo necess\u00e1rio para conclus\u00e3o do servi\u00e7o, conforme valores apresentados no quadro. Pre\u00e7o por Pre\u00e7o do Tempo at\u00e9 Oper\u00e1rio hora transporte conclus\u00e3o (real) (real) (hora) I 120 0,00 8 II 180 0,00 6 III 170 20,00 6 IV 110 10,00 9 V 110 0,00 10 Se a pessoa pretende gastar o m\u00ednimo poss\u00edvel com essa contrata\u00e7\u00e3o, ir\u00e1 contratar o oper\u00e1rio",
+        "context": "Uma pessoa precisa contratar um oper\u00e1rio para fazer um servi\u00e7o em sua casa. Para isso, ela postou um an\u00fancio em uma rede social. Cinco pessoas responderam informando pre\u00e7os por hora trabalhada, gasto di\u00e1rio com transporte e tempo necess\u00e1rio para conclus\u00e3o do servi\u00e7o, conforme valores apresentados no quadro. Pre\u00e7o por Pre\u00e7o do Tempo at\u00e9 Oper\u00e1rio hora transporte conclus\u00e3o (real) (real) (hora) I 120 0,00 8 II 180 0,00 6 III 170 20,00 6 IV 110 10,00 9 V 110 0,00 10",
         "exam": "2022"
     },
     {
-        "question": "",
+        "question": "Quantas por\u00e7\u00f5es da receita-base de massa ela deve preparar para atender esse cliente?",
         "number": 141,
         "id": "ENEM_2022_141",
         "alternatives": [
@@ -4853,11 +4853,11 @@
         ],
         "label": "e",
         "original_question": "Uma  cozinheira  produz  docinhos  especiais  por  encomenda. \nUsando uma receita-base de massa, ela prepara uma por\u00e7\u00e3o, com \na qual produz 50 docinhos maci\u00e7os de formato esf\u00e9rico, com 2 cm \nde  di\u00e2metro.  Um  cliente  encomenda  150  desses  docinhos,  mas \npede que cada um tenha formato esf\u00e9rico com 4 cm de di\u00e2metro.  \nA  cozinheira  pretende  preparar  o  n\u00famero  exato  de  por\u00e7\u00f5es  da \nreceita-base de massa necess\u00e1rio para produzir os docinhos dessa \nencomenda.\nQuantas por\u00e7\u00f5es da receita-base de massa ela deve preparar para \natender esse cliente?",
-        "context": "Uma cozinheira produz docinhos especiais por encomenda. Usando uma receita-base de massa, ela prepara uma por\u00e7\u00e3o, com a qual produz 50 docinhos maci\u00e7os de formato esf\u00e9rico, com 2 cm de di\u00e2metro. Um cliente encomenda 150 desses docinhos, mas pede que cada um tenha formato esf\u00e9rico com 4 cm de di\u00e2metro. A cozinheira pretende preparar o n\u00famero exato de por\u00e7\u00f5es da receita-base de massa necess\u00e1rio para produzir os docinhos dessa encomenda. Quantas por\u00e7\u00f5es da receita-base de massa ela deve preparar para atender esse cliente?",
+        "context": "Uma cozinheira produz docinhos especiais por encomenda. Usando uma receita-base de massa, ela prepara uma por\u00e7\u00e3o, com a qual produz 50 docinhos maci\u00e7os de formato esf\u00e9rico, com 2 cm de di\u00e2metro. Um cliente encomenda 150 desses docinhos, mas pede que cada um tenha formato esf\u00e9rico com 4 cm de di\u00e2metro. A cozinheira pretende preparar o n\u00famero exato de por\u00e7\u00f5es da receita-base de massa necess\u00e1rio para produzir os docinhos dessa encomenda.",
         "exam": "2022"
     },
     {
-        "question": "",
+        "question": "O jogador que precisa fazer a menor quantidade de pontos no quinto jogo, para igualar a m\u00e9dia de pontos do melhor jogador da temporada passada, \u00e9 o",
         "number": 142,
         "id": "ENEM_2022_142",
         "alternatives": [
@@ -4874,7 +4874,7 @@
         "subject": [],
         "DS": false,
         "TU": false,
-        "IU": false,
+        "IU": true,
         "MR": true,
         "ML": false,
         "BK": false,
@@ -4887,11 +4887,11 @@
         ],
         "label": "a",
         "original_question": "Nos  cinco  jogos  finais  da  \u00faltima  temporada,  com  uma  m\u00e9dia  de \n18 pontos por jogo, um jogador foi eleito o melhor do campeonato \nde  basquete.  Na  atual  temporada,  cinco  jogadores  t\u00eam  a  chance \nde igualar ou melhorar essa m\u00e9dia. No quadro est\u00e3o registradas as \npontua\u00e7\u00f5es desses cinco jogadores nos quatro primeiros jogos das \nfinais deste ano.\nJogadores Jogo 1 Jogo 2 Jogo 3 Jogo 4\nI 12 25 20 20\nII 12 12 27 20\nIII 14 14 17 26\nIV 15 18 21 21\nV 22 15 23 15\nO  quinto  e  \u00faltimo  jogo  ser\u00e1  realizado  para  decidir  a  equipe  \ncampe\u00e3 e qual o melhor jogador da temporada.\nO  jogador  que  precisa  fazer  a  menor  quantidade  de  pontos  no \nquinto jogo, para igualar a m\u00e9dia de pontos do melhor jogador da \ntemporada passada, \u00e9 o",
-        "context": "Nos cinco jogos finais da \u00faltima temporada, com uma m\u00e9dia de 18 pontos por jogo, um jogador foi eleito o melhor do campeonato de basquete. Na atual temporada, cinco jogadores t\u00eam a chance de igualar ou melhorar essa m\u00e9dia. No quadro est\u00e3o registradas as pontua\u00e7\u00f5es desses cinco jogadores nos quatro primeiros jogos das finais deste ano. Jogadores Jogo 1 Jogo 2 Jogo 3 Jogo 4 I 12 25 20 20 II 12 12 27 20 III 14 14 17 26 IV 15 18 21 21 V 22 15 23 15 O quinto e \u00faltimo jogo ser\u00e1 realizado para decidir a equipe campe\u00e3 e qual o melhor jogador da temporada. O jogador que precisa fazer a menor quantidade de pontos no quinto jogo, para igualar a m\u00e9dia de pontos do melhor jogador da temporada passada, \u00e9 o",
+        "context": "Nos cinco jogos finais da \u00faltima temporada, com uma m\u00e9dia de 18 pontos por jogo, um jogador foi eleito o melhor do campeonato de basquete. Na atual temporada, cinco jogadores t\u00eam a chance de igualar ou melhorar essa m\u00e9dia. No quadro est\u00e3o registradas as pontua\u00e7\u00f5es desses cinco jogadores nos quatro primeiros jogos das finais deste ano. Jogadores Jogo 1 Jogo 2 Jogo 3 Jogo 4 I 12 25 20 20 II 12 12 27 20 III 14 14 17 26 IV 15 18 21 21 V 22 15 23 15 O quinto e \u00faltimo jogo ser\u00e1 realizado para decidir a equipe campe\u00e3 e qual o melhor jogador da temporada. ",
         "exam": "2022"
     },
     {
-        "question": "",
+        "question": "O projeto que o casal dever\u00e1 escolher ser\u00e1 o",
         "number": 143,
         "id": "ENEM_2022_143",
         "alternatives": [
@@ -4921,11 +4921,11 @@
         ],
         "label": "b",
         "original_question": "Um casal planeja construir em sua ch\u00e1cara uma piscina com o \nformato de um paralelep\u00edpedo reto ret\u00e2ngulo com capacidade para \n90 000 L de \u00e1gua. O casal contratou uma empresa de constru\u00e7\u00f5es\nque  apresentou  cinco  projetos  com  diferentes  combina\u00e7\u00f5es  nas \ndimens\u00f5es  internas  de  profundidade,  largura  e  comprimento.  \nA  piscina  a  ser  constru\u00edda  ter\u00e1  revestimento  interno  em  suas \nparedes e fundo com uma mesma cer\u00e2mica, e o casal ir\u00e1 escolher \no projeto que exija a menor \u00e1rea de revestimento.\nAs  dimens\u00f5es  internas  de  profundidade,  largura  e  comprimento, \nrespectivamente, para cada um dos projetos, s\u00e3o:\n\u2022  projeto I: 1,8 m, 2,0 m e 25,0 m;\n\u2022  projeto II: 2,0 m, 5,0 m e 9,0 m;\n\u2022  projeto III: 1,0 m, 6,0 m e 15,0 m; \n\u2022  projeto IV: 1,5 m, 15,0 m e 4,0 m;\n\u2022  projeto V: 2,5 m, 3,0 m e 12,0 m.\nO projeto que o casal dever\u00e1 escolher ser\u00e1 o",
-        "context": "Um casal planeja construir em sua ch\u00e1cara uma piscina com o formato de um paralelep\u00edpedo reto ret\u00e2ngulo com capacidade para 90 000 L de \u00e1gua. O casal contratou uma empresa de constru\u00e7\u00f5es que apresentou cinco projetos com diferentes combina\u00e7\u00f5es nas dimens\u00f5es internas de profundidade, largura e comprimento. A piscina a ser constru\u00edda ter\u00e1 revestimento interno em suas paredes e fundo com uma mesma cer\u00e2mica, e o casal ir\u00e1 escolher o projeto que exija a menor \u00e1rea de revestimento. As dimens\u00f5es internas de profundidade, largura e comprimento, respectivamente, para cada um dos projetos, s\u00e3o: \u2022 projeto I: 1,8 m, 2,0 m e 25,0 m; \u2022 projeto II: 2,0 m, 5,0 m e 9,0 m; \u2022 projeto III: 1,0 m, 6,0 m e 15,0 m; \u2022 projeto IV: 1,5 m, 15,0 m e 4,0 m; \u2022 projeto V: 2,5 m, 3,0 m e 12,0 m. O projeto que o casal dever\u00e1 escolher ser\u00e1 o",
+        "context": "Um casal planeja construir em sua ch\u00e1cara uma piscina com o formato de um paralelep\u00edpedo reto ret\u00e2ngulo com capacidade para 90 000 L de \u00e1gua. O casal contratou uma empresa de constru\u00e7\u00f5es que apresentou cinco projetos com diferentes combina\u00e7\u00f5es nas dimens\u00f5es internas de profundidade, largura e comprimento. A piscina a ser constru\u00edda ter\u00e1 revestimento interno em suas paredes e fundo com uma mesma cer\u00e2mica, e o casal ir\u00e1 escolher o projeto que exija a menor \u00e1rea de revestimento. As dimens\u00f5es internas de profundidade, largura e comprimento, respectivamente, para cada um dos projetos, s\u00e3o: \u2022 projeto I: 1,8 m, 2,0 m e 25,0 m; \u2022 projeto II: 2,0 m, 5,0 m e 9,0 m; \u2022 projeto III: 1,0 m, 6,0 m e 15,0 m; \u2022 projeto IV: 1,5 m, 15,0 m e 4,0 m; \u2022 projeto V: 2,5 m, 3,0 m e 12,0 m.",
         "exam": "2022"
     },
     {
-        "question": "",
+        "question": "Qual foi o n\u00famero total de candidatos inscritos nesse processo seletivo?",
         "number": 144,
         "id": "ENEM_2022_144",
         "alternatives": [
@@ -4942,7 +4942,7 @@
         "subject": [],
         "DS": false,
         "TU": false,
-        "IU": false,
+        "IU": true,
         "MR": true,
         "ML": false,
         "BK": false,
@@ -4955,11 +4955,11 @@
         ],
         "label": "d",
         "original_question": "Uma institui\u00e7\u00e3o de ensino superior ofereceu vagas em um processo \nseletivo  de  acesso  a  seus  cursos.  Finalizadas  as  inscri\u00e7\u00f5es,  foi \ndivulgada a rela\u00e7\u00e3o do n\u00famero de candidatos por vaga em cada um \ndos cursos oferecidos. Esses dados s\u00e3o apresentados no quadro.\nN\u00famero  N\u00famero \nCurso de vagas  de candidatos \noferecidas por vaga\nAdministra\u00e7\u00e3o 30 6\nCi\u00eancias Cont\u00e1beis 40 6\nEngenharia El\u00e9trica 50 7\nHist\u00f3ria 30 8\nLetras 25 4\nPedagogia 25 5\nQual  foi  o  n\u00famero  total  de  candidatos  inscritos  nesse  processo \nseletivo?",
-        "context": "Uma institui\u00e7\u00e3o de ensino superior ofereceu vagas em um processo seletivo de acesso a seus cursos. Finalizadas as inscri\u00e7\u00f5es, foi divulgada a rela\u00e7\u00e3o do n\u00famero de candidatos por vaga em cada um dos cursos oferecidos. Esses dados s\u00e3o apresentados no quadro. N\u00famero N\u00famero Curso de vagas de candidatos oferecidas por vaga Administra\u00e7\u00e3o 30 6 Ci\u00eancias Cont\u00e1beis 40 6 Engenharia El\u00e9trica 50 7 Hist\u00f3ria 30 8 Letras 25 4 Pedagogia 25 5 Qual foi o n\u00famero total de candidatos inscritos nesse processo seletivo?",
+        "context": "Uma institui\u00e7\u00e3o de ensino superior ofereceu vagas em um processo seletivo de acesso a seus cursos. Finalizadas as inscri\u00e7\u00f5es, foi divulgada a rela\u00e7\u00e3o do n\u00famero de candidatos por vaga em cada um dos cursos oferecidos. Esses dados s\u00e3o apresentados no quadro. N\u00famero N\u00famero Curso de vagas de candidatos oferecidas por vaga Administra\u00e7\u00e3o 30 6 Ci\u00eancias Cont\u00e1beis 40 6 Engenharia El\u00e9trica 50 7 Hist\u00f3ria 30 8 Letras 25 4 Pedagogia 25 5 ",
         "exam": "2022"
     },
     {
-        "question": "",
+        "question": "Quantas dessas esferas poder\u00e3o ser obtidas a partir de cada pe\u00e7a cil\u00edndrica?",
         "number": 145,
         "id": "ENEM_2022_145",
         "alternatives": [
@@ -4989,11 +4989,11 @@
         ],
         "label": "d",
         "original_question": "Pe\u00e7as met\u00e1licas de aeronaves abandonadas em aeroportos ser\u00e3o \nrecicladas. Uma dessas pe\u00e7as \u00e9 maci\u00e7a e tem o formato cil\u00edndrico, \ncom a medida do raio da base igual a 4 cm e a da altura igual a  \n50  cm.  Ela  ser\u00e1  derretida,  e  o  volume  de  metal  resultante  ser\u00e1 \nutilizado  para  a  fabrica\u00e7\u00e3o  de  esferas  maci\u00e7as  com  di\u00e2metro  de  \n1 cm, a serem usadas para confeccionar rolamentos. Para estimar \na  quantidade  de  esferas  que  poder\u00e3o  ser  produzidas  a  partir  de \ncada uma das pe\u00e7as cil\u00edndricas, admite-se que n\u00e3o ocorre perda  \nde material durante o processo de derretimento.\nQuantas dessas esferas poder\u00e3o ser obtidas a partir de cada pe\u00e7a \ncil\u00edndrica?",
-        "context": "Pe\u00e7as met\u00e1licas de aeronaves abandonadas em aeroportos ser\u00e3o recicladas. Uma dessas pe\u00e7as \u00e9 maci\u00e7a e tem o formato cil\u00edndrico, com a medida do raio da base igual a 4 cm e a da altura igual a 50 cm. Ela ser\u00e1 derretida, e o volume de metal resultante ser\u00e1 utilizado para a fabrica\u00e7\u00e3o de esferas maci\u00e7as com di\u00e2metro de 1 cm, a serem usadas para confeccionar rolamentos. Para estimar a quantidade de esferas que poder\u00e3o ser produzidas a partir de cada uma das pe\u00e7as cil\u00edndricas, admite-se que n\u00e3o ocorre perda de material durante o processo de derretimento. Quantas dessas esferas poder\u00e3o ser obtidas a partir de cada pe\u00e7a cil\u00edndrica?",
+        "context": "Pe\u00e7as met\u00e1licas de aeronaves abandonadas em aeroportos ser\u00e3o recicladas. Uma dessas pe\u00e7as \u00e9 maci\u00e7a e tem o formato cil\u00edndrico, com a medida do raio da base igual a 4 cm e a da altura igual a 50 cm. Ela ser\u00e1 derretida, e o volume de metal resultante ser\u00e1 utilizado para a fabrica\u00e7\u00e3o de esferas maci\u00e7as com di\u00e2metro de 1 cm, a serem usadas para confeccionar rolamentos. Para estimar a quantidade de esferas que poder\u00e3o ser produzidas a partir de cada uma das pe\u00e7as cil\u00edndricas, admite-se que n\u00e3o ocorre perda de material durante o processo de derretimento. ",
         "exam": "2022"
     },
     {
-        "question": "",
+        "question": "A sequ\u00eancia de letras que descreve o caminho poligonal destacado \u00e9",
         "number": 146,
         "id": "ENEM_2022_146",
         "alternatives": [
@@ -5010,7 +5010,7 @@
         "subject": [],
         "DS": false,
         "TU": false,
-        "IU": false,
+        "IU": true,
         "MR": true,
         "ML": false,
         "BK": false,
@@ -5023,11 +5023,11 @@
         ],
         "label": "c",
         "original_question": "Uma pessoa precisa se deslocar de autom\u00f3vel do ponto P para o \nponto Q, indicados na figura, na qual as linhas verticais e horizontais \nsimbolizam ruas.\nQ\nP\nPor  causa  do  sentido  de  tr\u00e1fego  nessas  ruas,  o  caminho \npoligonal destacado \u00e9 a possibilidade mais curta de efetuar esse \ndeslocamento.  Para  descrev\u00ea-lo,  deve-se  especificar  qual  o \nsentido a ser tomado em cada cruzamento de ruas, em rela\u00e7\u00e3o \n\u00e0 dire\u00e7\u00e3o de deslocamento do autom\u00f3vel, que se movimentar\u00e1 \ncontinuamente. Para isso, empregam-se as letras E, F e D para \nindicar  \u201cvire  \u00e0  esquerda\u201d,  \u201csiga  em  frente\u201d  e  \u201cvire  \u00e0  direita\u201d, \nrespectivamente.\nA sequ\u00eancia de letras que descreve o caminho poligonal destacado \u00e9",
-        "context": "Uma pessoa precisa se deslocar de autom\u00f3vel do ponto P para o ponto Q, indicados na figura, na qual as linhas verticais e horizontais simbolizam ruas. Q P Por causa do sentido de tr\u00e1fego nessas ruas, o caminho poligonal destacado \u00e9 a possibilidade mais curta de efetuar esse deslocamento. Para descrev\u00ea-lo, deve-se especificar qual o sentido a ser tomado em cada cruzamento de ruas, em rela\u00e7\u00e3o \u00e0 dire\u00e7\u00e3o de deslocamento do autom\u00f3vel, que se movimentar\u00e1 continuamente. Para isso, empregam-se as letras E, F e D para indicar \u201cvire \u00e0 esquerda\u201d, \u201csiga em frente\u201d e \u201cvire \u00e0 direita\u201d, respectivamente. A sequ\u00eancia de letras que descreve o caminho poligonal destacado \u00e9",
+        "context": "Uma pessoa precisa se deslocar de autom\u00f3vel do ponto P para o ponto Q, indicados na figura, na qual as linhas verticais e horizontais simbolizam ruas. Q P Por causa do sentido de tr\u00e1fego nessas ruas, o caminho poligonal destacado \u00e9 a possibilidade mais curta de efetuar esse deslocamento. Para descrev\u00ea-lo, deve-se especificar qual o sentido a ser tomado em cada cruzamento de ruas, em rela\u00e7\u00e3o \u00e0 dire\u00e7\u00e3o de deslocamento do autom\u00f3vel, que se movimentar\u00e1 continuamente. Para isso, empregam-se as letras E, F e D para indicar \u201cvire \u00e0 esquerda\u201d, \u201csiga em frente\u201d e \u201cvire \u00e0 direita\u201d, respectivamente. ",
         "exam": "2022"
     },
     {
-        "question": "",
+        "question": "Uma pessoa pretende comprar nessa loja o modelo de caixa-d\u2019\u00e1gua que ofere\u00e7a a maior capacidade volum\u00e9trica. O modelo escolhido deve ser o",
         "number": 147,
         "id": "ENEM_2022_147",
         "alternatives": [
@@ -5057,11 +5057,11 @@
         ],
         "label": "e",
         "original_question": "Uma loja comercializa cinco modelos de caixas-d\u2019\u00e1gua (I, II, III, IV e V), \ntodos  em  formato  de  cilindro  reto  de  base  circular.  Os  modelos \nII, III, IV e V t\u00eam as especifica\u00e7\u00f5es de suas dimens\u00f5es dadas em \nrela\u00e7\u00e3o \u00e0s dimens\u00f5es do modelo I, cuja profundidade \u00e9 P e \u00e1rea da \nbase \u00e9 A , como segue:\nb\n\u2022  m  odelo II: o dobro da profundidade e a metade da \u00e1rea da base \ndo modelo I;\n\u2022  m  odelo III: o dobro da profundidade e a metade do raio da base \ndo modelo I;\n\u2022  m  odelo IV: a metade da profundidade e o dobro da \u00e1rea da base \ndo modelo I;\n\u2022  m  odelo V: a metade da profundidade e o dobro do raio da base \ndo modelo I.\nUma pessoa pretende comprar nessa loja o modelo de caixa-d\u2019\u00e1gua \nque ofere\u00e7a a maior capacidade volum\u00e9trica.\nO modelo escolhido deve ser o",
-        "context": "Uma loja comercializa cinco modelos de caixas-d\u2019\u00e1gua (I, II, III, IV e V), todos em formato de cilindro reto de base circular. Os modelos II, III, IV e V t\u00eam as especifica\u00e7\u00f5es de suas dimens\u00f5es dadas em rela\u00e7\u00e3o \u00e0s dimens\u00f5es do modelo I, cuja profundidade \u00e9 P e \u00e1rea da base \u00e9 A , como segue: b \u2022 m odelo II: o dobro da profundidade e a metade da \u00e1rea da base do modelo I; \u2022 m odelo III: o dobro da profundidade e a metade do raio da base do modelo I; \u2022 m odelo IV: a metade da profundidade e o dobro da \u00e1rea da base do modelo I; \u2022 m odelo V: a metade da profundidade e o dobro do raio da base do modelo I. Uma pessoa pretende comprar nessa loja o modelo de caixa-d\u2019\u00e1gua que ofere\u00e7a a maior capacidade volum\u00e9trica. O modelo escolhido deve ser o",
+        "context": "Uma loja comercializa cinco modelos de caixas-d\u2019\u00e1gua (I, II, III, IV e V), todos em formato de cilindro reto de base circular. Os modelos II, III, IV e V t\u00eam as especifica\u00e7\u00f5es de suas dimens\u00f5es dadas em rela\u00e7\u00e3o \u00e0s dimens\u00f5es do modelo I, cuja profundidade \u00e9 P e \u00e1rea da base \u00e9 A , como segue: b \u2022 m odelo II: o dobro da profundidade e a metade da \u00e1rea da base do modelo I; \u2022 m odelo III: o dobro da profundidade e a metade do raio da base do modelo I; \u2022 m odelo IV: a metade da profundidade e o dobro da \u00e1rea da base do modelo I; \u2022 m odelo V: a metade da profundidade e o dobro do raio da base do modelo I.",
         "exam": "2022"
     },
     {
-        "question": "",
+        "question": "Com base nos dados fornecidos, em que ano a rentabilidade do aluguel foi maior?",
         "number": 148,
         "id": "ENEM_2022_148",
         "alternatives": [
@@ -5078,7 +5078,7 @@
         "subject": [],
         "DS": false,
         "TU": false,
-        "IU": false,
+        "IU": true,
         "MR": true,
         "ML": false,
         "BK": false,
@@ -5091,11 +5091,11 @@
         ],
         "label": "b",
         "original_question": "No per\u00edodo de 2005 a 2013, o valor de venda dos im\u00f3veis em uma \ncidade  apresentou  alta,  o  que  resultou  no  aumento  dos  alugu\u00e9is.  \nOs gr\u00e1ficos apresentam a evolu\u00e7\u00e3o desses valores, para um mesmo \nim\u00f3vel, no mercado imobili\u00e1rio dessa cidade.\n$) 3 240\nR\n(\n \nl\ne\nu\ng\nu\n1 800\nl\na\no  1 350\nd\n  960\nl\na\ns 630\nn\ne\nm\n \nr\no 2005 2007 2009 2011 2013\nl\na\nV Ano\nl 540\ne\nv\n\u00f3\nm\ni\no  $)\nd R\n  450\no  \ne\nd\nd 270\na\n \nrc ar 120\ne h\nm l 90\ni\nm\n \ne\n(\nd\n \nr\no 2005 2007 2009 2011 2013\nl\na\nV Ano\nA  rentabilidade  do  aluguel  de  um  im\u00f3vel  \u00e9  calculada  pela  raz\u00e3o \nentre o valor mensal de aluguel e o valor de mercado desse im\u00f3vel.\nCom  base  nos  dados  fornecidos,  em  que  ano  a  rentabilidade  do \naluguel foi maior?",
-        "context": "No per\u00edodo de 2005 a 2013, o valor de venda dos im\u00f3veis em uma cidade apresentou alta, o que resultou no aumento dos alugu\u00e9is. Os gr\u00e1ficos apresentam a evolu\u00e7\u00e3o desses valores, para um mesmo im\u00f3vel, no mercado imobili\u00e1rio dessa cidade. $) 3 240 R ( l e u g u 1 800 l a o 1 350 d 960 l a s 630 n e m r o 2005 2007 2009 2011 2013 l a V Ano l 540 e v \u00f3 m i o $) d R 450 o e d d 270 a rc ar 120 e h m l 90 i m e ( d r o 2005 2007 2009 2011 2013 l a V Ano A rentabilidade do aluguel de um im\u00f3vel \u00e9 calculada pela raz\u00e3o entre o valor mensal de aluguel e o valor de mercado desse im\u00f3vel. Com base nos dados fornecidos, em que ano a rentabilidade do aluguel foi maior?",
+        "context": "No per\u00edodo de 2005 a 2013, o valor de venda dos im\u00f3veis em uma cidade apresentou alta, o que resultou no aumento dos alugu\u00e9is. Os gr\u00e1ficos apresentam a evolu\u00e7\u00e3o desses valores, para um mesmo im\u00f3vel, no mercado imobili\u00e1rio dessa cidade. $) 3 240 R ( l e u g u 1 800 l a o 1 350 d 960 l a s 630 n e m r o 2005 2007 2009 2011 2013 l a V Ano l 540 e v \u00f3 m i o $) d R 450 o e d d 270 a rc ar 120 e h m l 90 i m e ( d r o 2005 2007 2009 2011 2013 l a V Ano A rentabilidade do aluguel de um im\u00f3vel \u00e9 calculada pela raz\u00e3o entre o valor mensal de aluguel e o valor de mercado desse im\u00f3vel.",
         "exam": "2022"
     },
     {
-        "question": "",
+        "question": "Mantido o n\u00famero atual de professores com suas atuais titula\u00e7\u00f5es, o aumento salarial, em porcentagem, a ser concedido aos doutores dever\u00e1 ser de, no m\u00e1ximo,",
         "number": 149,
         "id": "ENEM_2022_149",
         "alternatives": [
@@ -5125,11 +5125,11 @@
         ],
         "label": "d",
         "original_question": "Em  uma  universidade,  atuam  professores  que  est\u00e3o  enquadrados \nfuncionalmente  pela  sua  maior  titula\u00e7\u00e3o:  mestre  ou  doutor.  Nela  h\u00e1, \natualmente,  60  mestres  e  40  doutores.  Os  sal\u00e1rios  mensais  dos \nprofessores mestres e dos doutores s\u00e3o, respectivamente, R$ 8 000,00 \ne R$ 12 000,00.\nA  diretoria  da  institui\u00e7\u00e3o  pretende  proporcionar  um  aumento \nsalarial diferenciado para o ano seguinte, de tal forma que o sal\u00e1rio \nm\u00e9dio  mensal  dos  professores  dessa  institui\u00e7\u00e3o  n\u00e3o  ultrapasse  \nR$ 12 240,00. A universidade j\u00e1 estabeleceu que o aumento salarial \nser\u00e1 de 25% para os mestres e precisa ainda definir o percentual \nde reajuste para os doutores.\nMantido o n\u00famero atual de professores com suas atuais titula\u00e7\u00f5es, \no aumento salarial, em porcentagem, a ser concedido aos doutores \ndever\u00e1 ser de, no m\u00e1ximo,",
-        "context": "Em uma universidade, atuam professores que est\u00e3o enquadrados funcionalmente pela sua maior titula\u00e7\u00e3o: mestre ou doutor. Nela h\u00e1, atualmente, 60 mestres e 40 doutores. Os sal\u00e1rios mensais dos professores mestres e dos doutores s\u00e3o, respectivamente, R$ 8 000,00 e R$ 12 000,00. A diretoria da institui\u00e7\u00e3o pretende proporcionar um aumento salarial diferenciado para o ano seguinte, de tal forma que o sal\u00e1rio m\u00e9dio mensal dos professores dessa institui\u00e7\u00e3o n\u00e3o ultrapasse R$ 12 240,00. A universidade j\u00e1 estabeleceu que o aumento salarial ser\u00e1 de 25% para os mestres e precisa ainda definir o percentual de reajuste para os doutores. Mantido o n\u00famero atual de professores com suas atuais titula\u00e7\u00f5es, o aumento salarial, em porcentagem, a ser concedido aos doutores dever\u00e1 ser de, no m\u00e1ximo,",
+        "context": "Em uma universidade, atuam professores que est\u00e3o enquadrados funcionalmente pela sua maior titula\u00e7\u00e3o: mestre ou doutor. Nela h\u00e1, atualmente, 60 mestres e 40 doutores. Os sal\u00e1rios mensais dos professores mestres e dos doutores s\u00e3o, respectivamente, R$ 8 000,00 e R$ 12 000,00. A diretoria da institui\u00e7\u00e3o pretende proporcionar um aumento salarial diferenciado para o ano seguinte, de tal forma que o sal\u00e1rio m\u00e9dio mensal dos professores dessa institui\u00e7\u00e3o n\u00e3o ultrapasse R$ 12 240,00. A universidade j\u00e1 estabeleceu que o aumento salarial ser\u00e1 de 25% para os mestres e precisa ainda definir o percentual de reajuste para os doutores.",
         "exam": "2022"
     },
     {
-        "question": "",
+        "question": "A quantidade de inseticida que \u00e9 liberada a cada acionamento do borrifador, em mililitro, \u00e9",
         "number": 150,
         "id": "ENEM_2022_150",
         "alternatives": [
@@ -5159,11 +5159,11 @@
         ],
         "label": "b",
         "original_question": "Um borrifador de atua\u00e7\u00e3o autom\u00e1tica libera, a cada acionamento, uma \nmesma quantidade de inseticida. O recipiente desse produto, quando \ncheio, cont\u00e9m 360 mL de inseticida, que duram 60 dias se o borrifador \npermanecer ligado ininterruptamente e for acionado a cada 48 minutos.\nA quantidade de inseticida que \u00e9 liberada a cada acionamento do \nborrifador, em mililitro, \u00e9",
-        "context": "Um borrifador de atua\u00e7\u00e3o autom\u00e1tica libera, a cada acionamento, uma mesma quantidade de inseticida. O recipiente desse produto, quando cheio, cont\u00e9m 360 mL de inseticida, que duram 60 dias se o borrifador permanecer ligado ininterruptamente e for acionado a cada 48 minutos. A quantidade de inseticida que \u00e9 liberada a cada acionamento do borrifador, em mililitro, \u00e9",
+        "context": "Um borrifador de atua\u00e7\u00e3o autom\u00e1tica libera, a cada acionamento, uma mesma quantidade de inseticida. O recipiente desse produto, quando cheio, cont\u00e9m 360 mL de inseticida, que duram 60 dias se o borrifador permanecer ligado ininterruptamente e for acionado a cada 48 minutos.",
         "exam": "2022"
     },
     {
-        "question": "",
+        "question": "No planeta Z, seu ano corresponderia a quantos de seus dias?",
         "number": 151,
         "id": "ENEM_2022_151",
         "alternatives": [
@@ -5193,11 +5193,11 @@
         ],
         "label": "a",
         "original_question": "Definem-se o dia e o ano de um planeta de um sistema solar como \nsendo, respectivamente, o tempo que o planeta leva para dar 1 volta \ncompleta em torno de seu pr\u00f3prio eixo de rota\u00e7\u00e3o e o tempo para dar  \n1 volta completa em torno de seu Sol.\nSuponha que exista um planeta Z, em algum sistema solar, onde um \ndia corresponda a 73 dias terrestres e que 2 de seus anos correspondam \na 1 ano terrestre. Considere que 1 ano terrestre tem 365 de seus dias.\nNo planeta Z, seu ano corresponderia a quantos de seus dias?",
-        "context": "Definem-se o dia e o ano de um planeta de um sistema solar como sendo, respectivamente, o tempo que o planeta leva para dar 1 volta completa em torno de seu pr\u00f3prio eixo de rota\u00e7\u00e3o e o tempo para dar 1 volta completa em torno de seu Sol. Suponha que exista um planeta Z, em algum sistema solar, onde um dia corresponda a 73 dias terrestres e que 2 de seus anos correspondam a 1 ano terrestre. Considere que 1 ano terrestre tem 365 de seus dias. No planeta Z, seu ano corresponderia a quantos de seus dias?",
+        "context": "Definem-se o dia e o ano de um planeta de um sistema solar como sendo, respectivamente, o tempo que o planeta leva para dar 1 volta completa em torno de seu pr\u00f3prio eixo de rota\u00e7\u00e3o e o tempo para dar 1 volta completa em torno de seu Sol. Suponha que exista um planeta Z, em algum sistema solar, onde um dia corresponda a 73 dias terrestres e que 2 de seus anos correspondam a 1 ano terrestre. Considere que 1 ano terrestre tem 365 de seus dias.",
         "exam": "2022"
     },
     {
-        "question": "",
+        "question": "Qual o n\u00famero de ultrapassagens, ap\u00f3s o in\u00edcio da competi\u00e7\u00e3o, efetuadas pelo ve\u00edculo que chegou em \u00faltimo lugar?",
         "number": 152,
         "id": "ENEM_2022_152",
         "alternatives": [
@@ -5214,7 +5214,7 @@
         "subject": [],
         "DS": false,
         "TU": false,
-        "IU": false,
+        "IU": true,
         "MR": true,
         "ML": false,
         "BK": false,
@@ -5227,11 +5227,11 @@
         ],
         "label": "a",
         "original_question": "Em uma competi\u00e7\u00e3o de velocidade, diz-se que h\u00e1 uma ultrapassagem \nquando  um  ve\u00edculo  que  est\u00e1  atr\u00e1s  de  outro  passa  \u00e0  sua  frente, \ncom  ambos  se  deslocando  no  mesmo  sentido.  Considere  uma \ncompeti\u00e7\u00e3o automobil\u00edstica entre cinco carros em uma pista com \n100 m de comprimento, onde todos largam no mesmo instante e da \nmesma linha. O gr\u00e1fico mostra a varia\u00e7\u00e3o da dist\u00e2ncia percorrida \npor cada ve\u00edculo, em fun\u00e7\u00e3o do tempo, durante toda a competi\u00e7\u00e3o.\n100\n)\nm\n(\n \na\ni\nc\nn\n\u00e2\nt\ns\ni\nD\n0\nTempo (s)\n0 15\nQual  o  n\u00famero  de  ultrapassagens,  ap\u00f3s  o  in\u00edcio  da  competi\u00e7\u00e3o, \nefetuadas pelo ve\u00edculo que chegou em \u00faltimo lugar?",
-        "context": "Em uma competi\u00e7\u00e3o de velocidade, diz-se que h\u00e1 uma ultrapassagem quando um ve\u00edculo que est\u00e1 atr\u00e1s de outro passa \u00e0 sua frente, com ambos se deslocando no mesmo sentido. Considere uma competi\u00e7\u00e3o automobil\u00edstica entre cinco carros em uma pista com 100 m de comprimento, onde todos largam no mesmo instante e da mesma linha. O gr\u00e1fico mostra a varia\u00e7\u00e3o da dist\u00e2ncia percorrida por cada ve\u00edculo, em fun\u00e7\u00e3o do tempo, durante toda a competi\u00e7\u00e3o. 100 ) m ( a i c n \u00e2 t s i D 0 Tempo (s) 0 15 Qual o n\u00famero de ultrapassagens, ap\u00f3s o in\u00edcio da competi\u00e7\u00e3o, efetuadas pelo ve\u00edculo que chegou em \u00faltimo lugar?",
+        "context": "Em uma competi\u00e7\u00e3o de velocidade, diz-se que h\u00e1 uma ultrapassagem quando um ve\u00edculo que est\u00e1 atr\u00e1s de outro passa \u00e0 sua frente, com ambos se deslocando no mesmo sentido. Considere uma competi\u00e7\u00e3o automobil\u00edstica entre cinco carros em uma pista com 100 m de comprimento, onde todos largam no mesmo instante e da mesma linha. O gr\u00e1fico mostra a varia\u00e7\u00e3o da dist\u00e2ncia percorrida por cada ve\u00edculo, em fun\u00e7\u00e3o do tempo, durante toda a competi\u00e7\u00e3o. 100 ) m ( a i c n \u00e2 t s i D 0 Tempo (s) 0 15 ",
         "exam": "2022"
     },
     {
-        "question": "",
+        "question": "O valor apresentado pela loja, comparado ao valor calculado pela cliente, foi",
         "number": 153,
         "id": "ENEM_2022_153",
         "alternatives": [
@@ -5261,11 +5261,11 @@
         ],
         "label": "a",
         "original_question": "Em  uma  loja,  o  pre\u00e7o  promocional  de  uma  geladeira  \u00e9  de  \nR$ 1 000,00 para pagamento somente em dinheiro. Seu pre\u00e7o normal, \nfora da promo\u00e7\u00e3o, \u00e9 10% maior. Para pagamento feito com o cart\u00e3o \nde cr\u00e9dito da loja, \u00e9 dado um desconto de 2% sobre o pre\u00e7o normal.\nUma  cliente  decidiu  comprar  essa  geladeira,  optando  pelo \npagamento  com  o  cart\u00e3o  de  cr\u00e9dito  da  loja.  Ela  calculou  que  o \nvalor a ser pago seria o pre\u00e7o promocional acrescido de 8%. Ao ser \ninformada pela loja do valor a pagar, segundo sua op\u00e7\u00e3o, percebeu \numa diferen\u00e7a entre seu c\u00e1lculo e o valor que lhe foi apresentado.\nO valor apresentado pela loja, comparado ao valor calculado pela \ncliente, foi",
-        "context": "Em uma loja, o pre\u00e7o promocional de uma geladeira \u00e9 de R$ 1 000,00 para pagamento somente em dinheiro. Seu pre\u00e7o normal, fora da promo\u00e7\u00e3o, \u00e9 10% maior. Para pagamento feito com o cart\u00e3o de cr\u00e9dito da loja, \u00e9 dado um desconto de 2% sobre o pre\u00e7o normal. Uma cliente decidiu comprar essa geladeira, optando pelo pagamento com o cart\u00e3o de cr\u00e9dito da loja. Ela calculou que o valor a ser pago seria o pre\u00e7o promocional acrescido de 8%. Ao ser informada pela loja do valor a pagar, segundo sua op\u00e7\u00e3o, percebeu uma diferen\u00e7a entre seu c\u00e1lculo e o valor que lhe foi apresentado. O valor apresentado pela loja, comparado ao valor calculado pela cliente, foi",
+        "context": "Em uma loja, o pre\u00e7o promocional de uma geladeira \u00e9 de R$ 1 000,00 para pagamento somente em dinheiro. Seu pre\u00e7o normal, fora da promo\u00e7\u00e3o, \u00e9 10% maior. Para pagamento feito com o cart\u00e3o de cr\u00e9dito da loja, \u00e9 dado um desconto de 2% sobre o pre\u00e7o normal. Uma cliente decidiu comprar essa geladeira, optando pelo pagamento com o cart\u00e3o de cr\u00e9dito da loja. Ela calculou que o valor a ser pago seria o pre\u00e7o promocional acrescido de 8%. Ao ser informada pela loja do valor a pagar, segundo sua op\u00e7\u00e3o, percebeu uma diferen\u00e7a entre seu c\u00e1lculo e o valor que lhe foi apresentado.",
         "exam": "2022"
     },
     {
-        "question": "",
+        "question": "A proje\u00e7\u00e3o ortogonal do trajeto descrito por esse rob\u00f4 sobre o plano da base, ap\u00f3s terminada sua movimenta\u00e7\u00e3o, visualizada da posi\u00e7\u00e3o em que se est\u00e1 enxergando esse cubo, \u00e9",
         "number": 154,
         "id": "ENEM_2022_154",
         "alternatives": [
@@ -5282,7 +5282,7 @@
         "subject": [],
         "DS": false,
         "TU": false,
-        "IU": false,
+        "IU": true,
         "MR": true,
         "ML": false,
         "BK": false,
@@ -5295,11 +5295,11 @@
         ],
         "label": "a",
         "original_question": "Um  rob\u00f4,  que  tem  um  \u00edm\u00e3  em  sua  base,  se  desloca  sobre  a \nsuperf\u00edcie externa de um cubo met\u00e1lico, ao longo de segmentos de\nreta cujas extremidades s\u00e3o pontos m\u00e9dios de arestas e centros \nde faces. Ele inicia seu deslocamento no ponto P, centro da face \nsuperior do cubo, segue para o centro da pr\u00f3xima face, converte \u00e0 \nesquerda e segue para o centro da face seguinte, converte \u00e0 direita \ne continua sua movimenta\u00e7\u00e3o, sempre alternando entre convers\u00f5es \n\u00e0 esquerda e \u00e0 direita quando alcan\u00e7a o centro de uma face. O rob\u00f4 \ns\u00f3 termina sua movimenta\u00e7\u00e3o quando retorna ao ponto P. A figura \napresenta os deslocamentos iniciais desse rob\u00f4.\nP\nA proje\u00e7\u00e3o ortogonal do trajeto descrito por esse rob\u00f4 sobre o plano \nda base, ap\u00f3s terminada sua movimenta\u00e7\u00e3o, visualizada da posi\u00e7\u00e3o \nem que se est\u00e1 enxergando esse cubo, \u00e9",
-        "context": "Um rob\u00f4, que tem um \u00edm\u00e3 em sua base, se desloca sobre a superf\u00edcie externa de um cubo met\u00e1lico, ao longo de segmentos de reta cujas extremidades s\u00e3o pontos m\u00e9dios de arestas e centros de faces. Ele inicia seu deslocamento no ponto P, centro da face superior do cubo, segue para o centro da pr\u00f3xima face, converte \u00e0 esquerda e segue para o centro da face seguinte, converte \u00e0 direita e continua sua movimenta\u00e7\u00e3o, sempre alternando entre convers\u00f5es \u00e0 esquerda e \u00e0 direita quando alcan\u00e7a o centro de uma face. O rob\u00f4 s\u00f3 termina sua movimenta\u00e7\u00e3o quando retorna ao ponto P. A figura apresenta os deslocamentos iniciais desse rob\u00f4. P A proje\u00e7\u00e3o ortogonal do trajeto descrito por esse rob\u00f4 sobre o plano da base, ap\u00f3s terminada sua movimenta\u00e7\u00e3o, visualizada da posi\u00e7\u00e3o em que se est\u00e1 enxergando esse cubo, \u00e9",
+        "context": "Um rob\u00f4, que tem um \u00edm\u00e3 em sua base, se desloca sobre a superf\u00edcie externa de um cubo met\u00e1lico, ao longo de segmentos de reta cujas extremidades s\u00e3o pontos m\u00e9dios de arestas e centros de faces. Ele inicia seu deslocamento no ponto P, centro da face superior do cubo, segue para o centro da pr\u00f3xima face, converte \u00e0 esquerda e segue para o centro da face seguinte, converte \u00e0 direita e continua sua movimenta\u00e7\u00e3o, sempre alternando entre convers\u00f5es \u00e0 esquerda e \u00e0 direita quando alcan\u00e7a o centro de uma face. O rob\u00f4 s\u00f3 termina sua movimenta\u00e7\u00e3o quando retorna ao ponto P. A figura apresenta os deslocamentos iniciais desse rob\u00f4. P ",
         "exam": "2022"
     },
     {
-        "question": "",
+        "question": "A medida real da \u00e1rea da varanda, em metro quadrado, \u00e9",
         "number": 155,
         "id": "ENEM_2022_155",
         "alternatives": [
@@ -5316,7 +5316,7 @@
         "subject": [],
         "DS": false,
         "TU": false,
-        "IU": false,
+        "IU": true,
         "MR": true,
         "ML": false,
         "BK": false,
@@ -5329,11 +5329,11 @@
         ],
         "label": "a",
         "original_question": "Uma empresa de engenharia projetou uma casa com a forma de um \nret\u00e2ngulo para um de seus clientes. Esse cliente solicitou a inclus\u00e3o \nde uma varanda em forma de L. A figura apresenta a planta baixa \ndesenhada pela empresa, j\u00e1 com a varanda inclu\u00edda, cujas medidas, \nindicadas em cent\u00edmetro, representam os valores das dimens\u00f5es da \nvaranda na escala de 1 : 50.\n16 cm\nVARANDA 5 cm\nBANHO BANHO\nCOZINHA SOCIAL SU\u00cdTE\nSU\u00cdTE\n18,4 cm\nSALA\nQUARTO QUARTO\n4 cm ESCALA 1 : 50\nA medida real da \u00e1rea da varanda, em metro quadrado, \u00e9",
-        "context": "Uma empresa de engenharia projetou uma casa com a forma de um ret\u00e2ngulo para um de seus clientes. Esse cliente solicitou a inclus\u00e3o de uma varanda em forma de L. A figura apresenta a planta baixa desenhada pela empresa, j\u00e1 com a varanda inclu\u00edda, cujas medidas, indicadas em cent\u00edmetro, representam os valores das dimens\u00f5es da varanda na escala de 1 : 50. 16 cm VARANDA 5 cm BANHO BANHO COZINHA SOCIAL SU\u00cdTE SU\u00cdTE 18,4 cm SALA QUARTO QUARTO 4 cm ESCALA 1 : 50 A medida real da \u00e1rea da varanda, em metro quadrado, \u00e9",
+        "context": "Uma empresa de engenharia projetou uma casa com a forma de um ret\u00e2ngulo para um de seus clientes. Esse cliente solicitou a inclus\u00e3o de uma varanda em forma de L. A figura apresenta a planta baixa desenhada pela empresa, j\u00e1 com a varanda inclu\u00edda, cujas medidas, indicadas em cent\u00edmetro, representam os valores das dimens\u00f5es da varanda na escala de 1 : 50. 16 cm VARANDA 5 cm BANHO BANHO COZINHA SOCIAL SU\u00cdTE SU\u00cdTE 18,4 cm SALA QUARTO QUARTO 4 cm ESCALA 1 : 50 ",
         "exam": "2022"
     },
     {
-        "question": "",
+        "question": "Ao final do trig\u00e9simo dia, quanto faltar\u00e1 no volume de vendas, em real, para que a meta fixada para o m\u00eas seja alcan\u00e7ada?",
         "number": 156,
         "id": "ENEM_2022_156",
         "alternatives": [
@@ -5350,7 +5350,7 @@
         "subject": [],
         "DS": false,
         "TU": false,
-        "IU": false,
+        "IU": true,
         "MR": true,
         "ML": false,
         "BK": false,
@@ -5363,7 +5363,7 @@
         ],
         "label": "c",
         "original_question": "Uma loja de roupas fixou uma meta de vendas de 77 000 reais \npara um determinado m\u00eas de 30 dias. O gr\u00e1fico mostra o volume de \nvendas dessa loja, em real, nos dez primeiros dias do m\u00eas e entre\no dia dez e o dia vinte desse m\u00eas, nos seus dois \u00fanicos setores \n(infantil e adulto). Suponha que a varia\u00e7\u00e3o no volume de vendas, \npara  o  per\u00edodo  registrado,  tenha  se  dado  de  forma  linear,  como \nmostrado no gr\u00e1fico, e que essa tend\u00eancia se mantenha a mesma \npara os pr\u00f3ximos dez dias.\n18 000\nAdulto\n15 000\n8 000\n7 000\nInfantil\n10 20 30\nDias\nAo final do trig\u00e9simo dia, quanto faltar\u00e1 no volume de vendas, em \nreal, para que a meta fixada para o m\u00eas seja alcan\u00e7ada?",
-        "context": "Uma loja de roupas fixou uma meta de vendas de 77 000 reais para um determinado m\u00eas de 30 dias. O gr\u00e1fico mostra o volume de vendas dessa loja, em real, nos dez primeiros dias do m\u00eas e entre o dia dez e o dia vinte desse m\u00eas, nos seus dois \u00fanicos setores (infantil e adulto). Suponha que a varia\u00e7\u00e3o no volume de vendas, para o per\u00edodo registrado, tenha se dado de forma linear, como mostrado no gr\u00e1fico, e que essa tend\u00eancia se mantenha a mesma para os pr\u00f3ximos dez dias. 18 000 Adulto 15 000 8 000 7 000 Infantil 10 20 30 Dias Ao final do trig\u00e9simo dia, quanto faltar\u00e1 no volume de vendas, em real, para que a meta fixada para o m\u00eas seja alcan\u00e7ada?",
+        "context": "Uma loja de roupas fixou uma meta de vendas de 77 000 reais para um determinado m\u00eas de 30 dias. O gr\u00e1fico mostra o volume de vendas dessa loja, em real, nos dez primeiros dias do m\u00eas e entre o dia dez e o dia vinte desse m\u00eas, nos seus dois \u00fanicos setores (infantil e adulto). Suponha que a varia\u00e7\u00e3o no volume de vendas, para o per\u00edodo registrado, tenha se dado de forma linear, como mostrado no gr\u00e1fico, e que essa tend\u00eancia se mantenha a mesma para os pr\u00f3ximos dez dias. 18 000 Adulto 15 000 8 000 7 000 Infantil 10 20 30 Dias ",
         "exam": "2022"
     },
     {
@@ -5401,7 +5401,7 @@
         "exam": "2022"
     },
     {
-        "question": "",
+        "question": "A sequ\u00eancia de treinamentos que o atleta realizar\u00e1 na 24\u00aa semana de treinos \u00e9",
         "number": 159,
         "id": "ENEM_2022_159",
         "alternatives": [
@@ -5423,19 +5423,19 @@
         "ML": false,
         "BK": false,
         "options": [
-            "T R T R R T R. 3 4 5",
-            "R T R T R R T . 3 4 5",
-            "R T R R T R T . 4 5 1",
-            "R R T R T R R. 5 1",
-            "R T R T R R T . 5 1 2"
+            "T3 R T4 R R T5 R.",
+            "R T3 R T4 R R T5.",
+            "R T4 R R T5 R T1.",
+            "R R T5 R T1 R R.",
+            "R T5 R T1 R R T2."
         ],
         "label": "b",
         "original_question": "Um atleta iniciou seu treinamento visando as competi\u00e7\u00f5es de fim de \nano. Seu treinamento consiste em cinco tipos diferentes de treinos: \ntreino T , treino T , treino T , treino T  e treino T . A sequ\u00eancia dos \n1 2 3 4 5\ntreinamentos deve seguir esta ordem:\nA  letra  R  significa  repouso.  Ap\u00f3s  completar  a  sequ\u00eancia  de \ntreinamentos,  o  atleta  come\u00e7a  novamente  a  sequ\u00eancia  a  partir do \ntreino T  e segue a ordem descrita. Ap\u00f3s 24 semanas completas de \n1\ntreinamento, se dar\u00e1 o in\u00edcio das competi\u00e7\u00f5es.\nA sequ\u00eancia de treinamentos que o atleta realizar\u00e1 na 24\u00aa semana \nde treinos \u00e9",
-        "context": "Um atleta iniciou seu treinamento visando as competi\u00e7\u00f5es de fim de ano. Seu treinamento consiste em cinco tipos diferentes de treinos: treino T , treino T , treino T , treino T e treino T . A sequ\u00eancia dos 1 2 3 4 5 treinamentos deve seguir esta ordem: A letra R significa repouso. Ap\u00f3s completar a sequ\u00eancia de treinamentos, o atleta come\u00e7a novamente a sequ\u00eancia a partir do treino T e segue a ordem descrita. Ap\u00f3s 24 semanas completas de 1 treinamento, se dar\u00e1 o in\u00edcio das competi\u00e7\u00f5es. A sequ\u00eancia de treinamentos que o atleta realizar\u00e1 na 24\u00aa semana de treinos \u00e9",
+        "context": "Um atleta iniciou seu treinamento visando as competi\u00e7\u00f5es de fim de ano. Seu treinamento consiste em cinco tipos diferentes de treinos: treino T1, treino T2, treino T3, treino T4 e treino T5. A sequ\u00eancia dos treinamentos deve seguir esta ordem: Dia 1\u00ba: T1, 2\u00ba: R, 3\u00ba: R, 4\u00ba: T2, 5\u00ba: R, 6\u00ba: R, 7\u00ba: T3, 8\u00ba: R, 9\u00ba: T4, 10\u00ba: R, 11\u00ba: R, 12\u00ba: T5, 13\u00ba: R. A letra R significa repouso. Ap\u00f3s completar a sequ\u00eancia de treinamentos, o atleta come\u00e7a novamente a sequ\u00eancia a partir do treino T1 e segue a ordem descrita. Ap\u00f3s 24 semanas completas de treinamento, se dar\u00e1 o in\u00edcio das competi\u00e7\u00f5es.",
         "exam": "2022"
     },
     {
-        "question": "",
+        "question": "Ap\u00f3s desdobrado o papel que restou na Figura 5, a figura plana que os estudantes obter\u00e3o ser\u00e1",
         "number": 160,
         "id": "ENEM_2022_160",
         "alternatives": [
@@ -5452,7 +5452,7 @@
         "subject": [],
         "DS": false,
         "TU": false,
-        "IU": false,
+        "IU": true,
         "MR": true,
         "ML": false,
         "BK": false,
@@ -5465,11 +5465,11 @@
         ],
         "label": "c",
         "original_question": "O  professor  de  artes  orientou  seus  estudantes  a  realizarem  a \nseguinte sequ\u00eancia de atividades:\n\u2022     Dobrar uma folha de papel em formato quadrado duas vezes, \nem  sequ\u00eancia,  ao  longo  das  linhas  tracejadas,  conforme \nilustrado nas figuras 1 e 2, para obter o papel dobrado, conforme  \nFigura 3.\n\uf0de \uf0de O\nO\nFigura 1 Figura 2 Figura 3\n\u2022     Em seguida, no papel dobrado da Figura 3, considerar o ponto R, \nsobre o segmento OM, sendo M o ponto m\u00e9dio do lado do quadrado \n1\noriginal, de modo que OR =   OM, tra\u00e7ar um arco de circunfer\u00eancia \n4\n1\nde raio medindo   OM com centro no ponto R, obtendo a Figura 4. \n2\nPor \u00faltimo, recortar o papel ao longo do arco de circunfer\u00eancia e \nexcluir a parte que cont\u00e9m o setor circular, obtendo o papel dobrado, \nconforme Figura 5.\nR\nO M \u21d2\nFigura 4 Figura 5\nAp\u00f3s desdobrado o papel que restou na Figura 5, a figura plana que os \nestudantes obter\u00e3o ser\u00e1",
-        "context": "O professor de artes orientou seus estudantes a realizarem a seguinte sequ\u00eancia de atividades: \u2022 Dobrar uma folha de papel em formato quadrado duas vezes, em sequ\u00eancia, ao longo das linhas tracejadas, conforme ilustrado nas figuras 1 e 2, para obter o papel dobrado, conforme Figura 3. \uf0de \uf0de O O Figura 1 Figura 2 Figura 3 \u2022 Em seguida, no papel dobrado da Figura 3, considerar o ponto R, sobre o segmento OM, sendo M o ponto m\u00e9dio do lado do quadrado 1 original, de modo que OR = OM, tra\u00e7ar um arco de circunfer\u00eancia 4 1 de raio medindo OM com centro no ponto R, obtendo a Figura 4. 2 Por \u00faltimo, recortar o papel ao longo do arco de circunfer\u00eancia e excluir a parte que cont\u00e9m o setor circular, obtendo o papel dobrado, conforme Figura 5. R O M \u21d2 Figura 4 Figura 5 Ap\u00f3s desdobrado o papel que restou na Figura 5, a figura plana que os estudantes obter\u00e3o ser\u00e1",
+        "context": "O professor de artes orientou seus estudantes a realizarem a seguinte sequ\u00eancia de atividades: \u2022 Dobrar uma folha de papel em formato quadrado duas vezes, em sequ\u00eancia, ao longo das linhas tracejadas, conforme ilustrado nas figuras 1 e 2, para obter o papel dobrado, conforme Figura 3. \uf0de \uf0de O O Figura 1 Figura 2 Figura 3 \u2022 Em seguida, no papel dobrado da Figura 3, considerar o ponto R, sobre o segmento OM, sendo M o ponto m\u00e9dio do lado do quadrado 1 original, de modo que OR = OM, tra\u00e7ar um arco de circunfer\u00eancia 4 1 de raio medindo OM com centro no ponto R, obtendo a Figura 4. 2 Por \u00faltimo, recortar o papel ao longo do arco de circunfer\u00eancia e excluir a parte que cont\u00e9m o setor circular, obtendo o papel dobrado, conforme Figura 5. R O M \u21d2 Figura 4 Figura 5 ",
         "exam": "2022"
     },
     {
-        "question": "",
+        "question": "Para isso, a empresa produzir\u00e1 esses novos chocolates com medida do raio da base, em cent\u00edmetro, igual a",
         "number": 161,
         "id": "ENEM_2022_161",
         "alternatives": [
@@ -5486,7 +5486,7 @@
         "subject": [],
         "DS": false,
         "TU": false,
-        "IU": false,
+        "IU": true,
         "MR": true,
         "ML": false,
         "BK": false,
@@ -5499,7 +5499,7 @@
         ],
         "label": "c",
         "original_question": "Uma  empresa  produz  e  vende  um  tipo  de  chocolate,  maci\u00e7o,  em \nformato de cone circular reto com as medidas do di\u00e2metro da base e da \naltura iguais a 8 cm e 10 cm, respectivamente, como apresenta a figura.\n8 cm\n10 cm\nDevido  a  um  aumento  de  pre\u00e7o  dos  ingredientes  utilizados  na \nprodu\u00e7\u00e3o desse chocolate, a empresa decide produzir esse mesmo \ntipo de chocolate com um volume 19% menor, no mesmo formato de \ncone circular reto com altura de 10 cm.\nPara isso, a empresa produzir\u00e1 esses novos chocolates com medida \ndo raio da base, em cent\u00edmetro, igual a",
-        "context": "Uma empresa produz e vende um tipo de chocolate, maci\u00e7o, em formato de cone circular reto com as medidas do di\u00e2metro da base e da altura iguais a 8 cm e 10 cm, respectivamente, como apresenta a figura. 8 cm 10 cm Devido a um aumento de pre\u00e7o dos ingredientes utilizados na produ\u00e7\u00e3o desse chocolate, a empresa decide produzir esse mesmo tipo de chocolate com um volume 19% menor, no mesmo formato de cone circular reto com altura de 10 cm. Para isso, a empresa produzir\u00e1 esses novos chocolates com medida do raio da base, em cent\u00edmetro, igual a",
+        "context": "Uma empresa produz e vende um tipo de chocolate, maci\u00e7o, em formato de cone circular reto com as medidas do di\u00e2metro da base e da altura iguais a 8 cm e 10 cm, respectivamente, como apresenta a figura. 8 cm 10 cm Devido a um aumento de pre\u00e7o dos ingredientes utilizados na produ\u00e7\u00e3o desse chocolate, a empresa decide produzir esse mesmo tipo de chocolate com um volume 19% menor, no mesmo formato de cone circular reto com altura de 10 cm.",
         "exam": "2022"
     },
     {
@@ -5559,11 +5559,11 @@
         "ML": false,
         "BK": false,
         "options": [
-            "9\ufffd \ufffd \ufffd 6 \ufffd2 ! 6!",
-            "9\ufffd \ufffd \ufffd 6 \ufffd2 !\ufffd2! 4! 9\ufffd",
-            "\ufffd \ufffd 4 \ufffd2 !\ufffd2! 2!",
-            "9\ufffd \ufffd \ufffd 2\ufffd2 !\ufffd2! \ufffd \ufffd 8!",
-            "9\ufffd\ufffd \ufffd1\ufffd \ufffd \ufffd \ufffd \ufffd 8 \ufffd2 !\ufffd2! \ufffd \ufffd"
+            "9 x (6! / (6 - 2)!)",
+            "9 x (6! / ((6 - 2)! x 2!))",
+            "9 x (4! / ((4 - 2)! x 2!))",
+            "9 x (2! / ((2 - 2)! x 2!))",
+            "9 x ((8! / ((8 - 2)! x 2!)) - 1)"
         ],
         "label": "b",
         "original_question": "Um pr\u00e9dio, com 9 andares e 8 apartamentos de 2 quartos por andar, \nest\u00e1  com  todos  os  seus  apartamentos  \u00e0  venda.  Os  apartamentos \ns\u00e3o identificados por n\u00fameros formados por dois algarismos, sendo \nque a dezena indica o andar onde se encontra o apartamento, e a \nunidade, um algarismo de 1 a 8, que diferencia os apartamentos de \num mesmo andar. Quanto \u00e0 incid\u00eancia de sol nos quartos desses \napartamentos, constatam-se as seguintes caracter\u00edsticas, em fun\u00e7\u00e3o \nde seus n\u00fameros de identifica\u00e7\u00e3o:\n\u2022  n  aqueles que finalizam em 1 ou 2, ambos os quartos recebem sol \napenas na parte da manh\u00e3; \n\u2022  n  aqueles que finalizam em 3, 4, 5 ou 6, apenas um dos quartos \nrecebe sol na parte da manh\u00e3;\n\u2022  n  aqueles que finalizam em 7 ou 8, ambos os quartos recebem sol \napenas na parte da tarde.\nUma  pessoa  pretende  comprar  2  desses  apartamentos  em  um \nmesmo andar, mas quer que, em ambos, pelo menos um dos quartos \nreceba sol na parte da manh\u00e3.\nDe  quantas  maneiras  diferentes  essa  pessoa  poder\u00e1  escolher  \n2 desses apartamentos para compra nas condi\u00e7\u00f5es desejadas?\n6!",
@@ -5605,7 +5605,7 @@
         "exam": "2022"
     },
     {
-        "question": "",
+        "question": "Quantas fileiras de poltronas a sala comportar\u00e1 ap\u00f3s essa amplia\u00e7\u00e3o?",
         "number": 165,
         "id": "ENEM_2022_165",
         "alternatives": [
@@ -5622,7 +5622,7 @@
         "subject": [],
         "DS": false,
         "TU": false,
-        "IU": false,
+        "IU": true,
         "MR": true,
         "ML": false,
         "BK": false,
@@ -5635,11 +5635,11 @@
         ],
         "label": "c",
         "original_question": "Em uma sala de cinema, para garantir que os espectadores vejam \ntoda a imagem projetada na tela, a disposi\u00e7\u00e3o das poltronas deve \nobedecer  \u00e0  norma  t\u00e9cnica  da  Associa\u00e7\u00e3o  Brasileira  de  Normas \nT\u00e9cnicas (ABNT), que faz as seguintes indica\u00e7\u00f5es:\n\u2022  D  ist\u00e2ncia m\u00ednima (D ) entre a tela de proje\u00e7\u00e3o e o encosto da \nm\u00edn\npoltrona da primeira fileira deve ser de, pelo menos, 60% da largura \n(L) da tela.\n\u2022  D  ist\u00e2ncia m\u00e1xima (D ) entre a tela de proje\u00e7\u00e3o e o encosto da \nm\u00e1x\npoltrona da \u00faltima fileira deve ser o dobro da largura (L) da tela, \nsendo aceit\u00e1vel uma dist\u00e2ncia de at\u00e9 2,9 vezes a largura (L) da \ntela.\nPara o espa\u00e7amento entre as fileiras de poltronas, \u00e9 considerada a \ndist\u00e2ncia de 1 metro entre os encostos de poltronas em duas fileiras \nconsecutivas.\nDispon\u00edvel em: www.ctav.gov.br. Acesso em: 14 nov. 2013.\nUma sala de cinema, cuja largura da tela mede 12 m, est\u00e1 montada \nem conformidade com as normas da ABNT e tem suas dimens\u00f5es \nespecificadas na figura.\n\u00c1rea de instala\u00e7\u00e3o\nde novas poltronas\nm Fileira\n \n1\nD = 2,9L\naceit\u00e1vel \nFileira\nm\nD = 2L\nm\u00e1x 1 \nD = 0,6L\nm\u00edn\nTela Fileira\nL\nPretende-se  ampliar  essa  sala,  mantendo-se  na  mesma  posi\u00e7\u00e3o \na tela e todas as poltronas j\u00e1 instaladas, ampliando-se ao m\u00e1ximo \na  sala  para  os  fundos  (\u00e1rea  de  instala\u00e7\u00e3o  de  novas  poltronas), \nrespeitando-se o limite aceit\u00e1vel da norma da ABNT. A inten\u00e7\u00e3o \u00e9 \naumentar, ao m\u00e1ximo, a quantidade de poltronas da sala, instalando-se  \nnovas unidades, iguais \u00e0s j\u00e1 instaladas.\nQuantas  fileiras  de  poltronas  a  sala  comportar\u00e1  ap\u00f3s  essa \namplia\u00e7\u00e3o?",
-        "context": "Em uma sala de cinema, para garantir que os espectadores vejam toda a imagem projetada na tela, a disposi\u00e7\u00e3o das poltronas deve obedecer \u00e0 norma t\u00e9cnica da Associa\u00e7\u00e3o Brasileira de Normas T\u00e9cnicas (ABNT), que faz as seguintes indica\u00e7\u00f5es: \u2022 D ist\u00e2ncia m\u00ednima (D ) entre a tela de proje\u00e7\u00e3o e o encosto da m\u00edn poltrona da primeira fileira deve ser de, pelo menos, 60% da largura (L) da tela. \u2022 D ist\u00e2ncia m\u00e1xima (D ) entre a tela de proje\u00e7\u00e3o e o encosto da m\u00e1x poltrona da \u00faltima fileira deve ser o dobro da largura (L) da tela, sendo aceit\u00e1vel uma dist\u00e2ncia de at\u00e9 2,9 vezes a largura (L) da tela. Para o espa\u00e7amento entre as fileiras de poltronas, \u00e9 considerada a dist\u00e2ncia de 1 metro entre os encostos de poltronas em duas fileiras consecutivas. Dispon\u00edvel em: www.ctav.gov.br. Acesso em: 14 nov. 2013. Uma sala de cinema, cuja largura da tela mede 12 m, est\u00e1 montada em conformidade com as normas da ABNT e tem suas dimens\u00f5es especificadas na figura. \u00c1rea de instala\u00e7\u00e3o de novas poltronas m Fileira 1 D = 2,9L aceit\u00e1vel Fileira m D = 2L m\u00e1x 1 D = 0,6L m\u00edn Tela Fileira L Pretende-se ampliar essa sala, mantendo-se na mesma posi\u00e7\u00e3o a tela e todas as poltronas j\u00e1 instaladas, ampliando-se ao m\u00e1ximo a sala para os fundos (\u00e1rea de instala\u00e7\u00e3o de novas poltronas), respeitando-se o limite aceit\u00e1vel da norma da ABNT. A inten\u00e7\u00e3o \u00e9 aumentar, ao m\u00e1ximo, a quantidade de poltronas da sala, instalando-se novas unidades, iguais \u00e0s j\u00e1 instaladas. Quantas fileiras de poltronas a sala comportar\u00e1 ap\u00f3s essa amplia\u00e7\u00e3o?",
+        "context": "Em uma sala de cinema, para garantir que os espectadores vejam toda a imagem projetada na tela, a disposi\u00e7\u00e3o das poltronas deve obedecer \u00e0 norma t\u00e9cnica da Associa\u00e7\u00e3o Brasileira de Normas T\u00e9cnicas (ABNT), que faz as seguintes indica\u00e7\u00f5es: \u2022 D ist\u00e2ncia m\u00ednima (D ) entre a tela de proje\u00e7\u00e3o e o encosto da m\u00edn poltrona da primeira fileira deve ser de, pelo menos, 60% da largura (L) da tela. \u2022 D ist\u00e2ncia m\u00e1xima (D ) entre a tela de proje\u00e7\u00e3o e o encosto da m\u00e1x poltrona da \u00faltima fileira deve ser o dobro da largura (L) da tela, sendo aceit\u00e1vel uma dist\u00e2ncia de at\u00e9 2,9 vezes a largura (L) da tela. Para o espa\u00e7amento entre as fileiras de poltronas, \u00e9 considerada a dist\u00e2ncia de 1 metro entre os encostos de poltronas em duas fileiras consecutivas. Dispon\u00edvel em: www.ctav.gov.br. Acesso em: 14 nov. 2013. Uma sala de cinema, cuja largura da tela mede 12 m, est\u00e1 montada em conformidade com as normas da ABNT e tem suas dimens\u00f5es especificadas na figura. \u00c1rea de instala\u00e7\u00e3o de novas poltronas m Fileira 1 D = 2,9L aceit\u00e1vel Fileira m D = 2L m\u00e1x 1 D = 0,6L m\u00edn Tela Fileira L Pretende-se ampliar essa sala, mantendo-se na mesma posi\u00e7\u00e3o a tela e todas as poltronas j\u00e1 instaladas, ampliando-se ao m\u00e1ximo a sala para os fundos (\u00e1rea de instala\u00e7\u00e3o de novas poltronas), respeitando-se o limite aceit\u00e1vel da norma da ABNT. A inten\u00e7\u00e3o \u00e9 aumentar, ao m\u00e1ximo, a quantidade de poltronas da sala, instalando-se novas unidades, iguais \u00e0s j\u00e1 instaladas.",
         "exam": "2022"
     },
     {
-        "question": "Considere duas estrelas E e F, sendo que a estrela E tem metade do raio da estrela F e o dobro da temperatura de F. Indique por L e L suas respectivas luminosidades. E F A rela\u00e7\u00e3o entre as luminosidades dessas duas estrelas \u00e9 dada por L",
+        "question": "Considere duas estrelas E e F, sendo que a estrela E tem metade do raio da estrela F e o dobro da temperatura de F. Indique por Le e Lf suas respectivas luminosidades. A rela\u00e7\u00e3o entre as luminosidades dessas duas estrelas \u00e9 dada por",
         "number": 166,
         "id": "ENEM_2022_166",
         "alternatives": [
@@ -5661,19 +5661,19 @@
         "ML": false,
         "BK": false,
         "options": [
-            "L = F E 2 L",
-            "L = F E 4",
-            "L = L E F",
-            "L = 4L E F E L = 8L",
-            "F"
+            "Le = Lf / 2",
+            "Le = Lf / 4",
+            "Le = Lf",
+            "Le = 4 \u22c5 Lf",
+            "Le = 8 \u22c5 Lf"
         ],
         "label": "d",
         "original_question": "A  luminosidade  L  de  uma  estrela  est\u00e1  relacionada  com  o \nraio R e com a temperatura T dessa estrela segundo a Lei de \nStefan-Boltzmann: L = c \u22c5 R 2 \u22c5 T 4, em que c \u00e9 uma constante \nigual para todas as estrelas.\nDispon\u00edvel em: http://ciencia.hsw.uol.com.br. Acesso em: 22 nov. 2013 (adaptado).\nConsidere duas estrelas E e F, sendo que a estrela E tem metade \ndo raio da estrela F e o dobro da temperatura de F.\nIndique por L  e L  suas respectivas luminosidades.\nE F\nA rela\u00e7\u00e3o entre as luminosidades dessas duas estrelas \u00e9 dada por\nL",
-        "context": "A luminosidade L de uma estrela est\u00e1 relacionada com o raio R e com a temperatura T dessa estrela segundo a Lei de Stefan-Boltzmann: L = c \u22c5 R 2 \u22c5 T 4, em que c \u00e9 uma constante igual para todas as estrelas. Dispon\u00edvel em: http://ciencia.hsw.uol.com.br. Acesso em: 22 nov. 2013 (adaptado).",
+        "context": "A luminosidade L de uma estrela est\u00e1 relacionada com o raio R e com a temperatura T dessa estrela segundo a Lei de Stefan-Boltzmann: L = c \u22c5 R^2 \u22c5 T^4, em que c \u00e9 uma constante igual para todas as estrelas. Dispon\u00edvel em: http://ciencia.hsw.uol.com.br. Acesso em: 22 nov. 2013 (adaptado).",
         "exam": "2022"
     },
     {
-        "question": "",
+        "question": "O n\u00famero que representa a mediana da quantidade de crian\u00e7as por fam\u00edlia nessa regi\u00e3o \u00e9",
         "number": 167,
         "id": "ENEM_2022_167",
         "alternatives": [
@@ -5690,7 +5690,7 @@
         "subject": [],
         "DS": false,
         "TU": false,
-        "IU": false,
+        "IU": true,
         "MR": true,
         "ML": false,
         "BK": false,
@@ -5703,11 +5703,11 @@
         ],
         "label": "b",
         "original_question": "Uma das informa\u00e7\u00f5es que pode auxiliar no dimensionamento do \nn\u00famero de pediatras que devem atender em uma Unidade B\u00e1sica de \nSa\u00fade (UBS) \u00e9 o n\u00famero que representa a mediana da quantidade \nde crian\u00e7as por fam\u00edlia existente na regi\u00e3o sob sua responsabilidade.  \nO quadro mostra a distribui\u00e7\u00e3o das frequ\u00eancias do n\u00famero de crian\u00e7as \npor fam\u00edlia na regi\u00e3o de responsabilidade de uma UBS.\nN\u00famero de crian\u00e7as por fam\u00edlia Frequ\u00eancia\n0 100\n1 400\n2 200\n3 150\n4 100\n5 50\nO n\u00famero que representa a mediana da quantidade de crian\u00e7as por \nfam\u00edlia nessa regi\u00e3o \u00e9",
-        "context": "Uma das informa\u00e7\u00f5es que pode auxiliar no dimensionamento do n\u00famero de pediatras que devem atender em uma Unidade B\u00e1sica de Sa\u00fade (UBS) \u00e9 o n\u00famero que representa a mediana da quantidade de crian\u00e7as por fam\u00edlia existente na regi\u00e3o sob sua responsabilidade. O quadro mostra a distribui\u00e7\u00e3o das frequ\u00eancias do n\u00famero de crian\u00e7as por fam\u00edlia na regi\u00e3o de responsabilidade de uma UBS. N\u00famero de crian\u00e7as por fam\u00edlia Frequ\u00eancia 0 100 1 400 2 200 3 150 4 100 5 50 O n\u00famero que representa a mediana da quantidade de crian\u00e7as por fam\u00edlia nessa regi\u00e3o \u00e9",
+        "context": "Uma das informa\u00e7\u00f5es que pode auxiliar no dimensionamento do n\u00famero de pediatras que devem atender em uma Unidade B\u00e1sica de Sa\u00fade (UBS) \u00e9 o n\u00famero que representa a mediana da quantidade de crian\u00e7as por fam\u00edlia existente na regi\u00e3o sob sua responsabilidade. O quadro mostra a distribui\u00e7\u00e3o das frequ\u00eancias do n\u00famero de crian\u00e7as por fam\u00edlia na regi\u00e3o de responsabilidade de uma UBS. N\u00famero de crian\u00e7as por fam\u00edlia Frequ\u00eancia 0 100 1 400 2 200 3 150 4 100 5 50 ",
         "exam": "2022"
     },
     {
-        "question": "",
+        "question": "O saque desse atleta foi invalidado",
         "number": 168,
         "id": "ENEM_2022_168",
         "alternatives": [
@@ -5724,7 +5724,7 @@
         "subject": [],
         "DS": false,
         "TU": false,
-        "IU": false,
+        "IU": true,
         "MR": true,
         "ML": false,
         "BK": false,
@@ -5737,11 +5737,11 @@
         ],
         "label": "d",
         "original_question": "Em  jogos  de  voleibol,  um  saque  \u00e9  invalidado  se  a  bola  atingir  o \nteto do gin\u00e1sio onde ocorre o jogo. Um jogador de uma equipe tem \num saque que atinge uma grande altura. Seu recorde foi quando a \nbatida do saque se iniciou a uma altura de 1,5 m do piso da quadra, \nx2 7x\ne a trajet\u00f3ria da bola foi descrita pela par\u00e1bola y \ufffd \ufffd \ufffd \ufffd12, em \n6 3\nque y representa a altura da bola em rela\u00e7\u00e3o ao eixo x (das abscissas) \nque est\u00e1 localizado a 1,5 m do piso da quadra, como representado \nna  figura.  Suponha  que  em  todas  as  partidas  algum  saque  desse \njogador atinja a mesma altura do seu recorde.\ny\n1,5 m 1,5 m 1,5 m x\nA equipe desse jogador participou de um torneio de voleibol no qual \njogou cinco partidas, cada uma delas em um gin\u00e1sio diferente. As alturas \ndos tetos desses gin\u00e1sios, em rela\u00e7\u00e3o aos pisos das quadras, s\u00e3o:\n\u2022  gin\u00e1sio I: 17 m; \n\u2022 gin\u00e1sio II: 18 m; \n\u2022  gin\u00e1sio III: 19 m; \n\u2022  gin\u00e1sio IV: 21 m;\n\u2022  gin\u00e1sio V: 40 m.\nO saque desse atleta foi invalidado",
-        "context": "Em jogos de voleibol, um saque \u00e9 invalidado se a bola atingir o teto do gin\u00e1sio onde ocorre o jogo. Um jogador de uma equipe tem um saque que atinge uma grande altura. Seu recorde foi quando a batida do saque se iniciou a uma altura de 1,5 m do piso da quadra, x2 7x e a trajet\u00f3ria da bola foi descrita pela par\u00e1bola y \ufffd \ufffd \ufffd \ufffd12, em 6 3 que y representa a altura da bola em rela\u00e7\u00e3o ao eixo x (das abscissas) que est\u00e1 localizado a 1,5 m do piso da quadra, como representado na figura. Suponha que em todas as partidas algum saque desse jogador atinja a mesma altura do seu recorde. y 1,5 m 1,5 m 1,5 m x A equipe desse jogador participou de um torneio de voleibol no qual jogou cinco partidas, cada uma delas em um gin\u00e1sio diferente. As alturas dos tetos desses gin\u00e1sios, em rela\u00e7\u00e3o aos pisos das quadras, s\u00e3o: \u2022 gin\u00e1sio I: 17 m; \u2022 gin\u00e1sio II: 18 m; \u2022 gin\u00e1sio III: 19 m; \u2022 gin\u00e1sio IV: 21 m; \u2022 gin\u00e1sio V: 40 m. O saque desse atleta foi invalidado",
+        "context": "Em jogos de voleibol, um saque \u00e9 invalidado se a bola atingir o teto do gin\u00e1sio onde ocorre o jogo. Um jogador de uma equipe tem um saque que atinge uma grande altura. Seu recorde foi quando a batida do saque se iniciou a uma altura de 1,5 m do piso da quadra, x2 7x e a trajet\u00f3ria da bola foi descrita pela par\u00e1bola y \ufffd \ufffd \ufffd \ufffd12, em 6 3 que y representa a altura da bola em rela\u00e7\u00e3o ao eixo x (das abscissas) que est\u00e1 localizado a 1,5 m do piso da quadra, como representado na figura. Suponha que em todas as partidas algum saque desse jogador atinja a mesma altura do seu recorde. y 1,5 m 1,5 m 1,5 m x A equipe desse jogador participou de um torneio de voleibol no qual jogou cinco partidas, cada uma delas em um gin\u00e1sio diferente. As alturas dos tetos desses gin\u00e1sios, em rela\u00e7\u00e3o aos pisos das quadras, s\u00e3o: \u2022 gin\u00e1sio I: 17 m; \u2022 gin\u00e1sio II: 18 m; \u2022 gin\u00e1sio III: 19 m; \u2022 gin\u00e1sio IV: 21 m; \u2022 gin\u00e1sio V: 40 m. ",
         "exam": "2022"
     },
     {
-        "question": "",
+        "question": "A quantidade de moedas de ouro que a empresa dever\u00e1 inserir ao pacote especial, para que seja mantida a mesma propor\u00e7\u00e3o existente entre as quantidades de gemas e de moedas de ouro contidas no pacote b\u00e1sico, \u00e9",
         "number": 169,
         "id": "ENEM_2022_169",
         "alternatives": [
@@ -5771,11 +5771,11 @@
         ],
         "label": "e",
         "original_question": "O pacote b\u00e1sico de um jogo para smartphone, que \u00e9 vendido a \nR$ 50,00, cont\u00e9m 2 000 gemas e 100 000 moedas de ouro, que \ns\u00e3o itens utiliz\u00e1veis nesse jogo.\nA empresa  que  comercializa  esse  jogo  decidiu  criar  um  pacote\nespecial que ser\u00e1 vendido a R$ 100,00 e que se diferenciar\u00e1 do pacote \nb\u00e1sico por apresentar maiores quantidades de gemas e moedas de \nouro. Para estimular as vendas desse novo pacote, a empresa decidiu \ninserir nele 6 000 gemas a mais, em rela\u00e7\u00e3o ao que o cliente teria caso \noptasse por comprar, com a mesma quantia, dois pacotes b\u00e1sicos.\nA quantidade de moedas de ouro que a empresa dever\u00e1 inserir \nao  pacote  especial,  para  que  seja  mantida  a  mesma  propor\u00e7\u00e3o \nexistente entre as quantidades de gemas e de moedas de ouro \ncontidas no pacote b\u00e1sico, \u00e9",
-        "context": "O pacote b\u00e1sico de um jogo para smartphone, que \u00e9 vendido a R$ 50,00, cont\u00e9m 2 000 gemas e 100 000 moedas de ouro, que s\u00e3o itens utiliz\u00e1veis nesse jogo. A empresa que comercializa esse jogo decidiu criar um pacote especial que ser\u00e1 vendido a R$ 100,00 e que se diferenciar\u00e1 do pacote b\u00e1sico por apresentar maiores quantidades de gemas e moedas de ouro. Para estimular as vendas desse novo pacote, a empresa decidiu inserir nele 6 000 gemas a mais, em rela\u00e7\u00e3o ao que o cliente teria caso optasse por comprar, com a mesma quantia, dois pacotes b\u00e1sicos. A quantidade de moedas de ouro que a empresa dever\u00e1 inserir ao pacote especial, para que seja mantida a mesma propor\u00e7\u00e3o existente entre as quantidades de gemas e de moedas de ouro contidas no pacote b\u00e1sico, \u00e9",
+        "context": "O pacote b\u00e1sico de um jogo para smartphone, que \u00e9 vendido a R$ 50,00, cont\u00e9m 2 000 gemas e 100 000 moedas de ouro, que s\u00e3o itens utiliz\u00e1veis nesse jogo. A empresa que comercializa esse jogo decidiu criar um pacote especial que ser\u00e1 vendido a R$ 100,00 e que se diferenciar\u00e1 do pacote b\u00e1sico por apresentar maiores quantidades de gemas e moedas de ouro. Para estimular as vendas desse novo pacote, a empresa decidiu inserir nele 6 000 gemas a mais, em rela\u00e7\u00e3o ao que o cliente teria caso optasse por comprar, com a mesma quantia, dois pacotes b\u00e1sicos.",
         "exam": "2022"
     },
     {
-        "question": "",
+        "question": "A soma do n\u00famero de voltas em torno dos dois circuitos, no segundo dia, ser\u00e1",
         "number": 170,
         "id": "ENEM_2022_170",
         "alternatives": [
@@ -5805,11 +5805,11 @@
         ],
         "label": "e",
         "original_question": "Um parque tem dois circuitos de tamanhos diferentes para corridas. \nUm corredor treina nesse parque e, no primeiro dia, inicia seu treino \npercorrendo 3 voltas em torno do circuito maior e 2 voltas em torno \ndo  menor,  perfazendo  um  total  de  1  800  m.  Em  seguida,  dando \ncontinuidade a seu treino, corre mais 2 voltas em torno do circuito \nmaior e 1 volta em torno do menor, percorrendo mais 1 100 m.\nNo segundo dia, ele pretende percorrer 5 000 m nos circuitos do \nparque, fazendo um n\u00famero inteiro de voltas em torno deles e de \nmodo que o n\u00famero de voltas seja o maior poss\u00edvel.\nA soma do n\u00famero de voltas em torno dos dois circuitos, no segundo \ndia, ser\u00e1",
-        "context": "Um parque tem dois circuitos de tamanhos diferentes para corridas. Um corredor treina nesse parque e, no primeiro dia, inicia seu treino percorrendo 3 voltas em torno do circuito maior e 2 voltas em torno do menor, perfazendo um total de 1 800 m. Em seguida, dando continuidade a seu treino, corre mais 2 voltas em torno do circuito maior e 1 volta em torno do menor, percorrendo mais 1 100 m. No segundo dia, ele pretende percorrer 5 000 m nos circuitos do parque, fazendo um n\u00famero inteiro de voltas em torno deles e de modo que o n\u00famero de voltas seja o maior poss\u00edvel. A soma do n\u00famero de voltas em torno dos dois circuitos, no segundo dia, ser\u00e1",
+        "context": "Um parque tem dois circuitos de tamanhos diferentes para corridas. Um corredor treina nesse parque e, no primeiro dia, inicia seu treino percorrendo 3 voltas em torno do circuito maior e 2 voltas em torno do menor, perfazendo um total de 1 800 m. Em seguida, dando continuidade a seu treino, corre mais 2 voltas em torno do circuito maior e 1 volta em torno do menor, percorrendo mais 1 100 m. No segundo dia, ele pretende percorrer 5 000 m nos circuitos do parque, fazendo um n\u00famero inteiro de voltas em torno deles e de modo que o n\u00famero de voltas seja o maior poss\u00edvel.",
         "exam": "2022"
     },
     {
-        "question": "",
+        "question": "O aumento na quantidade de compradores, em consequ\u00eancia dessa segunda divulga\u00e7\u00e3o, em rela\u00e7\u00e3o ao que foi registrado com a primeira divulga\u00e7\u00e3o, foi classificado como",
         "number": 171,
         "id": "ENEM_2022_171",
         "alternatives": [
@@ -5839,11 +5839,11 @@
         ],
         "label": "c",
         "original_question": "Uma equipe de marketing digital foi contratada para aumentar as vendas \nde um produto ofertado em um site de com\u00e9rcio eletr\u00f4nico. Para isso, \nelaborou um an\u00fancio que, quando o cliente clica sobre ele, \u00e9 direcionado \npara a p\u00e1gina de vendas do produto. Esse an\u00fancio foi divulgado em \nduas redes sociais, A e B, e foram obtidos os seguintes resultados:\n\u2022  rede  social  A:  o  an\u00fancio  foi  visualizado  por  3  000  pessoas;  \n10% delas clicaram sobre o an\u00fancio e foram redirecionadas para o \nsite; 3% das que clicaram sobre o an\u00fancio compraram o produto. \nO investimento feito para a publica\u00e7\u00e3o do an\u00fancio nessa rede foi \nde R$ 100,00;\n\u2022  rede  social  B:  o  an\u00fancio  foi  visualizado  por  1  000  pessoas;  \n30% delas clicaram sobre o an\u00fancio e foram redirecionadas para o \nsite; 2% das que clicaram sobre o an\u00fancio compraram o produto. \nO investimento feito para a publica\u00e7\u00e3o do an\u00fancio nessa rede foi \nde R$ 200,00.\nPor experi\u00eancia, o pessoal da equipe de marketing considera que \na quantidade de novas pessoas que ver\u00e3o o an\u00fancio \u00e9 diretamente \nproporcional  ao  investimento  realizado,  e  que  a  quantidade  de \npessoas que comprar\u00e3o o produto tamb\u00e9m se manter\u00e1 proporcional \n\u00e0 quantidade de pessoas que clicar\u00e3o sobre o an\u00fancio.\nO respons\u00e1vel pelo produto decidiu, ent\u00e3o, investir mais R$ 300,00 \nem cada uma das duas redes sociais para a divulga\u00e7\u00e3o desse an\u00fancio \ne obteve, de fato, o aumento proporcional esperado na quantidade \nde clientes que compraram esse produto. Para classificar o aumento \nobtido  na  quantidade  (Q)  de  compradores  desse  produto,  em \nconsequ\u00eancia dessa segunda divulga\u00e7\u00e3o, em rela\u00e7\u00e3o aos resultados \nobservados  na  primeira  divulga\u00e7\u00e3o,  o  respons\u00e1vel  pelo  produto \nadotou o seguinte crit\u00e9rio:\n\u2022  Q \u2264 60%: n\u00e3o satisfat\u00f3rio;\n\u2022  60% < Q \u2264 100%: regular;\n\u2022  100% < Q \u2264 150%: bom;\n\u2022  150% < Q \u2264 190%: muito bom;\n\u2022  190% < Q \u2264 200%: excelente.\nO aumento na quantidade de compradores, em consequ\u00eancia dessa \nsegunda divulga\u00e7\u00e3o, em rela\u00e7\u00e3o ao que foi registrado com a primeira \ndivulga\u00e7\u00e3o, foi classificado como",
-        "context": "Uma equipe de marketing digital foi contratada para aumentar as vendas de um produto ofertado em um site de com\u00e9rcio eletr\u00f4nico. Para isso, elaborou um an\u00fancio que, quando o cliente clica sobre ele, \u00e9 direcionado para a p\u00e1gina de vendas do produto. Esse an\u00fancio foi divulgado em duas redes sociais, A e B, e foram obtidos os seguintes resultados: \u2022 rede social A: o an\u00fancio foi visualizado por 3 000 pessoas; 10% delas clicaram sobre o an\u00fancio e foram redirecionadas para o site; 3% das que clicaram sobre o an\u00fancio compraram o produto. O investimento feito para a publica\u00e7\u00e3o do an\u00fancio nessa rede foi de R$ 100,00; \u2022 rede social B: o an\u00fancio foi visualizado por 1 000 pessoas; 30% delas clicaram sobre o an\u00fancio e foram redirecionadas para o site; 2% das que clicaram sobre o an\u00fancio compraram o produto. O investimento feito para a publica\u00e7\u00e3o do an\u00fancio nessa rede foi de R$ 200,00. Por experi\u00eancia, o pessoal da equipe de marketing considera que a quantidade de novas pessoas que ver\u00e3o o an\u00fancio \u00e9 diretamente proporcional ao investimento realizado, e que a quantidade de pessoas que comprar\u00e3o o produto tamb\u00e9m se manter\u00e1 proporcional \u00e0 quantidade de pessoas que clicar\u00e3o sobre o an\u00fancio. O respons\u00e1vel pelo produto decidiu, ent\u00e3o, investir mais R$ 300,00 em cada uma das duas redes sociais para a divulga\u00e7\u00e3o desse an\u00fancio e obteve, de fato, o aumento proporcional esperado na quantidade de clientes que compraram esse produto. Para classificar o aumento obtido na quantidade (Q) de compradores desse produto, em consequ\u00eancia dessa segunda divulga\u00e7\u00e3o, em rela\u00e7\u00e3o aos resultados observados na primeira divulga\u00e7\u00e3o, o respons\u00e1vel pelo produto adotou o seguinte crit\u00e9rio: \u2022 Q \u2264 60%: n\u00e3o satisfat\u00f3rio; \u2022 60% < Q \u2264 100%: regular; \u2022 100% < Q \u2264 150%: bom; \u2022 150% < Q \u2264 190%: muito bom; \u2022 190% < Q \u2264 200%: excelente. O aumento na quantidade de compradores, em consequ\u00eancia dessa segunda divulga\u00e7\u00e3o, em rela\u00e7\u00e3o ao que foi registrado com a primeira divulga\u00e7\u00e3o, foi classificado como",
+        "context": "Uma equipe de marketing digital foi contratada para aumentar as vendas de um produto ofertado em um site de com\u00e9rcio eletr\u00f4nico. Para isso, elaborou um an\u00fancio que, quando o cliente clica sobre ele, \u00e9 direcionado para a p\u00e1gina de vendas do produto. Esse an\u00fancio foi divulgado em duas redes sociais, A e B, e foram obtidos os seguintes resultados: \u2022 rede social A: o an\u00fancio foi visualizado por 3 000 pessoas; 10% delas clicaram sobre o an\u00fancio e foram redirecionadas para o site; 3% das que clicaram sobre o an\u00fancio compraram o produto. O investimento feito para a publica\u00e7\u00e3o do an\u00fancio nessa rede foi de R$ 100,00; \u2022 rede social B: o an\u00fancio foi visualizado por 1 000 pessoas; 30% delas clicaram sobre o an\u00fancio e foram redirecionadas para o site; 2% das que clicaram sobre o an\u00fancio compraram o produto. O investimento feito para a publica\u00e7\u00e3o do an\u00fancio nessa rede foi de R$ 200,00. Por experi\u00eancia, o pessoal da equipe de marketing considera que a quantidade de novas pessoas que ver\u00e3o o an\u00fancio \u00e9 diretamente proporcional ao investimento realizado, e que a quantidade de pessoas que comprar\u00e3o o produto tamb\u00e9m se manter\u00e1 proporcional \u00e0 quantidade de pessoas que clicar\u00e3o sobre o an\u00fancio. O respons\u00e1vel pelo produto decidiu, ent\u00e3o, investir mais R$ 300,00 em cada uma das duas redes sociais para a divulga\u00e7\u00e3o desse an\u00fancio e obteve, de fato, o aumento proporcional esperado na quantidade de clientes que compraram esse produto. Para classificar o aumento obtido na quantidade (Q) de compradores desse produto, em consequ\u00eancia dessa segunda divulga\u00e7\u00e3o, em rela\u00e7\u00e3o aos resultados observados na primeira divulga\u00e7\u00e3o, o respons\u00e1vel pelo produto adotou o seguinte crit\u00e9rio: \u2022 Q \u2264 60%: n\u00e3o satisfat\u00f3rio; \u2022 60% < Q \u2264 100%: regular; \u2022 100% < Q \u2264 150%: bom; \u2022 150% < Q \u2264 190%: muito bom; \u2022 190% < Q \u2264 200%: excelente.",
         "exam": "2022"
     },
     {
-        "question": "",
+        "question": "Para ser fiel \u00e0 divulga\u00e7\u00e3o feita, a quantidade m\u00ednima de cores que a montadora dever\u00e1 disponibilizar a seus clientes \u00e9",
         "number": 172,
         "id": "ENEM_2022_172",
         "alternatives": [
@@ -5873,11 +5873,11 @@
         ],
         "label": "b",
         "original_question": "Uma montadora de autom\u00f3veis divulgou que oferta a seus clientes \nmais de 1 000 configura\u00e7\u00f5es diferentes de carro, variando o modelo, a \nmotoriza\u00e7\u00e3o, os opcionais e a cor do ve\u00edculo. Atualmente, ela oferece \n7 modelos de carros com 2 tipos de motores: 1.0 e 1.6. J\u00e1 em rela\u00e7\u00e3o \naos opcionais, existem 3 escolhas poss\u00edveis: central multim\u00eddia, rodas \nde liga leve e bancos de couro, podendo o cliente optar por incluir \num, dois, tr\u00eas ou nenhum dos opcionais dispon\u00edveis.\nPara ser fiel \u00e0 divulga\u00e7\u00e3o feita, a quantidade m\u00ednima de cores que a \nmontadora dever\u00e1 disponibilizar a seus clientes \u00e9",
-        "context": "Uma montadora de autom\u00f3veis divulgou que oferta a seus clientes mais de 1 000 configura\u00e7\u00f5es diferentes de carro, variando o modelo, a motoriza\u00e7\u00e3o, os opcionais e a cor do ve\u00edculo. Atualmente, ela oferece 7 modelos de carros com 2 tipos de motores: 1.0 e 1.6. J\u00e1 em rela\u00e7\u00e3o aos opcionais, existem 3 escolhas poss\u00edveis: central multim\u00eddia, rodas de liga leve e bancos de couro, podendo o cliente optar por incluir um, dois, tr\u00eas ou nenhum dos opcionais dispon\u00edveis. Para ser fiel \u00e0 divulga\u00e7\u00e3o feita, a quantidade m\u00ednima de cores que a montadora dever\u00e1 disponibilizar a seus clientes \u00e9",
+        "context": "Uma montadora de autom\u00f3veis divulgou que oferta a seus clientes mais de 1 000 configura\u00e7\u00f5es diferentes de carro, variando o modelo, a motoriza\u00e7\u00e3o, os opcionais e a cor do ve\u00edculo. Atualmente, ela oferece 7 modelos de carros com 2 tipos de motores: 1.0 e 1.6. J\u00e1 em rela\u00e7\u00e3o aos opcionais, existem 3 escolhas poss\u00edveis: central multim\u00eddia, rodas de liga leve e bancos de couro, podendo o cliente optar por incluir um, dois, tr\u00eas ou nenhum dos opcionais dispon\u00edveis. ",
         "exam": "2022"
     },
     {
-        "question": "",
+        "question": "A planifica\u00e7\u00e3o do cubo da Figura 2, conforme o tipo de planifica\u00e7\u00e3o apresentada na Figura 1, \u00e9 A D B E C",
         "number": 173,
         "id": "ENEM_2022_173",
         "alternatives": [],
@@ -5888,18 +5888,18 @@
         "subject": [],
         "DS": false,
         "TU": false,
-        "IU": false,
+        "IU": true,
         "MR": true,
         "ML": false,
         "BK": false,
         "options": [],
         "label": "d",
         "original_question": "Dentre as diversas planifica\u00e7\u00f5es poss\u00edveis para o cubo, uma delas \n\u00e9 a que se encontra apresentada na Figura 1.\nFigura 1\nEm um cubo, foram pintados, em tr\u00eas de suas faces, quadrados de \ncor cinza escura, que ocupam um quarto dessas faces, tendo esses tr\u00eas \nquadrados um v\u00e9rtice em comum, conforme ilustrado na Figura 2.\nFigura 2\nA planifica\u00e7\u00e3o do cubo da Figura 2, conforme o tipo de planifica\u00e7\u00e3o \napresentada na Figura 1, \u00e9\nA D\nB E\nC",
-        "context": "Dentre as diversas planifica\u00e7\u00f5es poss\u00edveis para o cubo, uma delas \u00e9 a que se encontra apresentada na Figura 1. Figura 1 Em um cubo, foram pintados, em tr\u00eas de suas faces, quadrados de cor cinza escura, que ocupam um quarto dessas faces, tendo esses tr\u00eas quadrados um v\u00e9rtice em comum, conforme ilustrado na Figura 2. Figura 2 A planifica\u00e7\u00e3o do cubo da Figura 2, conforme o tipo de planifica\u00e7\u00e3o apresentada na Figura 1, \u00e9 A D B E C",
+        "context": "Dentre as diversas planifica\u00e7\u00f5es poss\u00edveis para o cubo, uma delas \u00e9 a que se encontra apresentada na Figura 1. Figura 1 Em um cubo, foram pintados, em tr\u00eas de suas faces, quadrados de cor cinza escura, que ocupam um quarto dessas faces, tendo esses tr\u00eas quadrados um v\u00e9rtice em comum, conforme ilustrado na Figura 2. Figura 2 ",
         "exam": "2022"
     },
     {
-        "question": "",
+        "question": "Qual \u00e9 o d\u00edgito verificador N5 dessa ag\u00eancia banc\u00e1ria?",
         "number": 174,
         "id": "ENEM_2022_174",
         "alternatives": [
@@ -5929,11 +5929,11 @@
         ],
         "label": "c",
         "original_question": "Cada  n\u00famero  que  identifica  uma  ag\u00eancia  banc\u00e1ria  tem  quatro \nd\u00edgitos: N , N , N , N  mais um d\u00edgito verificador N .\n1 2 3 4 5\nN N N N N\n1 2 3 4 5\nTodos esses d\u00edgitos s\u00e3o n\u00fameros naturais pertencentes ao conjunto \n{0, 1, 2, 3, 4, 5, 6, 7, 8, 9}. Para a determina\u00e7\u00e3o de N , primeiramente \n5\nmultiplica-se ordenadamente os quatro primeiros d\u00edgitos do n\u00famero \nda ag\u00eancia por 5, 4, 3 e 2, respectivamente, somam-se os resultados \ne obt\u00e9m-se S = 5 N  + 4 N  + 3 N  + 2 N .\n1 2 3 4\nPosteriormente,  encontra-se  o  resto  da  divis\u00e3o  de  S  por  11, \ndenotando por R esse resto. Dessa forma, N  \u00e9 a diferen\u00e7a 11 - R.\n5\nConsidere o n\u00famero de uma ag\u00eancia banc\u00e1ria cujos quatro primeiros \nd\u00edgitos s\u00e3o 0100.\nQual \u00e9 o d\u00edgito verificador N  dessa ag\u00eancia banc\u00e1ria?\n5",
-        "context": "Cada n\u00famero que identifica uma ag\u00eancia banc\u00e1ria tem quatro d\u00edgitos: N , N , N , N mais um d\u00edgito verificador N . 1 2 3 4 5 N N N N N 1 2 3 4 5 Todos esses d\u00edgitos s\u00e3o n\u00fameros naturais pertencentes ao conjunto {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}. Para a determina\u00e7\u00e3o de N , primeiramente 5 multiplica-se ordenadamente os quatro primeiros d\u00edgitos do n\u00famero da ag\u00eancia por 5, 4, 3 e 2, respectivamente, somam-se os resultados e obt\u00e9m-se S = 5 N + 4 N + 3 N + 2 N . 1 2 3 4 Posteriormente, encontra-se o resto da divis\u00e3o de S por 11, denotando por R esse resto. Dessa forma, N \u00e9 a diferen\u00e7a 11 - R. 5 Considere o n\u00famero de uma ag\u00eancia banc\u00e1ria cujos quatro primeiros d\u00edgitos s\u00e3o 0100. Qual \u00e9 o d\u00edgito verificador N dessa ag\u00eancia banc\u00e1ria? 5",
+        "context": "Cada n\u00famero que identifica uma ag\u00eancia banc\u00e1ria tem quatro d\u00edgitos: N1, N2, N3, N4 mais um d\u00edgito verificador N5. Todos esses d\u00edgitos s\u00e3o n\u00fameros naturais pertencentes ao conjunto {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}. Para a determina\u00e7\u00e3o de N5, primeiramente multiplica-se ordenadamente os quatro primeiros d\u00edgitos do n\u00famero da ag\u00eancia por 5, 4, 3 e 2, respectivamente, somam-se os resultados e obt\u00e9m-se S = 5 N1 + 4 N2 + 3 N3 + 2 N4. Posteriormente, encontra-se o resto da divis\u00e3o de S por 11, denotando por R esse resto. Dessa forma, N5 \u00e9 a diferen\u00e7a 11 - R. 5 Considere o n\u00famero de uma ag\u00eancia banc\u00e1ria cujos quatro primeiros d\u00edgitos s\u00e3o 0100.",
         "exam": "2022"
     },
     {
-        "question": "",
+        "question": "Esse refrigerador tem altura e largura m\u00e1ximas, em metro, respectivamente, iguais a",
         "number": 175,
         "id": "ENEM_2022_175",
         "alternatives": [
@@ -5963,11 +5963,11 @@
         ],
         "label": "a",
         "original_question": "Um casal est\u00e1 reformando a cozinha de casa e decidiu comprar um \nrefrigerador novo. Observando a planta da nova cozinha, desenhada  \nna  escala  de  1  :  50,  notaram  que  o  espa\u00e7o  destinado  ao\nrefrigerador tinha 3,8 cm de altura e 1,6 cm de largura. Eles sabem \nque os fabricantes de refrigeradores indicam que, para um bom \nfuncionamento e f\u00e1cil manejo na limpeza, esses eletrodom\u00e9sticos \ndevem ser colocados em espa\u00e7os que permitam uma dist\u00e2ncia de, \npelo menos, 10 cm de outros m\u00f3veis ou paredes, tanto na parte \nsuperior quanto nas laterais. O casal comprou um refrigerador que \ncaberia  no  local  a  ele  destinado  na  nova  cozinha,  seguindo  as \ninstru\u00e7\u00f5es do fabricante.\nEsse  refrigerador  tem  altura  e  largura  m\u00e1ximas,  em  metro, \nrespectivamente, iguais a",
-        "context": "Um casal est\u00e1 reformando a cozinha de casa e decidiu comprar um refrigerador novo. Observando a planta da nova cozinha, desenhada na escala de 1 : 50, notaram que o espa\u00e7o destinado ao refrigerador tinha 3,8 cm de altura e 1,6 cm de largura. Eles sabem que os fabricantes de refrigeradores indicam que, para um bom funcionamento e f\u00e1cil manejo na limpeza, esses eletrodom\u00e9sticos devem ser colocados em espa\u00e7os que permitam uma dist\u00e2ncia de, pelo menos, 10 cm de outros m\u00f3veis ou paredes, tanto na parte superior quanto nas laterais. O casal comprou um refrigerador que caberia no local a ele destinado na nova cozinha, seguindo as instru\u00e7\u00f5es do fabricante. Esse refrigerador tem altura e largura m\u00e1ximas, em metro, respectivamente, iguais a",
+        "context": "Um casal est\u00e1 reformando a cozinha de casa e decidiu comprar um refrigerador novo. Observando a planta da nova cozinha, desenhada na escala de 1 : 50, notaram que o espa\u00e7o destinado ao refrigerador tinha 3,8 cm de altura e 1,6 cm de largura. Eles sabem que os fabricantes de refrigeradores indicam que, para um bom funcionamento e f\u00e1cil manejo na limpeza, esses eletrodom\u00e9sticos devem ser colocados em espa\u00e7os que permitam uma dist\u00e2ncia de, pelo menos, 10 cm de outros m\u00f3veis ou paredes, tanto na parte superior quanto nas laterais. O casal comprou um refrigerador que caberia no local a ele destinado na nova cozinha, seguindo as instru\u00e7\u00f5es do fabricante.",
         "exam": "2022"
     },
     {
-        "question": "",
+        "question": "O n\u00famero m\u00ednimo de dias necess\u00e1rios para a realiza\u00e7\u00e3o desse torneio \u00e9",
         "number": 176,
         "id": "ENEM_2022_176",
         "alternatives": [
@@ -5997,7 +5997,7 @@
         ],
         "label": "b",
         "original_question": "Foram convidadas 32 equipes para um torneio de futebol, que foram \ndivididas em 8 grupos com 4 equipes, sendo que, dentro de um grupo, \ncada equipe disputa uma \u00fanica partida contra cada uma das demais \nequipes de seu grupo. A primeira e a segunda colocadas de cada grupo \nseguem para realizar as 8 partidas da pr\u00f3xima fase do torneio, chamada \noitavas de final. Os vencedores das partidas das oitavas de final seguem \npara jogar as 4 partidas das quartas de final. Os vencedores das quartas \nde final disputam as 2 partidas das semifinais, e os vencedores avan\u00e7am \npara a grande final, que define a campe\u00e3 do torneio.\nPelas regras do torneio, cada equipe deve ter um per\u00edodo de descanso \nde, no m\u00ednimo, 3 dias entre dois jogos por ela disputados, ou seja, se \num time disputar uma partida, por exemplo, num domingo, s\u00f3 poder\u00e1 \ndisputar a partida seguinte a partir da quinta-feira da mesma semana.\nO n\u00famero m\u00ednimo de dias necess\u00e1rios para a realiza\u00e7\u00e3o desse torneio \u00e9",
-        "context": "Foram convidadas 32 equipes para um torneio de futebol, que foram divididas em 8 grupos com 4 equipes, sendo que, dentro de um grupo, cada equipe disputa uma \u00fanica partida contra cada uma das demais equipes de seu grupo. A primeira e a segunda colocadas de cada grupo seguem para realizar as 8 partidas da pr\u00f3xima fase do torneio, chamada oitavas de final. Os vencedores das partidas das oitavas de final seguem para jogar as 4 partidas das quartas de final. Os vencedores das quartas de final disputam as 2 partidas das semifinais, e os vencedores avan\u00e7am para a grande final, que define a campe\u00e3 do torneio. Pelas regras do torneio, cada equipe deve ter um per\u00edodo de descanso de, no m\u00ednimo, 3 dias entre dois jogos por ela disputados, ou seja, se um time disputar uma partida, por exemplo, num domingo, s\u00f3 poder\u00e1 disputar a partida seguinte a partir da quinta-feira da mesma semana. O n\u00famero m\u00ednimo de dias necess\u00e1rios para a realiza\u00e7\u00e3o desse torneio \u00e9",
+        "context": "Foram convidadas 32 equipes para um torneio de futebol, que foram divididas em 8 grupos com 4 equipes, sendo que, dentro de um grupo, cada equipe disputa uma \u00fanica partida contra cada uma das demais equipes de seu grupo. A primeira e a segunda colocadas de cada grupo seguem para realizar as 8 partidas da pr\u00f3xima fase do torneio, chamada oitavas de final. Os vencedores das partidas das oitavas de final seguem para jogar as 4 partidas das quartas de final. Os vencedores das quartas de final disputam as 2 partidas das semifinais, e os vencedores avan\u00e7am para a grande final, que define a campe\u00e3 do torneio. Pelas regras do torneio, cada equipe deve ter um per\u00edodo de descanso de, no m\u00ednimo, 3 dias entre dois jogos por ela disputados, ou seja, se um time disputar uma partida, por exemplo, num domingo, s\u00f3 poder\u00e1 disputar a partida seguinte a partir da quinta-feira da mesma semana.",
         "exam": "2022"
     },
     {
@@ -6012,7 +6012,7 @@
         "subject": [],
         "DS": false,
         "TU": false,
-        "IU": false,
+        "IU": true,
         "MR": true,
         "ML": false,
         "BK": false,
@@ -6040,7 +6040,7 @@
         "subject": [],
         "DS": false,
         "TU": false,
-        "IU": false,
+        "IU": true,
         "MR": true,
         "ML": false,
         "BK": false,
@@ -6057,7 +6057,7 @@
         "exam": "2022"
     },
     {
-        "question": "",
+        "question": "Qual \u00e9 a probabilidade de o time campe\u00e3o ser aquele que venceu a primeira partida da World Series?",
         "number": 179,
         "id": "ENEM_2022_179",
         "alternatives": [],
@@ -6072,14 +6072,20 @@
         "MR": true,
         "ML": false,
         "BK": false,
-        "options": [],
+        "options": [
+            "35/64",
+            "40/64",
+            "42/64",
+            "44/64",
+            "52/64"
+        ],
         "label": "c",
         "original_question": "A  World  Series  \u00e9  a  decis\u00e3o  do  campeonato  norte-americano  de \nbeisebol. Os dois times que chegam a essa fase jogam, entre si, at\u00e9 \nsete partidas. O primeiro desses times que completar quatro vit\u00f3rias \n\u00e9 declarado campe\u00e3o.\nConsidere que, em todas as partidas, a probabilidade de qualquer \n1\num dos dois times vencer \u00e9 sempre  .\n2\nQual \u00e9 a probabilidade de o time campe\u00e3o ser aquele que venceu a \nprimeira partida da World Series?\n35 44\nA D\n64 64\n40 52\nB E\n64 64\n42\nC\n64",
-        "context": "A World Series \u00e9 a decis\u00e3o do campeonato norte-americano de beisebol. Os dois times que chegam a essa fase jogam, entre si, at\u00e9 sete partidas. O primeiro desses times que completar quatro vit\u00f3rias \u00e9 declarado campe\u00e3o. Considere que, em todas as partidas, a probabilidade de qualquer 1 um dos dois times vencer \u00e9 sempre . 2 Qual \u00e9 a probabilidade de o time campe\u00e3o ser aquele que venceu a primeira partida da World Series? 35 44 A D 64 64 40 52 B E 64 64 42 C 64",
+        "context": "A World Series \u00e9 a decis\u00e3o do campeonato norte-americano de beisebol. Os dois times que chegam a essa fase jogam, entre si, at\u00e9 sete partidas. O primeiro desses times que completar quatro vit\u00f3rias \u00e9 declarado campe\u00e3o. Considere que, em todas as partidas, a probabilidade de qualquer um dos dois times vencer \u00e9 sempre 1/2.",
         "exam": "2022"
     },
     {
-        "question": "",
+        "question": "Qual \u00e9 a mediana, em milh\u00e3o de reais, dos valores dos lucros apurados pela empresa nesse ano?",
         "number": 180,
         "id": "ENEM_2022_180",
         "alternatives": [
@@ -6096,7 +6102,7 @@
         "subject": [],
         "DS": false,
         "TU": false,
-        "IU": false,
+        "IU": true,
         "MR": true,
         "ML": false,
         "BK": false,
@@ -6109,7 +6115,7 @@
         ],
         "label": "d",
         "original_question": "O  gr\u00e1fico  apresenta  os  totais  de  receitas  e  despesas  de  uma\nempresa, expressos em milh\u00e3o de reais, no decorrer dos meses de \num determinado ano. A empresa obt\u00e9m lucro quando a diferen\u00e7a \nentre  receita  e  despesa  \u00e9  positiva  e  tem  preju\u00edzo  quando  essa \ndiferen\u00e7a \u00e9 negativa.\n9\n8\n7\n6\n5\n4\n3\n2\n1\n0\nJan.  Fev.  Mar.  Abr.  Maio  Jun.  Jul.   Ago.  Set.  Out.  Nov.  Dez.\nReceitas             Despesas\nQual \u00e9 a mediana, em milh\u00e3o de reais, dos valores dos lucros apurados \npela empresa nesse ano?",
-        "context": "O gr\u00e1fico apresenta os totais de receitas e despesas de uma empresa, expressos em milh\u00e3o de reais, no decorrer dos meses de um determinado ano. A empresa obt\u00e9m lucro quando a diferen\u00e7a entre receita e despesa \u00e9 positiva e tem preju\u00edzo quando essa diferen\u00e7a \u00e9 negativa. 9 8 7 6 5 4 3 2 1 0 Jan. Fev. Mar. Abr. Maio Jun. Jul. Ago. Set. Out. Nov. Dez. Receitas Despesas Qual \u00e9 a mediana, em milh\u00e3o de reais, dos valores dos lucros apurados pela empresa nesse ano?",
+        "context": "O gr\u00e1fico apresenta os totais de receitas e despesas de uma empresa, expressos em milh\u00e3o de reais, no decorrer dos meses de um determinado ano. A empresa obt\u00e9m lucro quando a diferen\u00e7a entre receita e despesa \u00e9 positiva e tem preju\u00edzo quando essa diferen\u00e7a \u00e9 negativa. 9 8 7 6 5 4 3 2 1 0 Jan. Fev. Mar. Abr. Maio Jun. Jul. Ago. Set. Out. Nov. Dez. Receitas Despesas",
         "exam": "2022"
     }
 ]
