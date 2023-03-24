@@ -3485,7 +3485,7 @@
         "subject": [],
         "DS": false,
         "TU": false,
-        "IU": false,
+        "IU": true,
         "MR": true,
         "ML": false,
         "BK": false,
@@ -3737,7 +3737,7 @@
         "ML": false,
         "BK": false,
         "options": [
-            "0.25 A",
+            "0,25 A",
             "0,33 A",
             "0,75 A",
             "1,00 A",
@@ -3955,7 +3955,7 @@
         ],
         "label": "d",
         "original_question": "Um pai faz um balan\u00e7o utilizando dois segmentos paralelos e iguais \nda mesma corda para fixar uma t\u00e1bua a uma barra horizontal. Por \nseguran\u00e7a, opta por um tipo de corda cuja tens\u00e3o de ruptura seja \n25% superior \u00e0 tens\u00e3o m\u00e1xima calculada nas seguintes condi\u00e7\u00f5es:\n\u2022  O   \u00e2ngulo m\u00e1ximo atingido pelo balan\u00e7o em rela\u00e7\u00e3o \u00e0 vertical \u00e9 \nigual a 90\u00b0;\n\u2022  Os filhos utilizar\u00e3o o balan\u00e7o at\u00e9 que tenham uma massa de 24 kg.\nAl\u00e9m disso, ele aproxima o movimento do balan\u00e7o para o movimento \ncircular uniforme, considera que a acelera\u00e7\u00e3o da gravidade \u00e9 igual a \nm\n10  e despreza for\u00e7as dissipativas.\ns2\nQual \u00e9 a tens\u00e3o de ruptura da corda escolhida?",
-        "context": "Um pai faz um balan\u00e7o utilizando dois segmentos paralelos e iguais da mesma corda para fixar uma t\u00e1bua a uma barra horizontal. Por seguran\u00e7a, opta por um tipo de corda cuja tens\u00e3o de ruptura seja 25% superior \u00e0 tens\u00e3o m\u00e1xima calculada nas seguintes condi\u00e7\u00f5es: \u2022 O \u00e2ngulo m\u00e1ximo atingido pelo balan\u00e7o em rela\u00e7\u00e3o \u00e0 vertical \u00e9 igual a 90\u00b0; \u2022 Os filhos utilizar\u00e3o o balan\u00e7o at\u00e9 que tenham uma massa de 24 kg. Al\u00e9m disso, ele aproxima o movimento do balan\u00e7o para o movimento circular uniforme, considera que a acelera\u00e7\u00e3o da gravidade \u00e9 igual a 10 m/s2 e despreza for\u00e7as dissipativas.",
+        "context": "Um pai faz um balan\u00e7o utilizando dois segmentos paralelos e iguais da mesma corda para fixar uma t\u00e1bua a uma barra horizontal. Por seguran\u00e7a, opta por um tipo de corda cuja tens\u00e3o de ruptura seja 25% superior \u00e0 tens\u00e3o m\u00e1xima calculada nas seguintes condi\u00e7\u00f5es: \u2022 O \u00e2ngulo m\u00e1ximo atingido pelo balan\u00e7o em rela\u00e7\u00e3o \u00e0 vertical \u00e9 igual a 90\u00b0; \u2022 Os filhos utilizar\u00e3o o balan\u00e7o at\u00e9 que tenham uma massa de 24 kg. Al\u00e9m disso, ele aproxima o movimento do balan\u00e7o para o movimento circular uniforme, considera que a acelera\u00e7\u00e3o da gravidade \u00e9 igual a 10 m/s\u00b2 e despreza for\u00e7as dissipativas.",
         "exam": "2022",
         "CE": false
     },
@@ -4445,7 +4445,7 @@
         ],
         "label": "b",
         "original_question": "Em um dia de calor intenso, dois colegas est\u00e3o a brincar com a \n\u00e1gua da mangueira. Um deles quer saber at\u00e9 que altura o jato de \n\u00e1gua alcan\u00e7a, a partir da sa\u00edda de \u00e1gua, quando a mangueira est\u00e1 \nposicionada totalmente na dire\u00e7\u00e3o vertical. O outro colega prop\u00f5e \nent\u00e3o o seguinte experimento: eles posicionarem a sa\u00edda de \u00e1gua \nda mangueira na dire\u00e7\u00e3o horizontal, a 1 m de altura em rela\u00e7\u00e3o ao \nch\u00e3o,  e  ent\u00e3o  medirem  a  dist\u00e2ncia  horizontal  entre  a  mangueira\ne o local onde a \u00e1gua atinge o ch\u00e3o. A medida dessa dist\u00e2ncia foi  \nde 3 m, e a partir disso eles calcularam o alcance vertical do jato de \n\u00e1gua. Considere a acelera\u00e7\u00e3o da gravidade de 10 m s-2.\nO resultado que eles obtiveram foi de",
-        "context": "Em um dia de calor intenso, dois colegas est\u00e3o a brincar com a \u00e1gua da mangueira. Um deles quer saber at\u00e9 que altura o jato de \u00e1gua alcan\u00e7a, a partir da sa\u00edda de \u00e1gua, quando a mangueira est\u00e1 posicionada totalmente na dire\u00e7\u00e3o vertical. O outro colega prop\u00f5e ent\u00e3o o seguinte experimento: eles posicionarem a sa\u00edda de \u00e1gua da mangueira na dire\u00e7\u00e3o horizontal, a 1 m de altura em rela\u00e7\u00e3o ao ch\u00e3o, e ent\u00e3o medirem a dist\u00e2ncia horizontal entre a mangueira e o local onde a \u00e1gua atinge o ch\u00e3o. A medida dessa dist\u00e2ncia foi de 3 m, e a partir disso eles calcularam o alcance vertical do jato de \u00e1gua. Considere a acelera\u00e7\u00e3o da gravidade de 10 m s-2. ",
+        "context": "Em um dia de calor intenso, dois colegas est\u00e3o a brincar com a \u00e1gua da mangueira. Um deles quer saber at\u00e9 que altura o jato de \u00e1gua alcan\u00e7a, a partir da sa\u00edda de \u00e1gua, quando a mangueira est\u00e1 posicionada totalmente na dire\u00e7\u00e3o vertical. O outro colega prop\u00f5e ent\u00e3o o seguinte experimento: eles posicionarem a sa\u00edda de \u00e1gua da mangueira na dire\u00e7\u00e3o horizontal, a 1 m de altura em rela\u00e7\u00e3o ao ch\u00e3o, e ent\u00e3o medirem a dist\u00e2ncia horizontal entre a mangueira e o local onde a \u00e1gua atinge o ch\u00e3o. A medida dessa dist\u00e2ncia foi de 3 m, e a partir disso eles calcularam o alcance vertical do jato de \u00e1gua. Considere a acelera\u00e7\u00e3o da gravidade de 10 m s\u207b\u00b2. ",
         "exam": "2022",
         "CE": false
     },
@@ -4752,15 +4752,15 @@
         "ML": false,
         "BK": false,
         "options": [
-            "1 000 000 m2",
-            "500 000 m2",
-            "250 000 m2",
-            "100 000 m2",
-            "20 000 m2"
+            "1 000 000 m\u00b2",
+            "500 000 m\u00b2",
+            "250 000 m\u00b2",
+            "100 000 m\u00b2",
+            "20 000 m\u00b2"
         ],
         "label": "b",
         "original_question": "Em 2017, foi inaugurado, no estado da Bahia, o Parque Solar Lapa, \ncomposto por duas usinas (Bom Jesus da Lapa e Lapa) e capaz de \ngerar cerca de 300 GWh de energia por ano. Considere que cada \nusina apresente pot\u00eancia igual a 75 MW, com o parque totalizando \numa pot\u00eancia instalada de 150 MW. Considere ainda que a irradi\u00e2ncia \nW\nsolar m\u00e9dia \u00e9 de 1 500   e que a efici\u00eancia dos pain\u00e9is \u00e9 de 20%.\nm2\nParque Solar Lapa entra em opera\u00e7\u00e3o. Dispon\u00edvel em: www.canalbioenergia.com.br. \nAcesso em: 9 jun. 2022 (adaptado).\nNessas condi\u00e7\u00f5es, a \u00e1rea total dos pain\u00e9is solares que comp\u00f5em o \nParque Solar Lapa \u00e9 mais pr\u00f3xima de:",
-        "context": "Em 2017, foi inaugurado, no estado da Bahia, o Parque Solar Lapa, composto por duas usinas (Bom Jesus da Lapa e Lapa) e capaz de gerar cerca de 300 GWh de energia por ano. Considere que cada usina apresente pot\u00eancia igual a 75 MW, com o parque totalizando uma pot\u00eancia instalada de 150 MW. Considere ainda que a irradi\u00e2ncia solar m\u00e9dia \u00e9 de 1 500 W/m2 e que a efici\u00eancia dos pain\u00e9is \u00e9 de 20%. Parque Solar Lapa entra em opera\u00e7\u00e3o. Dispon\u00edvel em: www.canalbioenergia.com.br. Acesso em: 9 jun. 2022 (adaptado).",
+        "context": "Em 2017, foi inaugurado, no estado da Bahia, o Parque Solar Lapa, composto por duas usinas (Bom Jesus da Lapa e Lapa) e capaz de gerar cerca de 300 GWh de energia por ano. Considere que cada usina apresente pot\u00eancia igual a 75 MW, com o parque totalizando uma pot\u00eancia instalada de 150 MW. Considere ainda que a irradi\u00e2ncia solar m\u00e9dia \u00e9 de 1 500 W/m\u00b2 e que a efici\u00eancia dos pain\u00e9is \u00e9 de 20%. Parque Solar Lapa entra em opera\u00e7\u00e3o. Dispon\u00edvel em: www.canalbioenergia.com.br. Acesso em: 9 jun. 2022 (adaptado).",
         "exam": "2022",
         "CE": false
     },
@@ -5203,7 +5203,7 @@
         ],
         "label": "e",
         "original_question": "Uma loja comercializa cinco modelos de caixas-d\u2019\u00e1gua (I, II, III, IV e V), \ntodos  em  formato  de  cilindro  reto  de  base  circular.  Os  modelos \nII, III, IV e V t\u00eam as especifica\u00e7\u00f5es de suas dimens\u00f5es dadas em \nrela\u00e7\u00e3o \u00e0s dimens\u00f5es do modelo I, cuja profundidade \u00e9 P e \u00e1rea da \nbase \u00e9 A , como segue:\nb\n\u2022  m  odelo II: o dobro da profundidade e a metade da \u00e1rea da base \ndo modelo I;\n\u2022  m  odelo III: o dobro da profundidade e a metade do raio da base \ndo modelo I;\n\u2022  m  odelo IV: a metade da profundidade e o dobro da \u00e1rea da base \ndo modelo I;\n\u2022  m  odelo V: a metade da profundidade e o dobro do raio da base \ndo modelo I.\nUma pessoa pretende comprar nessa loja o modelo de caixa-d\u2019\u00e1gua \nque ofere\u00e7a a maior capacidade volum\u00e9trica.\nO modelo escolhido deve ser o",
-        "context": "Uma loja comercializa cinco modelos de caixas-d\u2019\u00e1gua (I, II, III, IV e V), todos em formato de cilindro reto de base circular. Os modelos II, III, IV e V t\u00eam as especifica\u00e7\u00f5es de suas dimens\u00f5es dadas em rela\u00e7\u00e3o \u00e0s dimens\u00f5es do modelo I, cuja profundidade \u00e9 P e \u00e1rea da base \u00e9 A , como segue: b \u2022 m odelo II: o dobro da profundidade e a metade da \u00e1rea da base do modelo I; \u2022 m odelo III: o dobro da profundidade e a metade do raio da base do modelo I; \u2022 m odelo IV: a metade da profundidade e o dobro da \u00e1rea da base do modelo I; \u2022 m odelo V: a metade da profundidade e o dobro do raio da base do modelo I.",
+        "context": "Uma loja comercializa cinco modelos de caixas-d\u2019\u00e1gua (I, II, III, IV e V), todos em formato de cilindro reto de base circular. Os modelos II, III, IV e V t\u00eam as especifica\u00e7\u00f5es de suas dimens\u00f5es dadas em rela\u00e7\u00e3o \u00e0s dimens\u00f5es do modelo I, cuja profundidade \u00e9 P e \u00e1rea da base \u00e9 A\u1d47, como segue: \u2022 modelo II: o dobro da profundidade e a metade da \u00e1rea da base do modelo I; \u2022 modelo III: o dobro da profundidade e a metade do raio da base do modelo I; \u2022 modelo IV: a metade da profundidade e o dobro da \u00e1rea da base do modelo I; \u2022 modelo V: a metade da profundidade e o dobro do raio da base do modelo I.",
         "exam": "2022",
         "CE": false
     },
@@ -5575,7 +5575,7 @@
         "subject": [],
         "DS": false,
         "TU": false,
-        "IU": false,
+        "IU": true,
         "MR": true,
         "ML": false,
         "BK": false,
@@ -6043,7 +6043,7 @@
         ],
         "label": "b",
         "original_question": "Uma montadora de autom\u00f3veis divulgou que oferta a seus clientes \nmais de 1 000 configura\u00e7\u00f5es diferentes de carro, variando o modelo, a \nmotoriza\u00e7\u00e3o, os opcionais e a cor do ve\u00edculo. Atualmente, ela oferece \n7 modelos de carros com 2 tipos de motores: 1.0 e 1.6. J\u00e1 em rela\u00e7\u00e3o \naos opcionais, existem 3 escolhas poss\u00edveis: central multim\u00eddia, rodas \nde liga leve e bancos de couro, podendo o cliente optar por incluir \num, dois, tr\u00eas ou nenhum dos opcionais dispon\u00edveis.\nPara ser fiel \u00e0 divulga\u00e7\u00e3o feita, a quantidade m\u00ednima de cores que a \nmontadora dever\u00e1 disponibilizar a seus clientes \u00e9",
-        "context": "Uma montadora de autom\u00f3veis divulgou que oferta a seus clientes mais de 1 000 configura\u00e7\u00f5es diferentes de carro, variando o modelo, a motoriza\u00e7\u00e3o, os opcionais e a cor do ve\u00edculo. Atualmente, ela oferece 7 modelos de carros com 2 tipos de motores: 1.0 e 1.6. J\u00e1 em rela\u00e7\u00e3o aos opcionais, existem 3 escolhas poss\u00edveis: central multim\u00eddia, rodas de liga leve e bancos de couro, podendo o cliente optar por incluir um, dois, tr\u00eas ou nenhum dos opcionais dispon\u00edveis. ",
+        "context": "Uma montadora de autom\u00f3veis divulgou que oferta a seus clientes mais de 1 000 configura\u00e7\u00f5es diferentes de carro, variando o modelo, a motoriza\u00e7\u00e3o, os opcionais e a cor do ve\u00edculo. Atualmente, ela oferece 7 modelos de carros com 2 tipos de motores: 1.0 e 1.6. J\u00e1 em rela\u00e7\u00e3o aos opcionais, existem 3 escolhas poss\u00edveis: central multim\u00eddia, rodas de liga leve e bancos de couro, podendo o cliente optar por incluir um, dois, tr\u00eas ou nenhum dos opcionais dispon\u00edveis.",
         "exam": "2022",
         "CE": false
     },
