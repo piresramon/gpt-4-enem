@@ -18,13 +18,27 @@ git clone https://github.com/piresramon/gpt-4-enem.git
 ```bash
 pip install -r requirements.txt
 ```
-### 3. Set the OPENAI API:
+### 3. Set the OPENAI API key:
 ```bash
 ...
 ```
 ### 4. Run the experiments:
 ```bash
-python run_experiments.py
+# running 3-shot with CoT for chatgpt
+python main.py \
+    --model chatgpt \
+    --model_args engine=gpt-3.5-turbo \
+    --task enem_cot_2022 \
+    --num_fewshot 3 \
+    --description_dict_path description.json
+
+# running 3-shot with CoT for gpt-4
+python main.py \
+    --model chatgpt \
+    --model_args engine=gpt-4-0314 \
+    --task enem_cot_2022 \
+    --num_fewshot 3 \
+    --description_dict_path description.json
 ```
 
 
