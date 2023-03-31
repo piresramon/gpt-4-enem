@@ -68,6 +68,14 @@ python main.py \
     --description_dict_path description.json
 ```
 
+We have four different tasks:
+1. enem: Enem Challenge (2009-2017) without Chain of Thought.
+2. enem_cot: Enem Challenge (2009-2017) with Chain of Thought.
+3. enem_2022: Enem 2022 without Chain of Thought.
+4. enem_cot_2022: Enem 2022 without Chain of Thought.
+
+It is possible to use a different number of few-shot examples (maximum 3).
+
 ## Citation
 If you use this code or data in your research, please cite the following paper:
 
