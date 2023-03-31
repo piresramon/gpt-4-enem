@@ -1,7 +1,7 @@
 # GPT-4-ENEM
 
 **\*\*\* Most of the code in this repository was copied from the original 
-[Language Model Evaluation Harness](https://github.com/google-research/berthttps://github.com/EleutherAI/lm-evaluation-harness). \*\*\***
+[Language Model Evaluation Harness](https://github.com/EleutherAI/lm-evaluation-harness). \*\*\***
 
 ## Introduction
 
