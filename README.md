@@ -27,10 +27,10 @@ On the 2022 edition, the best-performing model, GPT-4 with CoT, achieved an accu
 
 We made available the [ENEM-2022 dataset](data/enem/2022.json), created by parsing questions and alternatives from the latest edition of the ENEM test. The dataset was structured and annotated with tags indicating the domain:
 
-- TU - Text Understanding
-- IU - Image Understanding
-- MR - Mathematical Reasoning
-- ML - Multilanguage
+- **TU** - Text Understanding
+- **IU** - Image Understanding
+- **MR** - Mathematical Reasoning
+- **ML** - Multilanguage
 
 ## Reproducing the results
 To reproduce the experiments described in the paper, please follow the steps below:
@@ -69,10 +69,10 @@ python main.py \
 ```
 
 We have four different tasks:
-1. enem: Enem Challenge (2009-2017) without Chain of Thought.
-2. enem_cot: Enem Challenge (2009-2017) with Chain of Thought.
-3. enem_2022: Enem 2022 without Chain of Thought.
-4. enem_cot_2022: Enem 2022 without Chain of Thought.
+1. **enem**: Enem Challenge (2009-2017) without Chain-of-thought prompting.
+2. **enem_cot**: Enem Challenge (2009-2017) with Chain-of-thought prompting.
+3. **enem_2022**: Enem 2022 without Chain-of-thought prompting.
+4. **enem_cot_2022**: Enem 2022 with Chain-of-thought prompting.
 
 It is possible to use a different number of few-shot examples (maximum 3).
 
