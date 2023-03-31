@@ -42,7 +42,7 @@ OPENAI_API_SECRET_KEY=sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 # running 3-shot with CoT for chatgpt
 python main.py \
     --model chatgpt \
-    --model_args engine=gpt-3.5-turbo \
+    --model_args engine=gpt-3.5-turbo-0301 \
     --task enem_cot_2022 \
     --num_fewshot 3 \
     --description_dict_path description.json
@@ -55,7 +55,6 @@ python main.py \
     --num_fewshot 3 \
     --description_dict_path description.json
 ```
-
 
 ## Citation
 If you use this code or data in your research, please cite the following paper:
