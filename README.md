@@ -30,6 +30,7 @@ We made available the [ENEM-2022 dataset](data/enem/2022.json), created by parsi
 - **TU** - Text Understanding
 - **IU** - Image Understanding
 - **MR** - Mathematical Reasoning
+- **CE** - Chemical Elements
 - **ML** - Multilanguage
 
 ## Reproducing the results
