@@ -25,7 +25,7 @@ On the 2022 edition, the best-performing model, GPT-4 with CoT, achieved an accu
 
 ## Data
 
-We made available the [ENEM-2022 dataset](data/2022.json), created by parsing questions and alternatives from the latest edition of the ENEM test. The dataset was structured and annotated with tags indicating the domain:
+We made available the [ENEM-2022 dataset](data/enem/2022.json), created by parsing questions and alternatives from the latest edition of the ENEM test. The dataset was structured and annotated with tags indicating the domain:
 
 - TU - Text Understanding
 - IU - Image Understanding
