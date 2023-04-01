@@ -1,0 +1,828 @@
+[
+    {
+        "id": "ENEM_2022_6",
+        "response": " C",
+        "pred": "C.",
+        "gold": "C.",
+        "area": "languages"
+    },
+    {
+        "id": "ENEM_2022_7",
+        "response": " C",
+        "pred": "C.",
+        "gold": "C.",
+        "area": "languages"
+    },
+    {
+        "id": "ENEM_2022_8",
+        "response": " B",
+        "pred": "B.",
+        "gold": "C.",
+        "area": "languages"
+    },
+    {
+        "id": "ENEM_2022_9",
+        "response": " D",
+        "pred": "D.",
+        "gold": "D.",
+        "area": "languages"
+    },
+    {
+        "id": "ENEM_2022_10",
+        "response": " C",
+        "pred": "C.",
+        "gold": "C.",
+        "area": "languages"
+    },
+    {
+        "id": "ENEM_2022_11",
+        "response": " C",
+        "pred": "C.",
+        "gold": "C.",
+        "area": "languages"
+    },
+    {
+        "id": "ENEM_2022_12",
+        "response": " C",
+        "pred": "C.",
+        "gold": "E.",
+        "area": "languages"
+    },
+    {
+        "id": "ENEM_2022_13",
+        "response": " A",
+        "pred": "A.",
+        "gold": "B.",
+        "area": "languages"
+    },
+    {
+        "id": "ENEM_2022_14",
+        "response": " A",
+        "pred": "A.",
+        "gold": "A.",
+        "area": "languages"
+    },
+    {
+        "id": "ENEM_2022_15",
+        "response": " C",
+        "pred": "C.",
+        "gold": "C.",
+        "area": "languages"
+    },
+    {
+        "id": "ENEM_2022_17",
+        "response": " B",
+        "pred": "B.",
+        "gold": "B.",
+        "area": "languages"
+    },
+    {
+        "id": "ENEM_2022_19",
+        "response": " A",
+        "pred": "A.",
+        "gold": "A.",
+        "area": "languages"
+    },
+    {
+        "id": "ENEM_2022_21",
+        "response": " B",
+        "pred": "B.",
+        "gold": "E.",
+        "area": "languages"
+    },
+    {
+        "id": "ENEM_2022_22",
+        "response": " E",
+        "pred": "E.",
+        "gold": "E.",
+        "area": "languages"
+    },
+    {
+        "id": "ENEM_2022_23",
+        "response": " C",
+        "pred": "C.",
+        "gold": "C.",
+        "area": "languages"
+    },
+    {
+        "id": "ENEM_2022_24",
+        "response": " A",
+        "pred": "A.",
+        "gold": "A.",
+        "area": "languages"
+    },
+    {
+        "id": "ENEM_2022_25",
+        "response": " B",
+        "pred": "B.",
+        "gold": "B.",
+        "area": "languages"
+    },
+    {
+        "id": "ENEM_2022_26",
+        "response": " A",
+        "pred": "A.",
+        "gold": "A.",
+        "area": "languages"
+    },
+    {
+        "id": "ENEM_2022_29",
+        "response": " C",
+        "pred": "C.",
+        "gold": "E.",
+        "area": "languages"
+    },
+    {
+        "id": "ENEM_2022_31",
+        "response": " C",
+        "pred": "C.",
+        "gold": "E.",
+        "area": "languages"
+    },
+    {
+        "id": "ENEM_2022_32",
+        "response": " B",
+        "pred": "B.",
+        "gold": "B.",
+        "area": "languages"
+    },
+    {
+        "id": "ENEM_2022_33",
+        "response": " E",
+        "pred": "E.",
+        "gold": "E.",
+        "area": "languages"
+    },
+    {
+        "id": "ENEM_2022_34",
+        "response": " A",
+        "pred": "A.",
+        "gold": "E.",
+        "area": "languages"
+    },
+    {
+        "id": "ENEM_2022_35",
+        "response": " D",
+        "pred": "D.",
+        "gold": "D.",
+        "area": "languages"
+    },
+    {
+        "id": "ENEM_2022_36",
+        "response": " C",
+        "pred": "C.",
+        "gold": "C.",
+        "area": "languages"
+    },
+    {
+        "id": "ENEM_2022_37",
+        "response": " A",
+        "pred": "A.",
+        "gold": "A.",
+        "area": "languages"
+    },
+    {
+        "id": "ENEM_2022_38",
+        "response": " D",
+        "pred": "D.",
+        "gold": "D.",
+        "area": "languages"
+    },
+    {
+        "id": "ENEM_2022_39",
+        "response": " B",
+        "pred": "B.",
+        "gold": "B.",
+        "area": "languages"
+    },
+    {
+        "id": "ENEM_2022_40",
+        "response": " D",
+        "pred": "D.",
+        "gold": "D.",
+        "area": "languages"
+    },
+    {
+        "id": "ENEM_2022_41",
+        "response": " B",
+        "pred": "B.",
+        "gold": "B.",
+        "area": "languages"
+    },
+    {
+        "id": "ENEM_2022_42",
+        "response": " D",
+        "pred": "D.",
+        "gold": "D.",
+        "area": "languages"
+    },
+    {
+        "id": "ENEM_2022_43",
+        "response": " B",
+        "pred": "B.",
+        "gold": "B.",
+        "area": "languages"
+    },
+    {
+        "id": "ENEM_2022_45",
+        "response": " A",
+        "pred": "A.",
+        "gold": "A.",
+        "area": "languages"
+    },
+    {
+        "id": "ENEM_2022_46",
+        "response": " C",
+        "pred": "C.",
+        "gold": "C.",
+        "area": "human-sciences"
+    },
+    {
+        "id": "ENEM_2022_47",
+        "response": " B",
+        "pred": "B.",
+        "gold": "B.",
+        "area": "human-sciences"
+    },
+    {
+        "id": "ENEM_2022_48",
+        "response": " E",
+        "pred": "E.",
+        "gold": "E.",
+        "area": "human-sciences"
+    },
+    {
+        "id": "ENEM_2022_49",
+        "response": " C",
+        "pred": "C.",
+        "gold": "C.",
+        "area": "human-sciences"
+    },
+    {
+        "id": "ENEM_2022_50",
+        "response": " A",
+        "pred": "A.",
+        "gold": "A.",
+        "area": "human-sciences"
+    },
+    {
+        "id": "ENEM_2022_52",
+        "response": " B",
+        "pred": "B.",
+        "gold": "B.",
+        "area": "human-sciences"
+    },
+    {
+        "id": "ENEM_2022_53",
+        "response": " C",
+        "pred": "C.",
+        "gold": "C.",
+        "area": "human-sciences"
+    },
+    {
+        "id": "ENEM_2022_54",
+        "response": " D",
+        "pred": "D.",
+        "gold": "D.",
+        "area": "human-sciences"
+    },
+    {
+        "id": "ENEM_2022_56",
+        "response": " A",
+        "pred": "A.",
+        "gold": "A.",
+        "area": "human-sciences"
+    },
+    {
+        "id": "ENEM_2022_57",
+        "response": " A",
+        "pred": "A.",
+        "gold": "C.",
+        "area": "human-sciences"
+    },
+    {
+        "id": "ENEM_2022_58",
+        "response": " D",
+        "pred": "D.",
+        "gold": "D.",
+        "area": "human-sciences"
+    },
+    {
+        "id": "ENEM_2022_60",
+        "response": " E",
+        "pred": "E.",
+        "gold": "E.",
+        "area": "human-sciences"
+    },
+    {
+        "id": "ENEM_2022_61",
+        "response": " D",
+        "pred": "D.",
+        "gold": "D.",
+        "area": "human-sciences"
+    },
+    {
+        "id": "ENEM_2022_62",
+        "response": " A",
+        "pred": "A.",
+        "gold": "A.",
+        "area": "human-sciences"
+    },
+    {
+        "id": "ENEM_2022_64",
+        "response": " A",
+        "pred": "A.",
+        "gold": "A.",
+        "area": "human-sciences"
+    },
+    {
+        "id": "ENEM_2022_65",
+        "response": " D",
+        "pred": "D.",
+        "gold": "D.",
+        "area": "human-sciences"
+    },
+    {
+        "id": "ENEM_2022_66",
+        "response": " B",
+        "pred": "B.",
+        "gold": "B.",
+        "area": "human-sciences"
+    },
+    {
+        "id": "ENEM_2022_67",
+        "response": " B",
+        "pred": "B.",
+        "gold": "C.",
+        "area": "human-sciences"
+    },
+    {
+        "id": "ENEM_2022_68",
+        "response": " D",
+        "pred": "D.",
+        "gold": "D.",
+        "area": "human-sciences"
+    },
+    {
+        "id": "ENEM_2022_70",
+        "response": " A",
+        "pred": "A.",
+        "gold": "A.",
+        "area": "human-sciences"
+    },
+    {
+        "id": "ENEM_2022_71",
+        "response": " E",
+        "pred": "E.",
+        "gold": "E.",
+        "area": "human-sciences"
+    },
+    {
+        "id": "ENEM_2022_72",
+        "response": " C",
+        "pred": "C.",
+        "gold": "C.",
+        "area": "human-sciences"
+    },
+    {
+        "id": "ENEM_2022_73",
+        "response": " B",
+        "pred": "B.",
+        "gold": "B.",
+        "area": "human-sciences"
+    },
+    {
+        "id": "ENEM_2022_74",
+        "response": " C",
+        "pred": "C.",
+        "gold": "A.",
+        "area": "human-sciences"
+    },
+    {
+        "id": "ENEM_2022_76",
+        "response": " A.",
+        "pred": "A.",
+        "gold": "A.",
+        "area": "human-sciences"
+    },
+    {
+        "id": "ENEM_2022_77",
+        "response": " E",
+        "pred": "E.",
+        "gold": "E.",
+        "area": "human-sciences"
+    },
+    {
+        "id": "ENEM_2022_78",
+        "response": " C",
+        "pred": "C.",
+        "gold": "C.",
+        "area": "human-sciences"
+    },
+    {
+        "id": "ENEM_2022_79",
+        "response": " B",
+        "pred": "B.",
+        "gold": "B.",
+        "area": "human-sciences"
+    },
+    {
+        "id": "ENEM_2022_80",
+        "response": " E",
+        "pred": "E.",
+        "gold": "E.",
+        "area": "human-sciences"
+    },
+    {
+        "id": "ENEM_2022_81",
+        "response": " B",
+        "pred": "B.",
+        "gold": "B.",
+        "area": "human-sciences"
+    },
+    {
+        "id": "ENEM_2022_83",
+        "response": " E",
+        "pred": "E.",
+        "gold": "E.",
+        "area": "human-sciences"
+    },
+    {
+        "id": "ENEM_2022_84",
+        "response": " E.",
+        "pred": "E.",
+        "gold": "E.",
+        "area": "human-sciences"
+    },
+    {
+        "id": "ENEM_2022_85",
+        "response": " D",
+        "pred": "D.",
+        "gold": "D.",
+        "area": "human-sciences"
+    },
+    {
+        "id": "ENEM_2022_86",
+        "response": " A",
+        "pred": "A.",
+        "gold": "A.",
+        "area": "human-sciences"
+    },
+    {
+        "id": "ENEM_2022_87",
+        "response": " A",
+        "pred": "A.",
+        "gold": "D.",
+        "area": "human-sciences"
+    },
+    {
+        "id": "ENEM_2022_88",
+        "response": " E",
+        "pred": "E.",
+        "gold": "E.",
+        "area": "human-sciences"
+    },
+    {
+        "id": "ENEM_2022_89",
+        "response": " A. Racismo estrutural.",
+        "pred": "A.",
+        "gold": "A.",
+        "area": "human-sciences"
+    },
+    {
+        "id": "ENEM_2022_91",
+        "response": " D",
+        "pred": "D.",
+        "gold": "D.",
+        "area": "natural-sciences"
+    },
+    {
+        "id": "ENEM_2022_93",
+        "response": " D",
+        "pred": "D.",
+        "gold": "E.",
+        "area": "natural-sciences"
+    },
+    {
+        "id": "ENEM_2022_95",
+        "response": " D",
+        "pred": "D.",
+        "gold": "D.",
+        "area": "natural-sciences"
+    },
+    {
+        "id": "ENEM_2022_96",
+        "response": " B.",
+        "pred": "B.",
+        "gold": "B.",
+        "area": "natural-sciences"
+    },
+    {
+        "id": "ENEM_2022_97",
+        "response": " E",
+        "pred": "E.",
+        "gold": "E.",
+        "area": "natural-sciences"
+    },
+    {
+        "id": "ENEM_2022_100",
+        "response": " C",
+        "pred": "C.",
+        "gold": "C.",
+        "area": "natural-sciences"
+    },
+    {
+        "id": "ENEM_2022_101",
+        "response": " A",
+        "pred": "A.",
+        "gold": "A.",
+        "area": "natural-sciences"
+    },
+    {
+        "id": "ENEM_2022_102",
+        "response": " E",
+        "pred": "E.",
+        "gold": "E.",
+        "area": "natural-sciences"
+    },
+    {
+        "id": "ENEM_2022_103",
+        "response": " B",
+        "pred": "B.",
+        "gold": "B.",
+        "area": "natural-sciences"
+    },
+    {
+        "id": "ENEM_2022_105",
+        "response": "",
+        "pred": "",
+        "gold": "A.",
+        "area": "natural-sciences"
+    },
+    {
+        "id": "ENEM_2022_108",
+        "response": " C",
+        "pred": "C.",
+        "gold": "B.",
+        "area": "natural-sciences"
+    },
+    {
+        "id": "ENEM_2022_111",
+        "response": " C",
+        "pred": "C.",
+        "gold": "D.",
+        "area": "natural-sciences"
+    },
+    {
+        "id": "ENEM_2022_112",
+        "response": " D",
+        "pred": "D.",
+        "gold": "D.",
+        "area": "natural-sciences"
+    },
+    {
+        "id": "ENEM_2022_113",
+        "response": " C",
+        "pred": "C.",
+        "gold": "C.",
+        "area": "natural-sciences"
+    },
+    {
+        "id": "ENEM_2022_114",
+        "response": " C",
+        "pred": "C.",
+        "gold": "B.",
+        "area": "natural-sciences"
+    },
+    {
+        "id": "ENEM_2022_116",
+        "response": " D",
+        "pred": "D.",
+        "gold": "D.",
+        "area": "natural-sciences"
+    },
+    {
+        "id": "ENEM_2022_120",
+        "response": " E",
+        "pred": "E.",
+        "gold": "E.",
+        "area": "natural-sciences"
+    },
+    {
+        "id": "ENEM_2022_121",
+        "response": " A",
+        "pred": "A.",
+        "gold": "A.",
+        "area": "natural-sciences"
+    },
+    {
+        "id": "ENEM_2022_124",
+        "response": " A",
+        "pred": "A.",
+        "gold": "A.",
+        "area": "natural-sciences"
+    },
+    {
+        "id": "ENEM_2022_125",
+        "response": " A",
+        "pred": "A.",
+        "gold": "B.",
+        "area": "natural-sciences"
+    },
+    {
+        "id": "ENEM_2022_127",
+        "response": " D",
+        "pred": "D.",
+        "gold": "E.",
+        "area": "natural-sciences"
+    },
+    {
+        "id": "ENEM_2022_129",
+        "response": " B.",
+        "pred": "B.",
+        "gold": "B.",
+        "area": "natural-sciences"
+    },
+    {
+        "id": "ENEM_2022_130",
+        "response": " E",
+        "pred": "E.",
+        "gold": "E.",
+        "area": "natural-sciences"
+    },
+    {
+        "id": "ENEM_2022_133",
+        "response": " D",
+        "pred": "D.",
+        "gold": "D.",
+        "area": "natural-sciences"
+    },
+    {
+        "id": "ENEM_2022_134",
+        "response": " B",
+        "pred": "B.",
+        "gold": "B.",
+        "area": "natural-sciences"
+    },
+    {
+        "id": "ENEM_2022_135",
+        "response": " B",
+        "pred": "B.",
+        "gold": "A.",
+        "area": "natural-sciences"
+    },
+    {
+        "id": "ENEM_2022_138",
+        "response": " E.",
+        "pred": "E.",
+        "gold": "E.",
+        "area": "mathematics"
+    },
+    {
+        "id": "ENEM_2022_141",
+        "response": " C",
+        "pred": "C.",
+        "gold": "E.",
+        "area": "mathematics"
+    },
+    {
+        "id": "ENEM_2022_143",
+        "response": " C",
+        "pred": "C.",
+        "gold": "B.",
+        "area": "mathematics"
+    },
+    {
+        "id": "ENEM_2022_145",
+        "response": " A",
+        "pred": "A.",
+        "gold": "D.",
+        "area": "mathematics"
+    },
+    {
+        "id": "ENEM_2022_147",
+        "response": "",
+        "pred": "",
+        "gold": "E.",
+        "area": "mathematics"
+    },
+    {
+        "id": "ENEM_2022_149",
+        "response": " C",
+        "pred": "C.",
+        "gold": "D.",
+        "area": "mathematics"
+    },
+    {
+        "id": "ENEM_2022_150",
+        "response": " A",
+        "pred": "A.",
+        "gold": "B.",
+        "area": "mathematics"
+    },
+    {
+        "id": "ENEM_2022_151",
+        "response": " C",
+        "pred": "C.",
+        "gold": "A.",
+        "area": "mathematics"
+    },
+    {
+        "id": "ENEM_2022_153",
+        "response": " E",
+        "pred": "E.",
+        "gold": "A.",
+        "area": "mathematics"
+    },
+    {
+        "id": "ENEM_2022_158",
+        "response": " D",
+        "pred": "D.",
+        "gold": "C.",
+        "area": "mathematics"
+    },
+    {
+        "id": "ENEM_2022_162",
+        "response": " C",
+        "pred": "C.",
+        "gold": "C.",
+        "area": "mathematics"
+    },
+    {
+        "id": "ENEM_2022_163",
+        "response": " B",
+        "pred": "B.",
+        "gold": "B.",
+        "area": "mathematics"
+    },
+    {
+        "id": "ENEM_2022_164",
+        "response": "",
+        "pred": "",
+        "gold": "C.",
+        "area": "mathematics"
+    },
+    {
+        "id": "ENEM_2022_166",
+        "response": " E",
+        "pred": "E.",
+        "gold": "D.",
+        "area": "mathematics"
+    },
+    {
+        "id": "ENEM_2022_169",
+        "response": " C",
+        "pred": "C.",
+        "gold": "E.",
+        "area": "mathematics"
+    },
+    {
+        "id": "ENEM_2022_170",
+        "response": " C.",
+        "pred": "C.",
+        "gold": "E.",
+        "area": "mathematics"
+    },
+    {
+        "id": "ENEM_2022_171",
+        "response": " E",
+        "pred": "E.",
+        "gold": "C.",
+        "area": "mathematics"
+    },
+    {
+        "id": "ENEM_2022_172",
+        "response": " C",
+        "pred": "C.",
+        "gold": "B.",
+        "area": "mathematics"
+    },
+    {
+        "id": "ENEM_2022_174",
+        "response": " B",
+        "pred": "B.",
+        "gold": "C.",
+        "area": "mathematics"
+    },
+    {
+        "id": "ENEM_2022_175",
+        "response": " A",
+        "pred": "A.",
+        "gold": "A.",
+        "area": "mathematics"
+    },
+    {
+        "id": "ENEM_2022_176",
+        "response": " C",
+        "pred": "C.",
+        "gold": "B.",
+        "area": "mathematics"
+    },
+    {
+        "id": "ENEM_2022_179",
+        "response": "",
+        "pred": "",
+        "gold": "C.",
+        "area": "mathematics"
+    }
+]
