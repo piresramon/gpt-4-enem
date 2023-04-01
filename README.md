@@ -22,6 +22,8 @@ On the 2022 edition, the best-performing model, GPT-4 with CoT, achieved an accu
 | **Total**            |      **68.64**     | **72.88** | **70.34** |    **69.49**    | **76.27** | **73.73** |    **79.66**   | **80.51** | **87.29** |
 
 <p style="text-align: center;">Results on ENEM 2022. Questions that require image comprehension were removed.</p>
+ 
+ We make available all explanations, targets and predictions generated for all experiments with the ENEM 2022 dataset in the [reports](reports/) folder.
 
 ## Data
 
