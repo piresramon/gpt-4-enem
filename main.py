@@ -39,6 +39,8 @@ def parse_args():
     parser.add_argument("--no_cache", action="store_true")
     parser.add_argument("--decontamination_ngrams_path", default=None)
     parser.add_argument("--description_dict_path", default=None)
+    parser.add_argument('--conversation_template', type=str, default=None)
+    parser.add_argument('--prompt_as_single_user_message', action="store_true")
     parser.add_argument("--check_integrity", action="store_true")
 
     return parser.parse_args()
@@ -86,6 +88,8 @@ def main():
         no_cache=args.no_cache,
         limit=args.limit,
         description_dict=description_dict,
+        conversation_template=args.conversation_template,
+        prompt_as_single_user_message=args.prompt_as_single_user_message,
         decontamination_ngrams_path=args.decontamination_ngrams_path,
         check_integrity=args.check_integrity,
     )

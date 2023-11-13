@@ -374,7 +374,7 @@ class ENEM(Task):
         }
 
     @utils.positional_deprecated
-    def fewshot_context(self, doc, num_fewshot, provide_description=None, rnd=None, description=None):
+    def fewshot_context(self, doc, num_fewshot, provide_description=None, rnd=None, description=None, conversation_template=None, prompt_as_single_user_message=False):
         """ Returns a fewshot context string that is made up of a prepended description
         (if provided), the `num_fewshot` number of examples, and an appended prompt example.
 
