@@ -1,10 +1,11 @@
+import json
+import openai
 import os
-import numpy as np
+import time
 import transformers
 from lm_eval.base import BaseLM
 from lm_eval import utils
 from tqdm import tqdm
-import time
 
 
 def get_result(response, ctxlen):
@@ -40,8 +41,6 @@ def oa_completion(**kwargs):
 
     Retry with back-off until they respond
     """
-    import openai
-
     backoff_time = 3
     while True:
         try:
@@ -66,8 +65,6 @@ class CHATGPTLM(BaseLM):
             Truncate input if too long (if False and input is too long, throw error)
         """
         super().__init__()
-
-        import openai
 
         self.engine = engine
         self.tokenizer = transformers.GPT2TokenizerFast.from_pretrained("gpt2")
@@ -147,13 +144,16 @@ class CHATGPTLM(BaseLM):
         ):
             inps = []
             for context, _ in chunk:
+                try:
+                    messages = json.loads(context)
+                except json.decoder.JSONDecodeError:
+                    # If context is not a valid JSON string, pass it as is
+                    messages = [{"role": "user", "content": context}]
                 inps.append(context)
 
             response = oa_completion(
                 model=self.engine,
-                messages=[
-                    {"role": "user", "content": inps[0]}
-                ],
+                messages=inps[0],
                 max_tokens=self.max_gen_toks, 
                 temperature=0.,
                 # stop=until,  # not working
