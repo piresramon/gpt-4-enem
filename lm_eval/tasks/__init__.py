@@ -18,6 +18,7 @@ TASK_REGISTRY = {
     "enem_cot_2022_deprecated": enem.ENEM_CoT_2022,
 
     "enem_2022": enem_multimodal.ENEM_2022,
+    "enem_cot_2022": enem_multimodal.ENEM_CoT_2022,
 }
 
 
