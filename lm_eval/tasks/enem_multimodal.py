@@ -16,6 +16,8 @@ import json
 import numpy as np
 import os
 
+from fastchat.conversation import get_conv_template
+
 from lm_eval import utils
 from lm_eval.base import Task, rf
 from lm_eval.metrics import mean
@@ -51,26 +53,20 @@ class ENEM_2022(ENEM):
         # Experimento com imagem: tira a descrição
         # Experimento com nada: tira descrição e imagem
 
-        for d in documents: # TEMP remove description to use the image
-            d['description'] = ''
-        # for d in documents: # TEMP remove figures
-        #     d['figures'] = []
-        
+        # experiment = 'use_descriptions'
+        experiment = 'ledor'
 
-        # TODO: prepare method to select vision, ledor, or blind        
-        # def ignore_question(doc):
-        #     filters = {
-        #         'IU': False,
-        #         # 'MR': False,  # uncomment to filter out MR
-        #         # 'CE': False,  # uncomment to filter out CE
-        #         'ML': False,
-        #     }
-        #     for k,v in filters.items():
-        #         if doc[k] != v:
-        #             return True
-        #     return False
+        assert experiment in ['multimodal', 'ledor', 'blind']
 
-        # documents = list(filter(lambda doc: not ignore_question(doc), documents))
+        if experiment == 'multimodal':
+            for d in documents:
+                d['description'] = []
+        elif experiment == 'blind':
+            for d in documents:
+                d['description'] = []
+            for d in documents:
+                d['figures'] = []
+
         self.dataset['test'] = list(map(self._process_doc, documents))
 
     def process_results(self, doc, results):
@@ -176,10 +172,59 @@ class ENEM_2022(ENEM):
             # nudge people to not specify it at all
             print("WARNING: provide_description is deprecated and will be removed in a future version in favor of description_dict")
 
-        description = description + "\n\n" if description else ""
+        def adapt_text_to_conversation(text):
+            # Remove '\nReponse: ', '\nSentiment: ', '\nScore:', etc. at the end of text
+            if text[-1] == ':':
+                text = text.rsplit('\n', 1)[0]
+            return text
+        
+        if conversation_template:
+            conversation = get_conv_template(conversation_template)
+            user_role, assistant_role = conversation.roles
+            assert description, "Conversation prompt requires a description."
+        else:
+            description = description + "\n\n" if description else ""
+
+        example = self.doc_to_text(doc)
 
         if num_fewshot == 0:
             labeled_examples = ""
+            if conversation_template:
+                example = adapt_text_to_conversation(example)
+                if doc.get("description", False):
+                    # if we have description, use it. Replace the first placeholder with the description.
+                    # descriptions for tables are ignored because the placeholder is added for images.
+                    # experiment with ledor
+                    print(f'{doc["id"]} - add description')
+                    for desc in doc['description']:
+                        example = example.replace('[[placeholder]]', desc, 1)
+                    conversation.append_message(user_role, description + "\n" + example)
+                elif "[[placeholder]]" in example and doc['figures']:
+                    # if we have placeholders and images, add the images in the prompt.
+                    # experiment with vision
+                    print(f'{doc["id"]} - add images')
+                    contents = [{"type": "text", "text": description}]
+                    for index, text in enumerate(example.split('[[placeholder]]')):
+                        if text:
+                            contents.append({"type": "text", "text": text.strip()})
+                        if index < len(doc['figures']):
+                            img_url = doc['figures'][index]
+                            if not os.path.exists(img_url):
+                                print(f'PROBLEM: image {img_url} does not exist')
+                            contents.append({"type": "image_url", "image_url": {"url": img_url}})
+                    conversation.append_message(user_role, contents)
+                elif "[[placeholder]]" in example and not doc['figures']:
+                    # if we have placeholders, but no image, we remove the placeholders.
+                    # it means the images were purposely excluded.
+                    # experiment blind
+                    print(f'{doc["id"]} - have image, but ignoring')
+                    example = example.replace('[[placeholder]]', '')
+                    conversation.append_message(user_role, description + "\n" + example)
+                else:
+                    # question without images
+                    print(f'{doc["id"]} - question without image')
+                    conversation.append_message(user_role, description + "\n" + example)
+                conversation.append_message(assistant_role, None)
         else:
             # for sets with no training docs, draw from other set *but ensure no overlap with current doc*
             if self.has_training_docs():
@@ -200,14 +245,67 @@ class ENEM_2022(ENEM):
                 fewshotex = [x for x in fewshotex if x != doc][:num_fewshot]
 
             labeled_examples = ''
-            for i, doc_ex in enumerate(fewshotex):
-                labeled_examples += f'Questão {i+1}:\n'
-                labeled_examples += self.doc_to_text(doc_ex) + self.doc_to_target(doc_ex)
-                labeled_examples += '\n##\n'
-            labeled_examples += f'Questão {len(fewshotex) + 1}:\n'
+            
+            if conversation_template:
+                conversation.append_message(user_role, description)
+                conversation.append_message(assistant_role, "Ok, vamos lá.")
 
-        example = self.doc_to_text(doc)
-        return description + labeled_examples + example
+                for i, doc_ex in enumerate(fewshotex):
+                    text = adapt_text_to_conversation(self.doc_to_text(doc_ex))
+                    target = self.doc_to_target(doc_ex).strip()
+                    conversation.append_message(user_role, text)
+                    conversation.append_message(assistant_role, target)
+                example = adapt_text_to_conversation(example)
+
+                if doc.get("description", False):
+                    # if we have description, use it. Replace the first placeholder with the description.
+                    # descriptions for tables are ignored because the placeholder is added for images.
+                    # experiment with ledor
+                    print(f'{doc["id"]} - add description')
+                    for desc in doc['description']:
+                        example = example.replace('[[placeholder]]', desc, 1)
+                    conversation.append_message(user_role, example)
+                elif "[[placeholder]]" in example and doc['figures']:
+                    # if we have placeholders and images, add the images in the prompt.
+                    # experiment with vision
+                    print(f'{doc["id"]} - add images')
+                    contents = []
+                    for index, text in enumerate(example.split('[[placeholder]]')):
+                        if text:
+                            contents.append({"type": "text", "text": text.strip()})
+                        if index < len(doc['figures']):
+                            img_url = doc['figures'][index]
+                            contents.append({"type": "image_url", "image_url": {"url": img_url}})
+                    conversation.append_message(user_role, contents)
+                elif "[[placeholder]]" in example and not doc['figures']:
+                    # if we have placeholders, but no image, we remove the placeholders.
+                    # it means the images were purposely excluded.
+                    # experiment blind
+                    print(f'{doc["id"]} - have image, but ignoring')
+                    example = example.replace('[[placeholder]]', '')
+                    conversation.append_message(user_role, example)
+                else:
+                    # question without images
+                    print(f'{doc["id"]} - question without image')
+                    conversation.append_message(user_role, example)
+                conversation.append_message(assistant_role, None)
+            else:
+                for i, doc_ex in enumerate(fewshotex):
+                    labeled_examples += f'Questão {i+1}:\n'
+                    labeled_examples += self.doc_to_text(doc_ex) + self.doc_to_target(doc_ex)
+                    labeled_examples += '\n##\n'
+                labeled_examples += f'Questão {len(fewshotex) + 1}:\n'
+
+        if conversation_template:
+            if prompt_as_single_user_message:
+                return conversation.get_prompt()
+            else:
+                # for message in conversation.messages:
+                #      print(f'---------------- {message}')
+                # print('\n')
+                return json.dumps(conversation.to_openai_api_messages(), ensure_ascii=False)
+        else:
+            return description + labeled_examples + example
 
 
 # class ENEM_MULTIMODAL_CoT(ENEM_MULTIMODAL):
