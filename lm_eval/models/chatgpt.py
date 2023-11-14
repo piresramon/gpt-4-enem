@@ -149,7 +149,7 @@ class CHATGPTLM(BaseLM):
                 except json.decoder.JSONDecodeError:
                     # If context is not a valid JSON string, pass it as is
                     messages = [{"role": "user", "content": context}]
-                inps.append(context)
+                inps.append(messages)
 
             response = oa_completion(
                 model=self.engine,
