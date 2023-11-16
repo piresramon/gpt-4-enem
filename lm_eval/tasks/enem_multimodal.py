@@ -49,12 +49,9 @@ class ENEM_2022(ENEM):
 
         documents = [d for d in documents if d['label'] in ['A', 'B', 'C', 'D', 'E']] # remove questions annulled?
 
-        # Experimento com descrição: deixa o dataset completo
-        # Experimento com imagem: tira a descrição
-        # Experimento com nada: tira descrição e imagem
-
-        # experiment = 'use_descriptions'
+        experiment = 'multimodal'
         experiment = 'ledor'
+        # experiment = 'blind'
 
         assert experiment in ['multimodal', 'ledor', 'blind']
 
@@ -332,7 +329,7 @@ class ENEM_CoT_2022(ENEM_2022):
             "query": format_example(doc, choices),
             "choices": doc.get('alternatives', doc.get('options')),
             "gold": choices.index(doc["label"].upper()),
-            "id": doc["id"],
+            "id": f'ENEM_{doc["exam"]}_{doc["id"].split("_")[-1]}', # in order to remove the current example from the prompt
             "exam": doc["exam"],
             "description": doc.get("description", ""),
             "figures": doc.get("figures", []),
