@@ -37,13 +37,13 @@ _CITATION = """
 class ENEM_2022(ENEM):
     VERSION = 0
     DATASET_PATH = 'data/enem'
-    DATASET_NAME = None
+    DATASET_NAME = '2022'
 
     def download(self, data_dir=None, cache_dir=None, download_mode=None):
 
         self.dataset = collections.defaultdict(list)
         
-        fname = os.path.join(self.DATASET_PATH, '2022.jsonl')
+        fname = os.path.join(self.DATASET_PATH, self.DATASET_NAME + '.jsonl')
         with open(fname, 'r', encoding='utf-8') as f:
             documents = [json.loads(line) for line in f]
 
@@ -355,6 +355,13 @@ class ENEM_CoT_2022(ENEM_2022):
         continuation = rf.greedy_until(ctx, ['\n##\n'])  # explanations for MR tends to include \n in between.
         return continuation
 
+
+class ENEM_2023(ENEM_2022):
+    DATASET_NAME = '2023'
+
+
+class ENEM_CoT_2023(ENEM_CoT_2022, ENEM_2023):
+    pass
 
 # class ENEM_MULTIMODAL_CoT(ENEM_MULTIMODAL):
 
