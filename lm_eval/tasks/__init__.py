@@ -19,6 +19,8 @@ TASK_REGISTRY = {
 
     "enem_2022": enem_multimodal.ENEM_2022,
     "enem_cot_2022": enem_multimodal.ENEM_CoT_2022,
+    "enem_2023": enem_multimodal.ENEM_2023,
+    "enem_cot_2023": enem_multimodal.ENEM_CoT_2023,
 }
 
 
