@@ -3,6 +3,7 @@ from typing import List, Union
 
 import lm_eval.base
 from . import enem
+from . import enem_multimodal
 
 
 ########################################
@@ -13,8 +14,13 @@ from . import enem
 TASK_REGISTRY = {
     "enem": enem.ENEM,
     "enem_cot": enem.ENEM_CoT,
-    "enem_2022": enem.ENEM_2022,
-    "enem_cot_2022": enem.ENEM_CoT_2022,
+    "enem_2022_deprecated": enem.ENEM_2022,
+    "enem_cot_2022_deprecated": enem.ENEM_CoT_2022,
+
+    "enem_2022": enem_multimodal.ENEM_2022,
+    "enem_cot_2022": enem_multimodal.ENEM_CoT_2022,
+    "enem_2023": enem_multimodal.ENEM_2023,
+    "enem_cot_2023": enem_multimodal.ENEM_CoT_2023,
 }
 
 

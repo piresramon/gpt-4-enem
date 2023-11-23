@@ -42,6 +42,7 @@ setuptools.setup(
         "nagisa==0.2.7",
         "bleurt@https://github.com/google-research/bleurt/archive/b610120347ef22b494b6d69b4316e303f5932516.zip#egg=bleurt",
         "pytest==7.2.2",
+        "fschat==0.2.32",
     ],
     dependency_links=[
         "https://github.com/google-research/bleurt/archive/b610120347ef22b494b6d69b4316e303f5932516.zip#egg=bleurt",

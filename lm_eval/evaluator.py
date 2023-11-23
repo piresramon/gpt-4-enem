@@ -21,6 +21,8 @@ def simple_evaluate(
     limit=None,
     bootstrap_iters=100000,
     description_dict=None,
+    conversation_template=None,
+    prompt_as_single_user_message=False,
     check_integrity=False,
     decontamination_ngrams_path=None,
 ):
@@ -90,6 +92,8 @@ def simple_evaluate(
         limit=limit,
         bootstrap_iters=bootstrap_iters,
         description_dict=description_dict,
+        conversation_template=conversation_template,
+        prompt_as_single_user_message=prompt_as_single_user_message,
         decontamination_ngrams_path=decontamination_ngrams_path,
     )
 
@@ -121,6 +125,8 @@ def evaluate(
     limit=None,
     bootstrap_iters=100000,
     description_dict=None,
+    conversation_template=None,
+    prompt_as_single_user_message=False,
     decontamination_ngrams_path=None,
 ):
     """Instantiate and evaluate a model on a list of tasks.
@@ -213,8 +219,13 @@ def evaluate(
 
             docs[(task_name, doc_id)] = doc
             ctx = task.fewshot_context(
-                doc=doc, num_fewshot=num_fewshot, rnd=rnd, description=description
-            )
+                    doc=doc,
+                    num_fewshot=num_fewshot,
+                    rnd=rnd,
+                    description=description,
+                    conversation_template=conversation_template,
+                    prompt_as_single_user_message=prompt_as_single_user_message
+                )
             reqs = task.construct_requests(doc, ctx)
             if not isinstance(reqs, (list, tuple)):
                 reqs = [reqs]

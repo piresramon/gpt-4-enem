@@ -19,6 +19,8 @@ def parse_args():
     parser.add_argument("--seed", type=int, default=42)
     parser.add_argument("--num_examples", type=int, default=1)
     parser.add_argument("--description_dict_path", default=None)
+    parser.add_argument('--conversation_template', type=str, default=None)
+    parser.add_argument('--prompt_as_single_user_message', action="store_true")
     return parser.parse_args()
 
 
@@ -73,6 +75,8 @@ def main():
                     num_fewshot=args.num_fewshot,
                     rnd=rnd,
                     description=description,
+                    conversation_template=args.conversation_template,
+                    prompt_as_single_user_message=args.prompt_as_single_user_message,
                 )
                 f.write(ctx + "\n")
 
