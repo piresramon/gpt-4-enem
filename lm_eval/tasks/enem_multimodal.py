@@ -49,16 +49,16 @@ class ENEM_2022(ENEM):
 
         documents = [d for d in documents if d['label'] in ['A', 'B', 'C', 'D', 'E']] # remove questions annulled?
 
-        experiment = 'multimodal'
-        experiment = 'ledor'
-        experiment = 'blind'
+        experiment = 'without_images'
+        experiment = 'with_images'
+        experiment = 'with_captions'
 
-        assert experiment in ['multimodal', 'ledor', 'blind']
+        assert experiment in ['with_images', 'with_captions', 'without_images']
 
-        if experiment == 'multimodal':
+        if experiment == 'with_images':
             for d in documents:
                 d['description'] = []
-        elif experiment == 'blind':
+        elif experiment == 'without_images':
             for d in documents:
                 d['description'] = []
             for d in documents:
@@ -191,15 +191,13 @@ class ENEM_2022(ENEM):
                 if doc.get("description", False):
                     # if we have description, use it. Replace the first placeholder with the description.
                     # descriptions for tables are ignored because the placeholder is added for images.
-                    # experiment with ledor
-                    print(f'{doc["id"]} - add description')
+                    # experiment with_captions
                     for desc in doc['description']:
                         example = example.replace('[[placeholder]]', desc, 1)
                     conversation.append_message(user_role, description + "\n" + example)
                 elif "[[placeholder]]" in example and doc['figures']:
                     # if we have placeholders and images, add the images in the prompt.
-                    # experiment with vision
-                    print(f'{doc["id"]} - add images')
+                    # experiment with_images
                     contents = [{"type": "text", "text": description}]
                     for index, text in enumerate(example.split('[[placeholder]]')):
                         if text:
@@ -213,13 +211,11 @@ class ENEM_2022(ENEM):
                 elif "[[placeholder]]" in example and not doc['figures']:
                     # if we have placeholders, but no image, we remove the placeholders.
                     # it means the images were purposely excluded.
-                    # experiment blind
-                    print(f'{doc["id"]} - have image, but ignoring')
+                    # experiment without_images
                     example = example.replace('[[placeholder]]', '')
                     conversation.append_message(user_role, description + "\n" + example)
                 else:
-                    # question without images
-                    print(f'{doc["id"]} - question without image')
+                    # this question does not have images
                     conversation.append_message(user_role, description + "\n" + example)
                 conversation.append_message(assistant_role, None)
         else:
@@ -257,15 +253,13 @@ class ENEM_2022(ENEM):
                 if doc.get("description", False):
                     # if we have description, use it. Replace the first placeholder with the description.
                     # descriptions for tables are ignored because the placeholder is added for images.
-                    # experiment with ledor
-                    print(f'{doc["id"]} - add description')
+                    # experiment with_captions
                     for desc in doc['description']:
                         example = example.replace('[[placeholder]]', desc, 1)
                     conversation.append_message(user_role, example)
                 elif "[[placeholder]]" in example and doc['figures']:
                     # if we have placeholders and images, add the images in the prompt.
-                    # experiment with vision
-                    print(f'{doc["id"]} - add images')
+                    # experiment with_images
                     contents = []
                     for index, text in enumerate(example.split('[[placeholder]]')):
                         if text:
@@ -277,13 +271,11 @@ class ENEM_2022(ENEM):
                 elif "[[placeholder]]" in example and not doc['figures']:
                     # if we have placeholders, but no image, we remove the placeholders.
                     # it means the images were purposely excluded.
-                    # experiment blind
-                    print(f'{doc["id"]} - have image, but ignoring')
+                    # experiment without_images
                     example = example.replace('[[placeholder]]', '')
                     conversation.append_message(user_role, example)
                 else:
-                    # question without images
-                    print(f'{doc["id"]} - question without image')
+                    # this question does not have images
                     conversation.append_message(user_role, example)
                 conversation.append_message(assistant_role, None)
             else:
@@ -297,9 +289,6 @@ class ENEM_2022(ENEM):
             if prompt_as_single_user_message:
                 return conversation.get_prompt()
             else:
-                # for message in conversation.messages:
-                #      print(f'---------------- {message}')
-                # print('\n')
                 return json.dumps(conversation.to_openai_api_messages(), ensure_ascii=False)
         else:
             return description + labeled_examples + example
