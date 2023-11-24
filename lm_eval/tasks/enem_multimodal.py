@@ -48,7 +48,7 @@ class ENEM_2022(ENEM):
             documents = [json.loads(line) for line in f]
 
         # remove annulled questions
-        documents = [d for d in documents if d['label'] in ['A', 'B', 'C', 'D', 'E']] # remove questions annulled?
+        documents = [d for d in documents if d['label'] in ['A', 'B', 'C', 'D', 'E']]
 
         self.dataset['test'] = list(map(self._process_doc, documents))
 
