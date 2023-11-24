@@ -17,10 +17,19 @@ TASK_REGISTRY = {
     "enem_2022_deprecated": enem.ENEM_2022,
     "enem_cot_2022_deprecated": enem.ENEM_CoT_2022,
 
-    "enem_2022": enem_multimodal.ENEM_2022,
-    "enem_cot_2022": enem_multimodal.ENEM_CoT_2022,
-    "enem_2023": enem_multimodal.ENEM_2023,
-    "enem_cot_2023": enem_multimodal.ENEM_CoT_2023,
+    "enem_2022_blind": enem_multimodal.ENEM_2022_BLIND,
+    "enem_cot_2022_blind": enem_multimodal.ENEM_CoT_2022_BLIND,
+    "enem_2022_images": enem_multimodal.ENEM_2022_IMAGES,
+    "enem_cot_2022_images": enem_multimodal.ENEM_CoT_2022_IMAGES,
+    "enem_2022_captions": enem_multimodal.ENEM_2022,
+    "enem_cot_2022_captions": enem_multimodal.ENEM_CoT_2022,
+
+    "enem_2023_blind": enem_multimodal.ENEM_2023_BLIND,
+    "enem_cot_2023_blind": enem_multimodal.ENEM_CoT_2023_BLIND,
+    "enem_2023_images": enem_multimodal.ENEM_2023_IMAGES,
+    "enem_cot_2023_images": enem_multimodal.ENEM_CoT_2023_IMAGES,
+    "enem_2023_captions": enem_multimodal.ENEM_2023,
+    "enem_cot_2023_captions": enem_multimodal.ENEM_CoT_2023,
 }
 
 

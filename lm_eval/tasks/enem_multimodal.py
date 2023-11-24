@@ -47,22 +47,8 @@ class ENEM_2022(ENEM):
         with open(fname, 'r', encoding='utf-8') as f:
             documents = [json.loads(line) for line in f]
 
-        documents = [d for d in documents if d['label'] in ['A', 'B', 'C', 'D', 'E']] # remove questions annulled?
-
-        experiment = 'without_images'
-        experiment = 'with_images'
-        experiment = 'with_captions'
-
-        assert experiment in ['with_images', 'with_captions', 'without_images']
-
-        if experiment == 'with_images':
-            for d in documents:
-                d['description'] = []
-        elif experiment == 'without_images':
-            for d in documents:
-                d['description'] = []
-            for d in documents:
-                d['figures'] = []
+        # remove annulled questions
+        documents = [d for d in documents if d['label'] in ['A', 'B', 'C', 'D', 'E']]
 
         self.dataset['test'] = list(map(self._process_doc, documents))
 
@@ -378,4 +364,50 @@ class ENEM_2023(ENEM_2022):
 
 
 class ENEM_CoT_2023(ENEM_CoT_2022, ENEM_2023):
+    pass
+
+
+class ENEM_2022_IMAGES(ENEM_2022):
+    def download(self, data_dir=None, cache_dir=None, download_mode=None):
+        super().download(data_dir=data_dir, cache_dir=cache_dir, download_mode=download_mode)
+        for d in self.dataset['test']:
+            d['description'] = []
+
+
+class ENEM_2022_BLIND(ENEM_2022):
+    def download(self, data_dir=None, cache_dir=None, download_mode=None):
+        super().download(data_dir=data_dir, cache_dir=cache_dir, download_mode=download_mode)
+        for d in self.dataset['test']:
+            d['description'] = []
+            d['figures'] = []
+
+
+class ENEM_CoT_2022_IMAGES(ENEM_CoT_2022, ENEM_2022_IMAGES):
+    pass
+
+
+class ENEM_CoT_2022_BLIND(ENEM_CoT_2022, ENEM_2022_BLIND):
+    pass
+
+
+class ENEM_2023_IMAGES(ENEM_2023):
+    def download(self, data_dir=None, cache_dir=None, download_mode=None):
+        super().download(data_dir=data_dir, cache_dir=cache_dir, download_mode=download_mode)
+        for d in self.dataset['test']:
+            d['description'] = []
+
+
+class ENEM_2023_BLIND(ENEM_2023):
+    def download(self, data_dir=None, cache_dir=None, download_mode=None):
+        super().download(data_dir=data_dir, cache_dir=cache_dir, download_mode=download_mode)
+        for d in self.dataset['test']:
+            d['description'] = []
+            d['figures'] = []
+
+
+class ENEM_CoT_2023_IMAGES(ENEM_CoT_2023, ENEM_2023_IMAGES):
+    pass
+
+
+class ENEM_CoT_2023_BLIND(ENEM_CoT_2023, ENEM_2023_BLIND):
     pass
