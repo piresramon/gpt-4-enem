@@ -6,7 +6,7 @@
 ## Introduction
 
 This repository contains code and data used in the following papers:
-- 
+
 - Evaluating GPT-4's Vision Capabilities on Brazilian University Admission Exams (coming soon!). 
 <!-- (https://arxiv.org/abs/2303.17003). -->
 - [Evaluating GPT-3.5 and GPT-4 Models on Brazilian University Admission Exams](https://arxiv.org/abs/2303.17003).
@@ -304,31 +304,30 @@ Visit [openai](https://help.openai.com/en/articles/4936850-where-do-i-find-my-se
 OPENAI_API_SECRET_KEY=sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 ```
 ### 4. Run the experiments:
+
+To reproduce the results of the Table 1, run the following commands:
+
 ```bash
-# running 3-shot with CoT for chatgpt
+# running 3-shot with CoT for GPT-4V on ENEM 2022
 python main.py \
     --model chatgpt \
-    --model_args engine=gpt-3.5-turbo-0301 \
-    --task enem_cot_2022 \
+    --model_args engine=gpt-4-vision-preview \
+    --tasks enem_cot_2022_blind,enem_cot_2022_images,enem_cot_2022_captions \
+    --description_dict_path description.json \
     --num_fewshot 3 \
-    --description_dict_path description.json
+    --conversation_template chatgpt
 
-# running 3-shot with CoT for gpt-4
+# running 3-shot with CoT for GPT-4V on ENEM 2023
 python main.py \
     --model chatgpt \
-    --model_args engine=gpt-4-0314 \
-    --task enem_cot_2022 \
+    --model_args engine=gpt-4-vision-preview \
+    --tasks enem_cot_2023_blind,enem_cot_2023_images,enem_cot_2023_captions \
+    --description_dict_path description.json \
     --num_fewshot 3 \
-    --description_dict_path description.json
+    --conversation_template chatgpt
 ```
+To experiment other OpenAI model, just change the engine. The tasks `enem_cot_2022_images` and `enem_cot_2023_images` are not supported by text-based models.
 <!-- python main.py --model chatgpt --model_args engine=gpt-4-1106-preview --tasks enem_cot_2023 --description_dict_path description.json --num_fewshot 3 --conversation_template chatgpt -->
-
-We have four different tasks:
-1. **enem**: Enem Challenge (2009-2017) without Chain-of-thought prompting.
-2. **enem_cot**: Enem Challenge (2009-2017) with Chain-of-thought prompting.
-3. **enem_2022**: Enem 2022 without Chain-of-thought prompting.
-4. **enem_cot_2022**: Enem 2022 with Chain-of-thought prompting.
-
 It is possible to use a different number of few-shot examples (maximum 3).
 
 ## Citation
