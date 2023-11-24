@@ -106,6 +106,30 @@ On the 2022 edition, the best-performing model, GPT-4 with CoT, achieved an accu
 
 ## Data
 
+<!-- We made available three datasets:
+
+### ENEM 2022 (deprecated)  
+- Support to Multimodal Models: :x:
+- Texts: [[Link]](data/enem/2022.json)
+- Images: :x:
+
+The dataset is annotated with tags indicating the domain:
+- **TU** - Text Understanding
+- **IU** - Image Understanding
+- **MR** - Mathematical Reasoning
+- **CE** - Chemical Elements
+- **ML** - Multilanguage
+
+### ENEM 2022 [[Text]](data/enem/2022.json) [[Images]](data/enem/figures/2022)
+
+- Support to Multimodal Models: :heavy_check_mark:
+- Texts: [[Link]](data/enem/2022.json)
+- Images: [[Link]](data/enem/figures/2022)
+
+The dataset is annotated with tags indicating the domain:
+- **TU** - Text Understanding
+- ** -->
+
 We made available the [ENEM-2022 dataset](data/enem/2022.json), created by parsing questions and alternatives from the latest edition of the ENEM test. The dataset was structured and annotated with tags indicating the domain:
 
 - **TU** - Text Understanding
@@ -149,6 +173,7 @@ python main.py \
     --num_fewshot 3 \
     --description_dict_path description.json
 ```
+<!-- python main.py --model chatgpt --model_args engine=gpt-4-1106-preview --tasks enem_cot_2023 --description_dict_path description.json --num_fewshot 3 --conversation_template chatgpt -->
 
 We have four different tasks:
 1. **enem**: Enem Challenge (2009-2017) without Chain-of-thought prompting.
