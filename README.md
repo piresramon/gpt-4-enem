@@ -80,7 +80,7 @@ Significant improvements are noticeable when incorporating either textual or vis
   </tr>
 </table>
 
-<p style="text-align: center;">Results of GPT-4V on ENEM 2022 and ENEM 2023.</p>
+<p style="text-align: center;">Results of GPT-4V on ENEM 2022 and ENEM 2023, using 3-shot with Chain-of-Thought (CoT) prompts.</p>
 
 The best-performing model was the GPT-4, that achieved an accuracy of 90.5% on ENEM 2023, using captions, largely surpassing the GPT-3.5 by 17 points
 
@@ -137,6 +137,154 @@ We made available the [ENEM-2022 dataset](data/enem/2022.json), created by parsi
 - **MR** - Mathematical Reasoning
 - **CE** - Chemical Elements
 - **ML** - Multilanguage
+
+## Tasks
+
+We have implemented a set of 16 tasks, described below:
+
+<table>
+  <thead>
+    <tr>
+      <th>Task</th>
+      <th>Enem edition</th>
+      <th>Experiment</th>
+      <th>CoT</th>
+      <th>Use all the questions</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>enem_2022_blind</td>
+      <td>ENEM 2022</td>
+      <td>without images</td>
+      <td>No</td>
+      <td>:heavy_check_mark:</td>
+    </tr>
+    <tr>
+      <td>enem_cot_2022_blind</td>
+      <td>ENEM 2022</td>
+      <td>without images</td>
+      <td>Yes</td>
+      <td>:heavy_check_mark:</td>
+    </tr>
+    <tr>
+      <td>enem_2022_images</td>
+      <td>ENEM 2022</td>
+      <td>with images</td>
+      <td>No</td>
+      <td>:heavy_check_mark:</td>
+    </tr>
+    <tr>
+      <td>enem_cot_2022_images</td>
+      <td>ENEM 2022</td>
+      <td>with images</td>
+      <td>Yes</td>
+      <td>:heavy_check_mark:</td>
+    </tr>
+    <tr>
+      <td>enem_2022_captions</td>
+      <td>ENEM 2022</td>
+      <td>with captions</td>
+      <td>No</td>
+      <td>:heavy_check_mark:</td>
+    </tr>
+    <tr>
+      <td>enem_cot_2022_captions</td>
+      <td>ENEM 2022</td>
+      <td>with captions</td>
+      <td>Yes</td>
+      <td>:heavy_check_mark:</td>
+    </tr>
+    <tr>
+      <td>enem_2023_blind</td>
+      <td>ENEM 2023</td>
+      <td>without images</td>
+      <td>No</td>
+      <td>:heavy_check_mark:</td>
+    </tr>
+    <tr>
+      <td>enem_cot_2023_blind</td>
+      <td>ENEM 2023</td>
+      <td>without images</td>
+      <td>Yes</td>
+      <td>:heavy_check_mark:</td>
+    </tr>
+    <tr>
+      <td>enem_2023_images</td>
+      <td>ENEM 2023</td>
+      <td>with images</td>
+      <td>No</td>
+      <td>:heavy_check_mark:</td>
+    </tr>
+    <tr>
+      <td>enem_cot_2023_images</td>
+      <td>ENEM 2023</td>
+      <td>with images</td>
+      <td>Yes</td>
+      <td>:heavy_check_mark:</td>
+    </tr>
+    <tr>
+      <td>enem_2023_captions</td>
+      <td>ENEM 2023</td>
+      <td>with captions</td>
+      <td>No</td>
+      <td>:heavy_check_mark:</td>
+    </tr>
+    <tr>
+      <td>enem_cot_2023_captions</td>
+      <td>ENEM 2023</td>
+      <td>with captions</td>
+      <td>Yes</td>
+      <td>:heavy_check_mark:</td>
+    </tr>
+    <tr>
+      <td>enem</td>
+      <td>Enem Challenge (2009-2017)</td>
+      <td>-</td>
+      <td>No</td>
+      <td>:x:</td>
+    </tr>
+    <tr>
+      <td>enem_cot</td>
+      <td>Enem Challenge (2009-2017)</td>
+      <td>-</td>
+      <td>Yes</td>
+      <td>:x:</td>
+    </tr>
+    <tr>
+      <td>enem_2022_deprecated</td>
+      <td>ENEM 2022</td>
+      <td>-</td>
+      <td>No</td>
+      <td>:x:</td>
+    </tr>
+    <tr>
+      <td>enem_cot_2022_deprecated</td>
+      <td>ENEM 2022</td>
+      <td>-</td>
+      <td>Yes</td>
+      <td>:x:</td>
+    </tr>
+  </tbody>
+</table>
+
+
+<!-- 1. **enem_2022_blind**: ENEM 2022 without images and without CoT prompting.
+2. **enem_cot_2022_blind**: ENEM 2022 without images and with CoT prompting.
+3. **enem_2022_images**: ENEM 2022 with images and without CoT prompting.
+4. **enem_cot_2022_images**: ENEM 2022 with images and with CoT prompting.
+5. **enem_2022_captions**: ENEM 2022 with captions and without CoT prompting.
+6. **enem_cot_2022_captions**: ENEM 2022 with captions and with CoT prompting.
+7. **enem_2023_blind**: ENEM 2023 without images and without CoT prompting.
+8. **enem_cot_2023_blind**: ENEM 2023 without images and with CoT prompting.
+9. **enem_2023_images**: ENEM 2023 with images and without CoT prompting.
+10. **enem_cot_2023_images**: ENEM 2023 with images and with CoT prompting.
+11. **enem_2023_captions**: ENEM 2023 with captions and without CoT prompting.
+12. **enem_cot_2023_captions**: ENEM 2023 with captions and with CoT prompting.
+13. **enem**: Enem Challenge (2009-2017) without CoT prompting (deprecated).
+14. **enem_cot**: Enem Challenge (2009-2017) with CoT prompting (deprecated).
+15. **enem_2022_deprecated**: Enem 2022 without CoT prompting (deprecated).
+16. **enem_cot_2022_deprecated**: Enem 2022 with CoT prompting (deprecated). -->
 
 ## Reproducing the results
 To reproduce the experiments described in the paper, please follow the steps below:
