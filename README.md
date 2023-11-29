@@ -7,8 +7,7 @@
 
 This repository contains code and data used in the following papers:
 
-- Evaluating GPT-4's Vision Capabilities on Brazilian University Admission Exams (coming soon!). 
-<!-- (https://arxiv.org/abs/2303.17003). -->
+- [Evaluating GPT-4's Vision Capabilities on Brazilian University Admission Exams](https://arxiv.org/abs/2311.14169). 
 - [Evaluating GPT-3.5 and GPT-4 Models on Brazilian University Admission Exams](https://arxiv.org/abs/2303.17003).
 
 This most recent study presents a comprehensive framework to evaluate language models on entrance exams, which incorporates both textual and visual elements. We evaluate the two most recent editions of *[Exame Nacional do Ensino Médio (ENEM)](https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem)*, the main standardized entrance examination adopted by Brazilian universities.
