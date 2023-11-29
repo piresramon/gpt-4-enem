@@ -331,7 +331,18 @@ To experiment other OpenAI model, just change the engine. The tasks `enem_cot_20
 It is possible to use a different number of few-shot examples (maximum 3).
 
 ## Citation
-If you use this code or data in your research, please cite the following paper:
+If you use this code or data in your research, please cite the following papers:
+
+```bibtex
+@misc{pires2023evaluating,
+      title={Evaluating GPT-4's Vision Capabilities on Brazilian University Admission Exams}, 
+      author={Ramon Pires and Thales Sales Almeida and Hugo Abonizio and Rodrigo Nogueira},
+      year={2023},
+      eprint={2311.14169},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+```
 
 ```bibtex
 @misc{nunes2023evaluating,
