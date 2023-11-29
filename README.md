@@ -105,37 +105,14 @@ On the 2022 edition, the best-performing model, GPT-4 with CoT, achieved an accu
 
 ## Data
 
-<!-- We made available three datasets:
+We made available the [ENEM 2022](data/enem/2022.jsonl) and [ENEM 2023](data/enem/2023.jsonl) datasets. These datasets encompass all multiple-choice questions from the last two editions. The datasets have been created to allow the evaluation of both textual-only and textual-visual language models. To evaluate textual-only models, we incorporated into the datasets the textual descriptions of the images that appear in the questions' statements from the orange ENEM exam booklet, a particular booklet that offers accessibility to people with visual impairments.
 
-### ENEM 2022 (deprecated)  
-- Support to Multimodal Models: :x:
-- Texts: [[Link]](data/enem/2022.json)
-- Images: :x:
+The datasets can also be accessed via the 🤗 Datasets library: https://huggingface.co/datasets/maritaca-ai/enem
 
-The dataset is annotated with tags indicating the domain:
-- **TU** - Text Understanding
-- **IU** - Image Understanding
-- **MR** - Mathematical Reasoning
-- **CE** - Chemical Elements
-- **ML** - Multilanguage
+The deprecated ENEM 2022 dataset can be found [here](data/enem/2022.json).
 
-### ENEM 2022 [[Text]](data/enem/2022.json) [[Images]](data/enem/figures/2022)
-
-- Support to Multimodal Models: :heavy_check_mark:
-- Texts: [[Link]](data/enem/2022.json)
-- Images: [[Link]](data/enem/figures/2022)
-
-The dataset is annotated with tags indicating the domain:
-- **TU** - Text Understanding
-- ** -->
-
-We made available the [ENEM-2022 dataset](data/enem/2022.json), created by parsing questions and alternatives from the latest edition of the ENEM test. The dataset was structured and annotated with tags indicating the domain:
-
-- **TU** - Text Understanding
-- **IU** - Image Understanding
-- **MR** - Mathematical Reasoning
-- **CE** - Chemical Elements
-- **ML** - Multilanguage
+> [!Warning]
+> We do not recommend using this dataset, since it does not include the images placeholders, textual descriptions. Also, the tables are not well-formatted.
 
 ## Tasks
 
