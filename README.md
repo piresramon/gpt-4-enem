@@ -1,7 +1,6 @@
 # GPT-4-ENEM
 
-**\*\*\* Most of the code in this repository has been adapted from the original 
-[Language Model Evaluation Harness](https://github.com/EleutherAI/lm-evaluation-harness). \*\*\***
+**\*\*\* Most of the code in this repository has been adapted from [Language Model Evaluation Harness](https://github.com/EleutherAI/lm-evaluation-harness). \*\*\***
 
 ## Introduction
 
@@ -112,7 +111,7 @@ The datasets can also be accessed via the 🤗 Datasets library: https://hugging
 The deprecated ENEM 2022 dataset can be found [here](data/enem/2022.json).
 
 > [!Warning]
-> We do not recommend using this dataset, since it does not include the images placeholders, textual descriptions. Also, the tables are not well-formatted.
+> We do not recommend using the deprecated dataset, since it does not include the image placeholders, image paths, and textual descriptions. Also, the tables are not well-formatted.
 
 ## Tasks
 
@@ -307,7 +306,7 @@ To experiment other OpenAI model, just change the engine. The tasks `enem_cot_20
 It is possible to use a different number of few-shot examples (maximum 3).
 
 > [!Tip]
-> You can experiment any other model available in the 🤗 Transformers library. Just change the `model` and `model_args` parameters. It is necessary to disable the parameter `--conversation_template`.
+> You can experiment any other model available in the 🤗 Transformers library. Just change the `model` and `model_args` parameters. It is necessary to disable the parameter `conversation_template`.
 
 ## Citation
 If you use this code or data in your research, please cite the following papers:
