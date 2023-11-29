@@ -306,6 +306,9 @@ To experiment other OpenAI model, just change the engine. The tasks `enem_cot_20
 <!-- python main.py --model chatgpt --model_args engine=gpt-4-1106-preview --tasks enem_cot_2023 --description_dict_path description.json --num_fewshot 3 --conversation_template chatgpt -->
 It is possible to use a different number of few-shot examples (maximum 3).
 
+> [!Tip]
+> You can experiment any other model available in the 🤗 Transformers library. Just change the `model` and `model_args` parameters. It is necessary to disable the parameter `--conversation_template`.
+
 ## Citation
 If you use this code or data in your research, please cite the following papers:
 
