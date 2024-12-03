@@ -363,6 +363,38 @@ class ENEM_2023(ENEM_2022):
         }
 
 
+class ENEM_2024(ENEM_2022):
+    DATASET_NAME = '2024'
+
+    def higher_is_better(self):
+        return {
+            "acc": True,
+            '2024': True,
+            'languages': True,
+            'human-sciences': True,
+            'natural-sciences': True,
+            'mathematics': True,
+            'c_languages': True,
+            'c_human-sciences': True,
+            'c_natural-sciences': True,
+            'c_mathematics': True,
+        }
+    
+    def aggregation(self):
+        return {
+            "acc": mean,
+            '2024': mean,
+            'languages': mean,
+            'human-sciences': mean,
+            'natural-sciences': mean,
+            'mathematics': mean,
+            'c_languages': sum,
+            'c_human-sciences': sum,
+            'c_natural-sciences': sum,
+            'c_mathematics': sum,
+        }
+
+
 class ENEM_CoT_2023(ENEM_CoT_2022, ENEM_2023):
     pass
 
