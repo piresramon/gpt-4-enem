@@ -2,7 +2,6 @@ import json
 import openai
 import os
 import time
-import transformers
 from lm_eval.base import BaseLM
 from lm_eval import utils
 from tqdm import tqdm
@@ -67,17 +66,6 @@ class CHATGPTLM(BaseLM):
         super().__init__()
 
         self.engine = engine
-        self.tokenizer = transformers.GPT2TokenizerFast.from_pretrained("gpt2")
-
-        self.vocab_size = self.tokenizer.vocab_size
-
-        # to make the annoying "Using pad_token, but it is not set yet." error go away
-        self.tokenizer.pad_token = "<|endoftext|>"
-        assert self.tokenizer.encode("hello\n\nhello") == [31373, 198, 198, 31373]
-        self.truncate = truncate
-        self.end_of_text_token_id = self.tokenizer.convert_tokens_to_ids(
-            ["<|endoftext|>"]
-        )[0]
 
         # Read from environment variable OPENAI_API_SECRET_KEY
         openai.api_key = os.environ["OPENAI_API_SECRET_KEY"]
