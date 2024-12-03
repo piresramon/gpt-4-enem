@@ -52,7 +52,7 @@ def oa_completion(**kwargs):
             backoff_time *= 1.5
 
 
-class CHATGPTLM(BaseLM):
+class MARITALKLM(BaseLM):
     REQ_CHUNK_SIZE = 1
 
     def __init__(self, engine, truncate=False):
@@ -68,7 +68,8 @@ class CHATGPTLM(BaseLM):
         self.engine = engine
 
         # Read from environment variable OPENAI_API_SECRET_KEY
-        openai.api_key = os.environ["OPENAI_API_SECRET_KEY"]
+        openai.api_base = "https://chat.maritaca.ai/api"
+        openai.api_key = os.environ["MARITALK_API_SECRET_KEY"]
 
     @property
     def eot_token_id(self):
