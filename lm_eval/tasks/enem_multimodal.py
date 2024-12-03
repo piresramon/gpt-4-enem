@@ -399,6 +399,10 @@ class ENEM_CoT_2023(ENEM_CoT_2022, ENEM_2023):
     pass
 
 
+class ENEM_CoT_2024(ENEM_CoT_2022, ENEM_2024):
+    pass
+
+
 class ENEM_2022_IMAGES(ENEM_2022):
     def download(self, data_dir=None, cache_dir=None, download_mode=None):
         super().download(data_dir=data_dir, cache_dir=cache_dir, download_mode=download_mode)
@@ -442,4 +446,27 @@ class ENEM_CoT_2023_IMAGES(ENEM_CoT_2023, ENEM_2023_IMAGES):
 
 
 class ENEM_CoT_2023_BLIND(ENEM_CoT_2023, ENEM_2023_BLIND):
+    pass
+
+
+class ENEM_2024_IMAGES(ENEM_2024):
+    def download(self, data_dir=None, cache_dir=None, download_mode=None):
+        super().download(data_dir=data_dir, cache_dir=cache_dir, download_mode=download_mode)
+        for d in self.dataset['test']:
+            d['description'] = []
+
+
+class ENEM_2024_BLIND(ENEM_2024):
+    def download(self, data_dir=None, cache_dir=None, download_mode=None):
+        super().download(data_dir=data_dir, cache_dir=cache_dir, download_mode=download_mode)
+        for d in self.dataset['test']:
+            d['description'] = []
+            d['figures'] = []
+
+
+class ENEM_CoT_2024_IMAGES(ENEM_CoT_2024, ENEM_2024_IMAGES):
+    pass
+
+
+class ENEM_CoT_2024_BLIND(ENEM_CoT_2024, ENEM_2024_BLIND):
     pass
