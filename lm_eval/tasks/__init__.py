@@ -30,6 +30,13 @@ TASK_REGISTRY = {
     "enem_cot_2023_images": enem_multimodal.ENEM_CoT_2023_IMAGES,
     "enem_2023_captions": enem_multimodal.ENEM_2023,
     "enem_cot_2023_captions": enem_multimodal.ENEM_CoT_2023,
+
+    "enem_2024_blind": enem_multimodal.ENEM_2024_BLIND,
+    "enem_cot_2024_blind": enem_multimodal.ENEM_CoT_2024_BLIND,
+    "enem_2024_images": enem_multimodal.ENEM_2024_IMAGES,
+    "enem_cot_2024_images": enem_multimodal.ENEM_CoT_2024_IMAGES,
+    "enem_2024_captions": enem_multimodal.ENEM_2024,
+    "enem_cot_2024_captions": enem_multimodal.ENEM_CoT_2024,
 }
 
 

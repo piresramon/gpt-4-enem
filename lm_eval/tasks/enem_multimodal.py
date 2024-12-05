@@ -363,7 +363,43 @@ class ENEM_2023(ENEM_2022):
         }
 
 
+class ENEM_2024(ENEM_2022):
+    DATASET_NAME = '2024'
+
+    def higher_is_better(self):
+        return {
+            "acc": True,
+            '2024': True,
+            'languages': True,
+            'human-sciences': True,
+            'natural-sciences': True,
+            'mathematics': True,
+            'c_languages': True,
+            'c_human-sciences': True,
+            'c_natural-sciences': True,
+            'c_mathematics': True,
+        }
+    
+    def aggregation(self):
+        return {
+            "acc": mean,
+            '2024': mean,
+            'languages': mean,
+            'human-sciences': mean,
+            'natural-sciences': mean,
+            'mathematics': mean,
+            'c_languages': sum,
+            'c_human-sciences': sum,
+            'c_natural-sciences': sum,
+            'c_mathematics': sum,
+        }
+
+
 class ENEM_CoT_2023(ENEM_CoT_2022, ENEM_2023):
+    pass
+
+
+class ENEM_CoT_2024(ENEM_CoT_2022, ENEM_2024):
     pass
 
 
@@ -410,4 +446,27 @@ class ENEM_CoT_2023_IMAGES(ENEM_CoT_2023, ENEM_2023_IMAGES):
 
 
 class ENEM_CoT_2023_BLIND(ENEM_CoT_2023, ENEM_2023_BLIND):
+    pass
+
+
+class ENEM_2024_IMAGES(ENEM_2024):
+    def download(self, data_dir=None, cache_dir=None, download_mode=None):
+        super().download(data_dir=data_dir, cache_dir=cache_dir, download_mode=download_mode)
+        for d in self.dataset['test']:
+            d['description'] = []
+
+
+class ENEM_2024_BLIND(ENEM_2024):
+    def download(self, data_dir=None, cache_dir=None, download_mode=None):
+        super().download(data_dir=data_dir, cache_dir=cache_dir, download_mode=download_mode)
+        for d in self.dataset['test']:
+            d['description'] = []
+            d['figures'] = []
+
+
+class ENEM_CoT_2024_IMAGES(ENEM_CoT_2024, ENEM_2024_IMAGES):
+    pass
+
+
+class ENEM_CoT_2024_BLIND(ENEM_CoT_2024, ENEM_2024_BLIND):
     pass
