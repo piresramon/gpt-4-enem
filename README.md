@@ -9,9 +9,9 @@ This repository contains code and data used in the following papers:
 - [Evaluating GPT-4's Vision Capabilities on Brazilian University Admission Exams](https://arxiv.org/abs/2311.14169). 
 - [Evaluating GPT-3.5 and GPT-4 Models on Brazilian University Admission Exams](https://arxiv.org/abs/2303.17003).
 
-This most recent study presents a comprehensive framework to evaluate language models on entrance exams, which incorporates both textual and visual elements. We evaluate the two most recent editions of *[Exame Nacional do Ensino Médio (ENEM)](https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem)*, the main standardized entrance examination adopted by Brazilian universities.
+This most recent study presents a comprehensive framework to evaluate language models on entrance exams, which incorporates both textual and visual elements. We evaluate the three most recent editions of *[Exame Nacional do Ensino Médio (ENEM)](https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem)*, the main standardized entrance examination adopted by Brazilian universities.
 
-Our study not only reaffirms the capabilities of GPT-4 as the state of the art for handling complex multidisciplinary questions, but also pioneers in offering a realistic assessment of multimodal language models on Portuguese examinations.
+<!-- Our study not only reaffirms the capabilities of GPT-4 as the state of the art for handling complex multidisciplinary questions, but also pioneers in offering a realistic assessment of multimodal language models on Portuguese examinations. -->
 
 One of the highlights is that text captions transcribing visual content outperform the direct use of images, suggesting that the vision model has room for improvement. Yet, despite improvements afforded by images or captions, mathematical questions remain a challenge for these state-of-the-art models.
 
@@ -20,91 +20,69 @@ Significant improvements are noticeable when incorporating either textual or vis
 <table>
   <tr>
     <th rowspan="2">Area</th>
-    <th colspan="3" style="text-align: center;">ENEM 2022</th>
-    <th colspan="3" style="text-align: center;">ENEM 2023</th>
+    <th colspan="3" style="text-align: center;">GPT-4o</th>
+    <th colspan="3" style="text-align: center;">Sabiá-3</th>
   </tr>
   <tr>
     <th>without images</th>
-    <th>with images</th>
     <th>with captions</th>
+    <th>with CoT + captions</th>
     <th>without images</th>
-    <th>with images</th>
     <th>with captions</th>
+    <th>with CoT + captions</th>
   </tr>
   <tr>
     <td>Languages and Codes</td>
-    <td>73.33</td>
-    <td>82.22</td>
-    <td>84.44</td>
-    <td>84.44</td>
-    <td>86.67</td>
-    <td>91.11</td>
-  </tr>
-  <tr>
-    <td>Human Sciences</td>
     <td>88.89</td>
-    <td>95.56</td>
-    <td>95.56</td>
-    <td>95.56</td>
-    <td>100.00</td>
-    <td>100.00</td>
-  </tr>
-  <tr>
-    <td>Natural Sciences</td>
-    <td>73.33</td>
-    <td>77.78</td>
-    <td>82.22</td>
+    <td>91.11</td>
+    <td>91.11</td>
     <td>86.67</td>
     <td>91.11</td>
     <td>93.33</td>
   </tr>
   <tr>
+    <td>Human Sciences</td>
+    <td>100.00</td>
+    <td>100.00</td>
+    <td>100.00</td>
+    <td>100.00</td>
+    <td>100.00</td>
+    <td>100.00</td>
+  </tr>
+  <tr>
+    <td>Natural Sciences</td>
+    <td>68.18</td>
+    <td>84.09</td>
+    <td>93.18</td>
+    <td>72.73</td>
+    <td>81.82</td>
+    <td>86.36</td>
+  </tr>
+  <tr>
     <td>Mathematics</td>
-    <td>54.55</td>
-    <td>61.36</td>
-    <td>61.36</td>
-    <td>54.55</td>
-    <td>65.91</td>
-    <td>75.00</td>
+    <td>60.00</td>
+    <td>66.67</td>
+    <td>91.11</td>
+    <td>60.00</td>
+    <td>75.56</td>
+    <td>82.22</td>
   </tr>
   <tr>
     <td style="font-weight: bold;">Total</td>
-    <td style="font-weight: bold;">72.63</td>
     <td style="font-weight: bold;">79.33</td>
-    <td style="font-weight: bold;">81.01</td>
-    <td style="font-weight: bold;">80.45</td>
-    <td style="font-weight: bold;">86.03</td>
-    <td style="font-weight: bold;">89.94</td>
+    <td style="font-weight: bold;">85.47</td>
+    <td style="font-weight: bold;">93.85</td>
+    <td style="font-weight: bold;">79.89</td>
+    <td style="font-weight: bold;">87.15</td>
+    <td style="font-weight: bold;">90.50</td>
   </tr>
 </table>
 
-<p style="text-align: center;">Results of GPT-4V on ENEM 2022 and ENEM 2023, using 3-shot with Chain-of-Thought (CoT) prompts.</p>
-
-The best-performing model was the GPT-4, that achieved an accuracy of 90.5% on ENEM 2023, using captions, largely surpassing the GPT-3.5 by 17 points
-
-
-<!-- The study explores the capabilities of Language Models (LMs) in solving high-stakes multiple-choice tests, using the *[Exame Nacional do Ensino Médio (ENEM)](https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem)* as a case study. The ENEM is a multidisciplinary entrance examination widely adopted by Brazilian universities, which poses challenging tasks for LMs since its questions may span multiple fields of knowledge, requiring understanding of information from diverse domains.
-
-The paper analyzes responses generated by GPT-3.5 and GPT-4 models for questions presented in the 2009-2017 exams, as well as for questions of the 2022 exam, which were made public after the training of the models completed. Furthermore, different prompt strategies were tested, including the use of Chain-of-Thought (CoT) prompts to generate explanations to answers.
-
-On the 2022 edition, the best-performing model, GPT-4 with CoT, achieved an accuracy of 87%, largely surpassing GPT-3.5 by 11 points. -->
-
-<!-- | Area                 | code-davinci-002   |          |          | gpt-3.5-turbo   |          |          | gpt-4          |          |          |
-|----------------------|--------------------|--------------------|--------------------|-----------------|----------|----------|----------------|----------|----------|
-|                      | zero-shot          | three-shot | three-shot with CoT | zero-shot | three-shot | three-shot with CoT | zero-shot | three-shot | three-shot with CoT |
-| Languages and Codes  |        78.79       |   87.88   |   72.73   |      75.76      |   81.82   |   69.70   |      84.85     |   87.88   |   87.88   |
-| Human Sciences       |        89.19       |   94.59   |   91.89   |      91.89      |   89.19   |   94.59   |      94.59     |   94.59   |   94.59   |
-| Natural Sciences     |        69.23       |   61.54   |   53.85   |      73.08      |   84.62   |   65.38   |      84.62     |   76.92   |   88.46   |
-| Mathematics          |        18.18       |   27.27   |   50.00   |      18.18      |   36.36   |   54.55   |      40.91     |   50.00   |   72.73   |
-| **Total**            |      **68.64**     | **72.88** | **70.34** |    **69.49**    | **76.27** | **73.73** |    **79.66**   | **80.51** | **87.29** |
-
-<p style="text-align: center;">Results on ENEM 2022. Questions that require image comprehension were removed.</p>
- 
- We make available all explanations, targets and predictions generated for all experiments with the ENEM 2022 dataset in the [reports](reports/) folder. -->
+<p style="text-align: center;">Results of GPT-4o and Sabiá-3 on ENEM 2024, using 3-shot prompts.</p>
 
 ## Data
 
-We made available the [ENEM 2022](data/enem/2022.jsonl) and [ENEM 2023](data/enem/2023.jsonl) datasets. These datasets encompass all multiple-choice questions from the last two editions. The datasets have been created to allow the evaluation of both textual-only and textual-visual language models. To evaluate textual-only models, we incorporated into the datasets the textual descriptions of the images that appear in the questions' statements from the orange ENEM exam booklet, a particular booklet that offers accessibility to people with visual impairments.
+We made available the [ENEM 2022](data/enem/2022.jsonl), [ENEM 2023](data/enem/2023.jsonl), and [ENEM 2024](data/enem/2024.jsonl) datasets. These datasets encompass all multiple-choice questions from the last three editions. The datasets have been created to allow the evaluation of both textual-only and textual-visual language models. To evaluate textual-only models, we incorporated into the datasets the textual descriptions of the images that appear in the questions' statements from the orange ENEM exam booklet, a particular booklet that offers accessibility to people with visual impairments.
 
 The datasets can also be accessed via the 🤗 Datasets library: https://huggingface.co/datasets/maritaca-ai/enem
 
@@ -115,7 +93,7 @@ The deprecated ENEM 2022 dataset can be found [here](data/enem/2022.json).
 
 ## Tasks
 
-We have implemented a set of 16 tasks, described below:
+We have implemented a set of 22 tasks, described below:
 
 <table>
   <thead>
@@ -213,6 +191,48 @@ We have implemented a set of 16 tasks, described below:
       <td>:heavy_check_mark:</td>
     </tr>
     <tr>
+      <td>enem_2024_blind</td>
+      <td>ENEM 2024</td>
+      <td>without images</td>
+      <td>No</td>
+      <td>:heavy_check_mark:</td>
+    </tr>
+    <tr>
+      <td>enem_cot_2024_blind</td>
+      <td>ENEM 2024</td>
+      <td>without images</td>
+      <td>Yes</td>
+      <td>:heavy_check_mark:</td>
+    </tr>
+    <tr>
+      <td>enem_2024_images</td>
+      <td>ENEM 2024</td>
+      <td>with images</td>
+      <td>No</td>
+      <td>:heavy_check_mark:</td>
+    </tr>
+    <tr>
+      <td>enem_cot_2024_images</td>
+      <td>ENEM 2024</td>
+      <td>with images</td>
+      <td>Yes</td>
+      <td>:heavy_check_mark:</td>
+    </tr>
+    <tr>
+      <td>enem_2024_captions</td>
+      <td>ENEM 2024</td>
+      <td>with captions</td>
+      <td>No</td>
+      <td>:heavy_check_mark:</td>
+    </tr>
+    <tr>
+      <td>enem_cot_2024_captions</td>
+      <td>ENEM 2024</td>
+      <td>with captions</td>
+      <td>Yes</td>
+      <td>:heavy_check_mark:</td>
+    </tr>
+    <tr>
       <td>enem</td>
       <td>Enem Challenge (2009-2017)</td>
       <td>-</td>
@@ -273,35 +293,36 @@ git clone https://github.com/piresramon/gpt-4-enem.git
 ```bash
 pip install -e .
 ```
-### 3. Set the OPENAI API key:
-Visit [openai](https://help.openai.com/en/articles/4936850-where-do-i-find-my-secret-api-key) to retrieve API keys and insert into your the env variable.
+### 3. Set the API keys:
+Visit [openai](https://platform.openai.com/api-keys) to retrieve OpenAI API keys and [maritalk](https://plataforma.maritaca.ai/chaves-de-api) to retrieve MariTalk API keys. Insert them into your env variables.
 ```bash
 OPENAI_API_SECRET_KEY=sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+MARITALK_API_SECRET_KEY=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 ```
 ### 4. Run the experiments:
 
 To reproduce the results of the Table 1, run the following commands:
 
 ```bash
-# running 3-shot with CoT for GPT-4V on ENEM 2022
+# running 3-shot with CoT for Sabiá-3 on ENEM 2024
 python main.py \
-    --model chatgpt \
-    --model_args engine=gpt-4-vision-preview \
-    --tasks enem_cot_2022_blind,enem_cot_2022_images,enem_cot_2022_captions \
+    --model maritalk \
+    --model_args engine=sabia-3 \
+    --tasks enem_cot_2024_blind,enem_cot_2024_captions \
     --description_dict_path description.json \
     --num_fewshot 3 \
     --conversation_template chatgpt
 
-# running 3-shot with CoT for GPT-4V on ENEM 2023
+# running 3-shot with CoT for GPT-4o on ENEM 2024
 python main.py \
     --model chatgpt \
-    --model_args engine=gpt-4-vision-preview \
-    --tasks enem_cot_2023_blind,enem_cot_2023_images,enem_cot_2023_captions \
+    --model_args engine=gpt-4o \
+    --tasks enem_cot_2024_blind,enem_cot_2024_images,enem_cot_2024_captions \
     --description_dict_path description.json \
     --num_fewshot 3 \
     --conversation_template chatgpt
 ```
-To experiment other OpenAI model, just change the engine. The tasks `enem_cot_2022_images` and `enem_cot_2023_images` are not supported by text-based models.
+To experiment other Maritaca AI or OpenAI models, just change the engine. The tasks `enem_cot_*_images` are not supported by text-based models.
 <!-- python main.py --model chatgpt --model_args engine=gpt-4-1106-preview --tasks enem_cot_2023 --description_dict_path description.json --num_fewshot 3 --conversation_template chatgpt -->
 It is possible to use a different number of few-shot examples (maximum 3).
 
