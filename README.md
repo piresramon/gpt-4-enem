@@ -9,9 +9,9 @@ This repository contains code and data used in the following papers:
 - [Evaluating GPT-4's Vision Capabilities on Brazilian University Admission Exams](https://arxiv.org/abs/2311.14169). 
 - [Evaluating GPT-3.5 and GPT-4 Models on Brazilian University Admission Exams](https://arxiv.org/abs/2303.17003).
 
-This most recent study presents a comprehensive framework to evaluate language models on entrance exams, which incorporates both textual and visual elements. We evaluate the two most recent editions of *[Exame Nacional do Ensino Médio (ENEM)](https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem)*, the main standardized entrance examination adopted by Brazilian universities.
+This most recent study presents a comprehensive framework to evaluate language models on entrance exams, which incorporates both textual and visual elements. We evaluate the three most recent editions of *[Exame Nacional do Ensino Médio (ENEM)](https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem)*, the main standardized entrance examination adopted by Brazilian universities.
 
-Our study not only reaffirms the capabilities of GPT-4 as the state of the art for handling complex multidisciplinary questions, but also pioneers in offering a realistic assessment of multimodal language models on Portuguese examinations.
+<!-- Our study not only reaffirms the capabilities of GPT-4 as the state of the art for handling complex multidisciplinary questions, but also pioneers in offering a realistic assessment of multimodal language models on Portuguese examinations. -->
 
 One of the highlights is that text captions transcribing visual content outperform the direct use of images, suggesting that the vision model has room for improvement. Yet, despite improvements afforded by images or captions, mathematical questions remain a challenge for these state-of-the-art models.
 
@@ -93,7 +93,7 @@ The deprecated ENEM 2022 dataset can be found [here](data/enem/2022.json).
 
 ## Tasks
 
-We have implemented a set of 16 tasks, described below:
+We have implemented a set of 22 tasks, described below:
 
 <table>
   <thead>
@@ -293,35 +293,36 @@ git clone https://github.com/piresramon/gpt-4-enem.git
 ```bash
 pip install -e .
 ```
-### 3. Set the OPENAI API key:
-Visit [openai](https://help.openai.com/en/articles/4936850-where-do-i-find-my-secret-api-key) to retrieve API keys and insert into your the env variable.
+### 3. Set the API keys:
+Visit [openai](https://platform.openai.com/api-keys) to retrieve OpenAI API keys and [maritalk](https://plataforma.maritaca.ai/chaves-de-api) to retrieve MariTalk API keys. Insert them into your env variables.
 ```bash
 OPENAI_API_SECRET_KEY=sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+MARITALK_API_SECRET_KEY=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 ```
 ### 4. Run the experiments:
 
 To reproduce the results of the Table 1, run the following commands:
 
 ```bash
-# running 3-shot with CoT for GPT-4V on ENEM 2022
+# running 3-shot with CoT for Sabiá-3 on ENEM 2024
 python main.py \
-    --model chatgpt \
-    --model_args engine=gpt-4-vision-preview \
-    --tasks enem_cot_2022_blind,enem_cot_2022_images,enem_cot_2022_captions \
+    --model maritalk \
+    --model_args engine=sabia-3 \
+    --tasks enem_cot_2024_blind,enem_cot_2024_captions \
     --description_dict_path description.json \
     --num_fewshot 3 \
     --conversation_template chatgpt
 
-# running 3-shot with CoT for GPT-4V on ENEM 2023
+# running 3-shot with CoT for GPT-4o on ENEM 2024
 python main.py \
     --model chatgpt \
-    --model_args engine=gpt-4-vision-preview \
-    --tasks enem_cot_2023_blind,enem_cot_2023_images,enem_cot_2023_captions \
+    --model_args engine=gpt-4o \
+    --tasks enem_cot_2024_blind,enem_cot_2024_images,enem_cot_2024_captions \
     --description_dict_path description.json \
     --num_fewshot 3 \
     --conversation_template chatgpt
 ```
-To experiment other OpenAI model, just change the engine. The tasks `enem_cot_2022_images` and `enem_cot_2023_images` are not supported by text-based models.
+To experiment other Maritaca AI or OpenAI models, just change the engine. The tasks `enem_cot_*_images` are not supported by text-based models.
 <!-- python main.py --model chatgpt --model_args engine=gpt-4-1106-preview --tasks enem_cot_2023 --description_dict_path description.json --num_fewshot 3 --conversation_template chatgpt -->
 It is possible to use a different number of few-shot examples (maximum 3).
 
